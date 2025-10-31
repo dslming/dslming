@@ -1,0 +1,270 @@
+  body {
+    margin: 0;
+    background-color: #1c1e24;
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  /* 顶部栏 */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    border-bottom: 1px solid #333;
+  }
+
+  .menu-icon {
+    font-size: 20px;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+
+  .timer {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    color: #aaa;
+  }
+
+  .timer::before {
+    content: "⏱️";
+    font-size: 16px;
+  }
+
+  /* 顶部进度条 */
+  .progress-bar {
+    height: 3px;
+    background-color: #333;
+    width: 100%;
+    position: relative;
+  }
+
+  .progress {
+    background-color: #00e676;
+    height: 3px;
+    width: 25%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  /* 主体内容 */
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* 关键：让 inline-flex 元素居中 */
+    padding: 0 20px;
+  }
+
+  main p {
+    font-size: 1.4rem;
+    line-height: 1.8;
+  }
+
+  .highlight {
+    color: #00e676;
+    font-weight: bold;
+  }
+
+  .world-type-v {
+    color: #5ae66d !important;
+  }
+
+  .world-type-adv {
+    color: #e9f545 !important;
+  }
+
+  .world-type-adj {
+    color: #6cb6ef !important;
+  }
+
+  .world-type-n {
+    color: #f99d3b !important;
+  }
+
+  .phonetic {
+    font-size: 1.6rem;
+    color: #44b9e7;
+    position: fixed;
+    bottom: 6rem;
+    user-select: none;
+  }
+
+  .chinese {
+    color: #a0a0b0;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    height: 1.5rem;
+    position: fixed;
+    bottom: 15rem;
+    user-select: none;
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+  }
+
+  .chinese-item {
+    padding: 1rem;
+  }
+
+  .play-btn {
+    margin-top: 0rem;
+    border: 1px solid #aaa;
+    padding: 8px 20px;
+    border-radius: 8px;
+    color: white;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 14px;
+    width: 5rem;
+    height: 2.2rem;
+    line-height: 100%;
+    user-select: none;
+  }
+
+  .play-btn:hover {
+    background-color: #00e676;
+    color: #000;
+    user-select: none;
+  }
+
+  /* 底部箭头 - 加大尺寸 */
+  footer {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 80%;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    align-items: center;
+    user-select: none;
+  }
+
+  .arrow {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .arrow::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    /* 可选：圆形点击区域 */
+    background: rgba(0, 0, 0, 0.0);
+    /* 可选：轻微背景提示 */
+    transition: background 0.2s ease;
+  }
+
+  .arrow:hover::before {
+    background: rgba(0, 0, 0, 0.);
+  }
+
+  /* 真正的箭头图标（小而精致） */
+  .arrow::after {
+    content: '';
+    border: solid #aaa;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 12px;
+    transition: all 0.2s ease;
+  }
+
+  .arrow.left::after {
+    transform: rotate(135deg);
+  }
+
+  .arrow.right::after {
+    transform: rotate(-45deg);
+  }
+
+  .arrow:hover::after {
+    border-color: #666;
+    transform: scale(1.1) rotate(var(--rotate, 0deg));
+  }
+
+  .arrow.left:hover::after {
+    --rotate: 135deg;
+  }
+
+  .arrow.right:hover::after {
+    --rotate: -45deg;
+  }
+
+
+  .worlds {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 20px;
+    line-height: 1.6;
+    max-width: 100%;
+    padding: 0;
+    justify-content: center;
+    margin-top: 1.6rem;
+    font-family: "Dutch801 Rm BT", "AvertaStd-Semibold", "PingFang SC";
+    word-wrap: break-word;
+  }
+
+  /* 普通词的默认样式 */
+  .worlds span {
+    color: #ffffff;
+  }
+
+  /* 高亮词（有 onclick 的） */
+  .worlds .highlight {
+    color: #5293e8;
+    /* 默认高亮颜色（蓝色） */
+    font-weight: 500;
+  }
+
+  /* 鼠标悬停时的高亮效果 */
+  .worlds .highlight:hover {
+    color: #e9a70f;
+    text-shadow: 0 0 4px rgba(226, 177, 17, 0.3);
+  }
+
+  /* 被点击后保持激活状态（可选） */
+  .worlds .highlight.active {
+    color: #e9a70f;
+  }
+
+  .world-relate {
+      width: 100%;
+    position: fixed;
+    bottom: 19rem;
+    font-size: 18px;
+    font-family: "Dutch801 Rm BT", "AvertaStd-Semibold", "PingFang SC";
+    box-sizing: border-box;
+    background-color: rgba(61 57 57 / 90%);
+    overflow: scroll;
+    max-height: 300px;
+    padding: 0.5rem;
+  }
+
+  .relate-item {
+    text-align: left;
+    left: 1rem;
+    margin: 0.5rem;
+    box-sizing: border-box;
+  }

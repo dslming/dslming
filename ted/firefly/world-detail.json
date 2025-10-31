@@ -1,0 +1,2740 @@
+{
+  "lunging": {
+    "world": "lunge",
+    "phonetic": "lʌndʒ",
+    "meaning": {
+      "pos": "v.",
+      "meaning": "猛冲，猛扑；刺，戳；用驯马索训练"
+    }
+  },
+  "firefly": {
+    "world": "firefly",
+    "phonetic": "ˈfaɪəflaɪ",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "萤火虫"
+    },
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "firebug",
+        "meaning": "萤火虫；放火狂；纵火犯"
+      }
+    ]
+  },
+  "thought": {
+    "world": "think",
+    "phonetic": "θɪŋk",
+    "meaning": {
+      "pos": "v.",
+      "meaning": "认为，以为；明白（用于问句表气愤、吃惊）；觉得；考虑，思考；想出，想象；料想，预料；想要，打算；想起，记得；琢磨，寻思；对……评价（很高）；为……着想；想来，想想看；所指的是；具有某种思维方式；只想，对……着迷；边想边说出声来，自言自语"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "thoughtful",
+        "meaning": "深思的；体贴的；关切的"
+      },
+      {
+        "pos": "adj.",
+        "world": "thinking",
+        "meaning": "思考的；思想的；有理性的；好思考的"
+      },
+      {
+        "pos": "adj.",
+        "world": "thinkable",
+        "meaning": "能想到的；可相信的；可考虑的；可能的"
+      },
+      {
+        "pos": "adv.",
+        "world": "thoughtfully",
+        "meaning": "沉思地；体贴地，亲切地"
+      },
+      {
+        "pos": "n.",
+        "world": "thought",
+        "meaning": "思想；思考；想法；关心"
+      },
+      {
+        "pos": "n.",
+        "world": "thoughtfulness",
+        "meaning": "体贴；思虑"
+      },
+      {
+        "pos": "n.",
+        "world": "thinker",
+        "meaning": "思想家；思想者"
+      }
+    ]
+  },
+  "illuminating": {
+    "world": "illuminate",
+    "phonetic": "ɪˈluːmɪneɪt",
+    "meaning": {
+      "pos": "v.",
+      "meaning": "照射，照亮；阐明，解释；使容光焕发；用彩灯装饰；用金、银等彩色图案装饰（书稿的书页或首词第一个字母）"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "illuminated",
+        "meaning": "被照明的"
+      },
+      {
+        "pos": "adj.",
+        "world": "illuminating",
+        "meaning": "照亮的，照明的；启蒙的，有启发性的"
+      }
+    ]
+  },
+  "species": {
+    "world": "species",
+    "phonetic": "ˈspiːʃiːz",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "（动植物的）种，物种；种类；（具有相同特征的）一类人；（化学，物理）核素；（圣餐中用的）面包和圣酒"
+    },
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "speciation",
+        "meaning": "[进化] 物种形成"
+      },
+      {
+        "pos": "vi.",
+        "world": "speciate",
+        "meaning": "（通过进化）形成物种"
+      }
+    ]
+  },
+  "forest": {
+    "world": "forest",
+    "phonetic": "ˈfɒrɪst",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "森林，林区；（森林似的）一丛，一片；御猎场"
+    },
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "forestry",
+        "meaning": "林业；森林地；林学"
+      },
+      {
+        "pos": "n.",
+        "world": "forester",
+        "meaning": "林务官，护林人；森林人，森林居民"
+      }
+    ]
+  },
+  "marshes": {
+    "world": "marsh",
+    "phonetic": "mɑːʃ",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "沼泽，湿地"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "marshy",
+        "meaning": "沼泽的；湿地的"
+      }
+    ]
+  },
+  "desert": {
+    "world": "desert",
+    "phonetic": "ˈdezət",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "沙漠，荒漠；荒凉的地方；应得的赏罚"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "deserted",
+        "meaning": "荒芜的；被遗弃的"
+      },
+      {
+        "pos": "adj.",
+        "world": "deserved",
+        "meaning": "应得的；理所当然的"
+      },
+      {
+        "pos": "adj.",
+        "world": "deserving",
+        "meaning": "值得的；应得的；有功的"
+      },
+      {
+        "pos": "adv.",
+        "world": "deservedly",
+        "meaning": "理所当然地；应得报酬地"
+      },
+      {
+        "pos": "n.",
+        "world": "desertification",
+        "meaning": "（土壤）荒漠化；沙漠化（等于desertization）"
+      },
+      {
+        "pos": "n.",
+        "world": "deserter",
+        "meaning": "逃兵；背弃者；[劳经] 擅离职守者；脱党者"
+      },
+      {
+        "pos": "n.",
+        "world": "desertion",
+        "meaning": "遗弃；开小差；逃亡"
+      }
+    ]
+  },
+  "reaction": {
+    "world": "reaction",
+    "phonetic": "riˈækʃn",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "反应，回应；反应能力（reactions）；（药物或食物引起的）不良反应；化学反应；反作用力；（对旧观念等的）抗拒；反动，守旧"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "reactive",
+        "meaning": "反应的；电抗的；反动的"
+      },
+      {
+        "pos": "adj.",
+        "world": "reactionary",
+        "meaning": "反动的；反动主义的；反对改革的"
+      },
+      {
+        "pos": "adj.",
+        "world": "reactionist",
+        "meaning": "反动的"
+      },
+      {
+        "pos": "n.",
+        "world": "reactor",
+        "meaning": "[化工] 反应器；[核] 反应堆；起反应的人"
+      },
+      {
+        "pos": "n.",
+        "world": "reactivity",
+        "meaning": "反应；反动"
+      },
+      {
+        "pos": "n.",
+        "world": "reactant",
+        "meaning": "[化学] 反应物；反应剂"
+      },
+      {
+        "pos": "n.",
+        "world": "reactance",
+        "meaning": "[电] 电抗；感应抵抗"
+      },
+      {
+        "pos": "n.",
+        "world": "reactivation",
+        "meaning": "[物化] 再活化；再生；复能的情况；[核] 重激活"
+      },
+      {
+        "pos": "n.",
+        "world": "reactionism",
+        "meaning": "极端保守主义；反动思想"
+      },
+      {
+        "pos": "vi.",
+        "world": "react",
+        "meaning": "反应；影响；反抗；起反作用"
+      }
+    ]
+  },
+  "undergo": {
+    "world": "undergo",
+    "phonetic": "ˌʌndəˈɡəʊ",
+    "meaning": {
+      "pos": "v.",
+      "meaning": "经历，经受"
+    }
+  },
+  "luminous": {
+    "world": "luminous",
+    "phonetic": "ˈluːmɪnəs",
+    "meaning": {
+      "pos": "adj.",
+      "meaning": "夜光的，发亮的；鲜亮的，鲜艳的；照亮的，明亮的；睿智的，美丽的；光亮的"
+    },
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "luminance",
+        "meaning": "[光][电子] 亮度；[光] 发光性（等于luminosity）；光明"
+      },
+      {
+        "pos": "n.",
+        "world": "luminary",
+        "meaning": "发光体；杰出人物；知识渊博的人"
+      },
+      {
+        "pos": "n.",
+        "world": "luminousness",
+        "meaning": "透光率"
+      }
+    ]
+  },
+  "interact": {
+    "world": "interact",
+    "phonetic": "ˌɪntərˈækt",
+    "meaning": {
+      "pos": "v.",
+      "meaning": "相互交流，互动；相互作用，相互影响"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "interactive",
+        "meaning": "交互式的；相互作用的"
+      },
+      {
+        "pos": "adj.",
+        "world": "interactional",
+        "meaning": "相互作用的"
+      },
+      {
+        "pos": "n.",
+        "world": "interaction",
+        "meaning": "相互作用；[数] 交互作用"
+      }
+    ]
+  },
+  "oxygen": {
+    "world": "oxygen",
+    "phonetic": "ˈɒksɪdʒən",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "氧，氧气"
+    },
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "oxygenation",
+        "meaning": "以氧处理，氧化作用"
+      },
+      {
+        "pos": "vt.",
+        "world": "oxygenate",
+        "meaning": "氧化，充氧；以氧处理；使…与氧化合"
+      },
+      {
+        "pos": "vt.",
+        "world": "oxygenize",
+        "meaning": "使氧化"
+      }
+    ]
+  },
+  "meanwhile": {
+    "world": "meanwhile",
+    "phonetic": "ˈmiːnwaɪl",
+    "meaning": {
+      "pos": "adv.",
+      "meaning": "与此同时；在此期间；另一方面"
+    }
+  },
+  "unpleasant": {
+    "world": "unpleasant",
+    "phonetic": "ʌnˈplez(ə)nt",
+    "meaning": {
+      "pos": "adj.",
+      "meaning": "令人不快的，不舒服的； 不友善的，不客气的；使人生气的，引发暴力的"
+    },
+    "relate": [
+      {
+        "pos": "adv.",
+        "world": "unpleasantly",
+        "meaning": "令人不愉快地，不讨人喜欢地"
+      },
+      {
+        "pos": "n.",
+        "world": "unpleasantness",
+        "meaning": "不愉快；不愉快的事，煞风景的事"
+      }
+    ]
+  },
+  "tasting": {
+    "world": "tasting",
+    "phonetic": "ˈteɪstɪŋ",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "品尝，尝味"
+    },
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "taste",
+        "meaning": "味道；品味；审美"
+      },
+      {
+        "pos": "n.",
+        "world": "taster",
+        "meaning": "尝味道者；审阅人"
+      }
+    ]
+  },
+  "toxic": {
+    "world": "toxic",
+    "phonetic": "ˈtɒksɪk",
+    "meaning": {
+      "pos": "adj.",
+      "meaning": "有毒的，引起中毒的；令人极不愉快的，极其有害的，恶毒的；中毒的，中毒性的；（财政）（债务）有毒的，风险高的；（证券）有毒的"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "toxicant",
+        "meaning": "有毒的"
+      },
+      {
+        "pos": "adj.",
+        "world": "toxicologic",
+        "meaning": "毒物学的；毒素的"
+      },
+      {
+        "pos": "n.",
+        "world": "toxicity",
+        "meaning": "[毒物] 毒性"
+      },
+      {
+        "pos": "n.",
+        "world": "toxicology",
+        "meaning": "[毒物] 毒物学，[毒物] 毒理学"
+      },
+      {
+        "pos": "n.",
+        "world": "toxicologist",
+        "meaning": "毒理学家"
+      }
+    ]
+  },
+  "defensive": {
+    "world": "defensive",
+    "phonetic": "dɪˈfensɪv",
+    "meaning": {
+      "pos": "adj.",
+      "meaning": "防御的，戒备的；生气的，发怒的；（比赛中）防守的，防御的；百般辩解的"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "defending",
+        "meaning": "卫冕的；防御中的；防守型的"
+      },
+      {
+        "pos": "adj.",
+        "world": "defensible",
+        "meaning": "可防御的；可辩护的；可拥护的"
+      },
+      {
+        "pos": "adj.",
+        "world": "defenseless",
+        "meaning": "无防备的"
+      },
+      {
+        "pos": "adj.",
+        "world": "defenceless",
+        "meaning": "（英）无防御的；无保护的"
+      },
+      {
+        "pos": "adj.",
+        "world": "defendable",
+        "meaning": "可防御的"
+      },
+      {
+        "pos": "adv.",
+        "world": "defensively",
+        "meaning": "防御地；守势地"
+      },
+      {
+        "pos": "n.",
+        "world": "defense",
+        "meaning": "防卫，防护；防御措施；防守；vt. 谋划抵御"
+      },
+      {
+        "pos": "n.",
+        "world": "defence",
+        "meaning": "防御；防卫；答辩；防卫设备"
+      },
+      {
+        "pos": "n.",
+        "world": "defender",
+        "meaning": "防卫者，守卫者；辩护者；拥护者；卫冕者"
+      },
+      {
+        "pos": "n.",
+        "world": "defensiveness",
+        "meaning": "防御；防御性"
+      },
+      {
+        "pos": "n.",
+        "world": "defenselessness",
+        "meaning": "无防御"
+      },
+      {
+        "pos": "n.",
+        "world": "defensibility",
+        "meaning": "防卫的可能性；可防御性"
+      },
+      {
+        "pos": "vi.",
+        "world": "defend",
+        "meaning": "保卫；防守"
+      }
+    ]
+  },
+  "chemical": {
+    "world": "chemical",
+    "phonetic": "ˈkemɪk(ə)l",
+    "meaning": {
+      "pos": "adj.",
+      "meaning": "化学的，与化学有关的"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "chemic",
+        "meaning": "化学的；炼金术的"
+      },
+      {
+        "pos": "adv.",
+        "world": "chemically",
+        "meaning": "用化学；以化学方法"
+      },
+      {
+        "pos": "n.",
+        "world": "chemistry",
+        "meaning": "化学；化学过程"
+      },
+      {
+        "pos": "n.",
+        "world": "chemist",
+        "meaning": "化学家；药剂师"
+      },
+      {
+        "pos": "n.",
+        "world": "chemiluminescence",
+        "meaning": "[化学] 化学发光，化合光"
+      },
+      {
+        "pos": "n.",
+        "world": "chemisorption",
+        "meaning": "[化学] 化学吸收作用"
+      },
+      {
+        "pos": "n.",
+        "world": "chemoreceptor",
+        "meaning": "化学受体；[生理] 化学感受器（等于chemoceptor）"
+      },
+      {
+        "pos": "n.",
+        "world": "chemosynthesis",
+        "meaning": "[化学] 化学合成"
+      },
+      {
+        "pos": "vt.",
+        "world": "chemisorb",
+        "meaning": "用化学方法吸收；用化学方法吸附"
+      }
+    ]
+  },
+  "toxicity": {
+    "world": "toxicity",
+    "phonetic": "tɒkˈsɪsəti",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "[毒物] 毒性"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "toxic",
+        "meaning": "有毒的；中毒的"
+      },
+      {
+        "pos": "adj.",
+        "world": "toxicologic",
+        "meaning": "毒物学的；毒素的"
+      },
+      {
+        "pos": "n.",
+        "world": "toxicology",
+        "meaning": "[毒物] 毒物学，[毒物] 毒理学"
+      },
+      {
+        "pos": "n.",
+        "world": "toxicologist",
+        "meaning": "毒理学家"
+      }
+    ]
+  },
+  "deter": {
+    "world": "deter",
+    "phonetic": "dɪˈtɜː(r)",
+    "meaning": {
+      "pos": "v.",
+      "meaning": "使打消念头，防止"
+    },
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "determent",
+        "meaning": "制止；威慑"
+      }
+    ]
+  },
+  "predator": {
+    "world": "predator",
+    "phonetic": "ˈpredətə(r)",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "捕食性动物； 掠夺者，掠夺成性的人（或组织）"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "predatory",
+        "meaning": "掠夺的，掠夺成性的；食肉的；捕食生物的"
+      },
+      {
+        "pos": "n.",
+        "world": "predation",
+        "meaning": "捕食；掠夺"
+      }
+    ]
+  },
+  "varying": {
+    "world": "vary",
+    "phonetic": "ˈveəri",
+    "meaning": {
+      "pos": "v.",
+      "meaning": "（使）不同，（使）呈现差异；（根据情况而）变化，改变；改变，使……变化；变奏"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "variable",
+        "meaning": "变量的；可变的；易变的，多变的；变异的，[生物] 畸变的"
+      },
+      {
+        "pos": "adj.",
+        "world": "varied",
+        "meaning": "多变的；各式各样的；杂色的"
+      },
+      {
+        "pos": "adj.",
+        "world": "varying",
+        "meaning": "不同的；变化的"
+      },
+      {
+        "pos": "adv.",
+        "world": "variably",
+        "meaning": "易变地；不定地"
+      },
+      {
+        "pos": "n.",
+        "world": "variability",
+        "meaning": "可变性，变化性；[生物][数] 变异性"
+      },
+      {
+        "pos": "n.",
+        "world": "variedness",
+        "meaning": "变化；杂色"
+      }
+    ]
+  },
+  "degree": {
+    "world": "degree",
+    "phonetic": "dɪˈɡriː",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "度，度数（温度单位）；（角的）度，度数；学位课程，学位；程度；音级；次，次数；（形容词或副词的）级；共济会职务；<旧>社会地位，官衔"
+    }
+  },
+  "actually": {
+    "world": "actually",
+    "phonetic": "ˈæktʃuəli",
+    "meaning": {
+      "pos": "adv.",
+      "meaning": "实际上，事实上；（用于开始新话题）其实；竟然，居然"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "actual",
+        "meaning": "真实的，实际的；现行的，目前的"
+      },
+      {
+        "pos": "n.",
+        "world": "actualization",
+        "meaning": "实现；现实化"
+      },
+      {
+        "pos": "n.",
+        "world": "actuality",
+        "meaning": "现状；现实；事实"
+      },
+      {
+        "pos": "vi.",
+        "world": "actualise",
+        "meaning": "成为现实；发挥出潜力（等于actualize）"
+      },
+      {
+        "pos": "vt.",
+        "world": "actualize",
+        "meaning": "实施，实行；实现"
+      }
+    ]
+  },
+  "larva": {
+    "world": "larva",
+    "phonetic": "ˈlɑːvə",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "[水产] 幼体，[昆] 幼虫"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "larval",
+        "meaning": "幼虫的；幼虫状态的；潜在的；隐蔽的"
+      }
+    ]
+  },
+  "active": {
+    "world": "active",
+    "phonetic": "ˈæktɪv",
+    "meaning": {
+      "pos": "adj.",
+      "meaning": "好动的；积极主动的；定期进行的，起作用的；（思想等）活跃的；切实的；（火山）活的；主动语态的；活性的；（疾病）恶化的；服役的；参战的；（动词）表动作的；（电路系统）在运转中的"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "activated",
+        "meaning": "活性化的；活泼的"
+      },
+      {
+        "pos": "adv.",
+        "world": "actively",
+        "meaning": "积极地；活跃地"
+      },
+      {
+        "pos": "n.",
+        "world": "action",
+        "meaning": "行动；活动；功能；战斗；情节"
+      },
+      {
+        "pos": "n.",
+        "world": "activity",
+        "meaning": "活动；行动；活跃"
+      },
+      {
+        "pos": "n.",
+        "world": "act",
+        "meaning": "行为，行动；法令，法案；（戏剧，歌剧的）一幕，段；装腔作势"
+      },
+      {
+        "pos": "n.",
+        "world": "actor",
+        "meaning": "男演员；行动者；作用物"
+      },
+      {
+        "pos": "n.",
+        "world": "activation",
+        "meaning": "[电子][物] 激活；活化作用"
+      },
+      {
+        "pos": "n.",
+        "world": "activist",
+        "meaning": "积极分子；激进主义分子"
+      },
+      {
+        "pos": "n.",
+        "world": "activism",
+        "meaning": "行动主义；激进主义"
+      },
+      {
+        "pos": "n.",
+        "world": "activator",
+        "meaning": "催化剂；[助剂] 活化剂；[助剂] 激活剂；触媒剂"
+      },
+      {
+        "pos": "n.",
+        "world": "activeness",
+        "meaning": "主观能动性；活动积极性"
+      },
+      {
+        "pos": "n.",
+        "world": "activewear",
+        "meaning": "运动服（等于active wear）"
+      },
+      {
+        "pos": "vi.",
+        "world": "activate",
+        "meaning": "激活；有活力"
+      }
+    ]
+  },
+  "fierce": {
+    "world": "fierce",
+    "phonetic": "fɪəs",
+    "meaning": {
+      "pos": "adj.",
+      "meaning": "（动作或情感）强烈的，激烈的；（人或动物）凶猛的，狂怒的；（天气等）狂暴的，恶劣的"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "fiery",
+        "meaning": "热烈的，炽烈的；暴躁的；燃烧般的"
+      },
+      {
+        "pos": "adv.",
+        "world": "fiercely",
+        "meaning": "猛烈地；厉害地"
+      },
+      {
+        "pos": "adv.",
+        "world": "fierily",
+        "meaning": "炽热地；如火地；猛烈地"
+      },
+      {
+        "pos": "n.",
+        "world": "fierceness",
+        "meaning": "凶猛；强烈"
+      },
+      {
+        "pos": "n.",
+        "world": "fieriness",
+        "meaning": "火性子；猛烈，热烈"
+      }
+    ]
+  },
+  "venoms": {
+    "world": "venom",
+    "phonetic": "ˈvenəm",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "（蛇、昆虫等的）毒液；怨恨，恶意"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "venomous",
+        "meaning": "有毒的；恶毒的；分泌毒液的；怨恨的"
+      },
+      {
+        "pos": "adv.",
+        "world": "venomously",
+        "meaning": "充满恶意地；狠毒地，恶毒地"
+      }
+    ]
+  },
+  "paralyze": {
+    "world": "paralyze",
+    "phonetic": "ˈpærəlaɪz",
+    "meaning": {
+      "pos": "vt.",
+      "meaning": "使麻痹；使瘫痪"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "paralyzed",
+        "meaning": "瘫痪的；麻痹的"
+      },
+      {
+        "pos": "adj.",
+        "world": "paralytic",
+        "meaning": "麻痹的；瘫痪的；中风的"
+      },
+      {
+        "pos": "n.",
+        "world": "paralysis",
+        "meaning": "麻痹；无力；停顿"
+      }
+    ]
+  },
+  "prey": {
+    "world": "prey",
+    "phonetic": "preɪ",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "猎物，捕获物；受害者，受骗者；<古>掠夺品"
+    }
+  },
+  "extremely": {
+    "world": "extremely",
+    "phonetic": "ɪkˈstriːmli",
+    "meaning": {
+      "pos": "adv.",
+      "meaning": "极度，非常"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "extreme",
+        "meaning": "极端的；极度的；偏激的；尽头的"
+      },
+      {
+        "pos": "n.",
+        "world": "extremity",
+        "meaning": "极端；绝境；非常手段；手足"
+      },
+      {
+        "pos": "n.",
+        "world": "extremist",
+        "meaning": "极端主义者，过激分子"
+      },
+      {
+        "pos": "n.",
+        "world": "extremism",
+        "meaning": "极端主义（尤指政治上的极右或极左）；极端性；过激主义"
+      },
+      {
+        "pos": "n.",
+        "world": "extremum",
+        "meaning": "[数] 极值，极端值"
+      },
+      {
+        "pos": "n.",
+        "world": "extremeness",
+        "meaning": "极端；极度"
+      }
+    ]
+  },
+  "liquefy": {
+    "world": "liquefy",
+    "phonetic": "ˈlɪkwɪfaɪ",
+    "meaning": {
+      "pos": "vt.",
+      "meaning": "液化；溶解"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "liquefied",
+        "meaning": "液化的"
+      },
+      {
+        "pos": "adj.",
+        "world": "liquefiable",
+        "meaning": "液化的；可溶解的"
+      },
+      {
+        "pos": "adj.",
+        "world": "liquescent",
+        "meaning": "可液化的"
+      },
+      {
+        "pos": "n.",
+        "world": "liquidation",
+        "meaning": "清算；偿还；液化；清除"
+      },
+      {
+        "pos": "n.",
+        "world": "liquefaction",
+        "meaning": "液化；熔解"
+      },
+      {
+        "pos": "vi.",
+        "world": "liquidize",
+        "meaning": "液化"
+      },
+      {
+        "pos": "vt.",
+        "world": "liquidise",
+        "meaning": "使液化（等于liquidize）"
+      }
+    ]
+  },
+  "victims": {
+    "world": "victim",
+    "phonetic": "ˈvɪktɪm",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "受害者，罹难者；（面对不幸事件或虐待时的）无助者，患病者；牺牲品，祭品；受骗者"
+    },
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "victimization",
+        "meaning": "牺牲；欺骗"
+      },
+      {
+        "pos": "n.",
+        "world": "victimisation",
+        "meaning": "牺牲；受害；欺骗（等于victimization）"
+      },
+      {
+        "pos": "vt.",
+        "world": "victimize",
+        "meaning": "使受害；使牺牲；欺骗"
+      }
+    ]
+  },
+  "saliva": {
+    "world": "saliva",
+    "phonetic": "səˈlaɪvə",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "唾液，涎"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "salivary",
+        "meaning": "唾液的；分泌唾液的"
+      },
+      {
+        "pos": "n.",
+        "world": "salivation",
+        "meaning": "分泌唾液；流涎症；汞中毒"
+      },
+      {
+        "pos": "vi.",
+        "world": "salivate",
+        "meaning": "分泌唾液；流口水"
+      }
+    ]
+  },
+  "immature": {
+    "world": "immature",
+    "phonetic": "ˌɪməˈtjʊə(r)",
+    "meaning": {
+      "pos": "adj.",
+      "meaning": "发育未全的；（人）幼稚的，不成熟的；粗糙的"
+    },
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "immaturity",
+        "meaning": "未成熟；粗糙；未臻完美；不完全"
+      },
+      {
+        "pos": "n.",
+        "world": "immatureness",
+        "meaning": "未成熟"
+      }
+    ]
+  },
+  "disturbance": {
+    "world": "disturbance",
+    "phonetic": "dɪˈstɜːbəns",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "干扰，扰乱；骚乱，动乱；失调，紊乱"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "disturbing",
+        "meaning": "令人不安的；烦扰的"
+      },
+      {
+        "pos": "adj.",
+        "world": "disturbed",
+        "meaning": "扰乱的；为心理失常者而设的"
+      },
+      {
+        "pos": "n.",
+        "world": "disturber",
+        "meaning": "打扰者；干扰发射机"
+      },
+      {
+        "pos": "vi.",
+        "world": "disturb",
+        "meaning": "打扰；妨碍"
+      }
+    ]
+  },
+  "dissuade": {
+    "world": "dissuade",
+    "phonetic": "dɪˈsweɪd",
+    "meaning": {
+      "pos": "vt.",
+      "meaning": "劝阻，劝止"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "dissuasive",
+        "meaning": "劝诫的，劝阻的"
+      },
+      {
+        "pos": "n.",
+        "world": "dissuasion",
+        "meaning": "劝阻；劝戒；谏诤"
+      }
+    ]
+  },
+  "toward": {
+    "world": "toward",
+    "phonetic": "təˈwɔːd",
+    "meaning": {
+      "pos": "prep.",
+      "meaning": "向；趋向；对于；接近（时间）；靠近；用于，为了（同towards）"
+    },
+    "relate": [
+      {
+        "pos": "adv.",
+        "world": "to",
+        "meaning": "向前；（门等）关上"
+      }
+    ]
+  },
+  "mate": {
+    "world": "mate",
+    "phonetic": "meɪt",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "<英，非正式>朋友，伙伴；同伴，同事；配偶，伴侣；配对物，一对中的一个；<英，非正式>（男人之间常用）哥儿们，伙计；<英>助手，下手；（船上的）大副；（美国海军的）军士；（国际象棋比赛中的）将死"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "matching",
+        "meaning": "相配的；一致的；相称的"
+      },
+      {
+        "pos": "adj.",
+        "world": "matey",
+        "meaning": "友好的；易为人亲近的"
+      },
+      {
+        "pos": "n.",
+        "world": "mating",
+        "meaning": "（动物等的）交配，交尾；配套；（植物等的）杂交"
+      }
+    ]
+  },
+  "exception": {
+    "world": "exception",
+    "phonetic": "ɪkˈsepʃ(ə)n",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "例外，除外"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "exceptional",
+        "meaning": "异常的，例外的"
+      },
+      {
+        "pos": "adj.",
+        "world": "exceptionable",
+        "meaning": "可反对的；可抗议的；引起反感的"
+      },
+      {
+        "pos": "adv.",
+        "world": "exceptionally",
+        "meaning": "异常地；特殊地；例外地"
+      },
+      {
+        "pos": "conj.",
+        "world": "except",
+        "meaning": "除了；要不是"
+      }
+    ]
+  },
+  "courtship": {
+    "world": "courtship",
+    "phonetic": "ˈkɔːtʃɪp",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "求爱；求婚；求爱期"
+    },
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "court",
+        "meaning": "法院；球场；朝廷；奉承"
+      }
+    ]
+  },
+  "male": {
+    "world": "male",
+    "phonetic": "meɪl",
+    "meaning": {
+      "pos": "adj.",
+      "meaning": "男性的；（动物）公的，雄性的；只有雄蕊的；全由男性组成的；（工具部件等）凸形的，阳的；男性特有的"
+    },
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "maleness",
+        "meaning": "男性；雄性"
+      }
+    ]
+  },
+  "female": {
+    "world": "female",
+    "phonetic": "ˈfiːmeɪl",
+    "meaning": {
+      "pos": "adj.",
+      "meaning": "女性的，妇女的；女性特有的；由女性组成的；内孔的；雌性的，母的；雌蕊的"
+    },
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "femininity",
+        "meaning": "温柔；柔弱性；女子本性"
+      },
+      {
+        "pos": "n.",
+        "world": "femaleness",
+        "meaning": "女性特征；女子本性"
+      },
+      {
+        "pos": "n.",
+        "world": "feminization",
+        "meaning": "女性化；阴性化；雌性化"
+      },
+      {
+        "pos": "vi.",
+        "world": "feminise",
+        "meaning": "女性化；带女子气（等于feminize）"
+      },
+      {
+        "pos": "vi.",
+        "world": "feminize",
+        "meaning": "女性化；雌性化"
+      }
+    ]
+  },
+  "spot": {
+    "world": "spot",
+    "phonetic": "spɒt",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "地点，场所；点，斑点；污点，污渍；丘疹，疱疹；某演员的固定节目；排名位置； <英>少量，一点；几滴，少许（液体）；困境，窘境；现货交易，现金交易；聚光灯（spotlight 的简称）；<美>（多米诺牌、纸牌或骰子上的）点；调灰泥板，调石膏板；<美，非正式>（特定面值的）钞票；（英足）点球点"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "spotted",
+        "meaning": "有斑点的；斑纹的；弄污的"
+      },
+      {
+        "pos": "adj.",
+        "world": "spotty",
+        "meaning": "发疹的；多斑点的；质量不一的"
+      },
+      {
+        "pos": "n.",
+        "world": "spotting",
+        "meaning": "测定点位；合模"
+      },
+      {
+        "pos": "n.",
+        "world": "spotter",
+        "meaning": "着弹点观察员；监视人；测位仪；检路器"
+      }
+    ]
+  },
+  "variation": {
+    "world": "variation",
+    "phonetic": "ˌveəriˈeɪʃ(ə)n",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "变化，变动；变奏曲；变化，变异；（天文）二均差；（数）变分，变差；磁偏角；（芭蕾）单人舞"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "variable",
+        "meaning": "变量的；可变的；易变的，多变的；变异的，[生物] 畸变的"
+      },
+      {
+        "pos": "adj.",
+        "world": "variant",
+        "meaning": "不同的；多样的"
+      },
+      {
+        "pos": "adj.",
+        "world": "variegated",
+        "meaning": "杂色的；斑驳的；富于变化的"
+      },
+      {
+        "pos": "n.",
+        "world": "variance",
+        "meaning": "变异；变化；不一致；分歧；[数] 方差"
+      },
+      {
+        "pos": "n.",
+        "world": "variability",
+        "meaning": "可变性，变化性；[生物][数] 变异性"
+      },
+      {
+        "pos": "n.",
+        "world": "variedness",
+        "meaning": "变化；杂色"
+      }
+    ]
+  },
+  "unique": {
+    "world": "unique",
+    "phonetic": "juˈniːk",
+    "meaning": {
+      "pos": "adj.",
+      "meaning": "独一无二的，独特的；非常特别的，极不寻常的；（某人、地或事物）独具的，特有的"
+    },
+    "relate": [
+      {
+        "pos": "adv.",
+        "world": "uniquely",
+        "meaning": "独特地；珍奇地"
+      },
+      {
+        "pos": "n.",
+        "world": "uniqueness",
+        "meaning": "独特性；独一无二；单值性"
+      }
+    ]
+  },
+  "pattern": {
+    "world": "pattern",
+    "phonetic": "ˈpæt(ə)n",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "模式，方式；图案，花样；模范，典范；模型，底样；（布或墙纸的）样品；样式；（声音或词汇有规则排列的）模式"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "patterned",
+        "meaning": "有图案的，组成图案的"
+      },
+      {
+        "pos": "n.",
+        "world": "patternmaker",
+        "meaning": "制模师，模型制造者；打样师；花样图案设计者；翻砂工"
+      }
+    ]
+  },
+  "rapid": {
+    "world": "rapid",
+    "phonetic": "ˈræpɪd",
+    "meaning": {
+      "pos": "adj.",
+      "meaning": "快的，迅速的；（移动，活动）快速的"
+    },
+    "relate": [
+      {
+        "pos": "adv.",
+        "world": "rapidly",
+        "meaning": "迅速地；很快地；立即"
+      },
+      {
+        "pos": "n.",
+        "world": "rapidity",
+        "meaning": "迅速，急速；速度；险峻"
+      },
+      {
+        "pos": "n.",
+        "world": "rapidness",
+        "meaning": "快；迅速"
+      }
+    ]
+  },
+  "flicker": {
+    "world": "flicker",
+    "phonetic": "ˈflɪkə(r)",
+    "meaning": {
+      "pos": "v.",
+      "meaning": "闪烁，摇曳；闪现，一闪而过；（表情）掠过；（眼睛）瞟过；颤动，快速抖动；扑动翅膀；使……突然动一下"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "flickering",
+        "meaning": "闪烁的，忽隐忽现的；摇曳的"
+      },
+      {
+        "pos": "n.",
+        "world": "flick",
+        "meaning": "弹开；快速的轻打；轻打声"
+      }
+    ]
+  },
+  "sustained": {
+    "world": "sustain",
+    "phonetic": "səˈsteɪn",
+    "meaning": {
+      "pos": "v.",
+      "meaning": "维持，保持；维持……的生命；遭受，经受；（在体力或精神方面）支持，支撑；承受住……的重量；证实，证明；认可，赞成，确认；（演员）充分表演（角色，人物），扮演"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "sustainable",
+        "meaning": "可以忍受的；足可支撑的；养得起的"
+      },
+      {
+        "pos": "adj.",
+        "world": "sustained",
+        "meaning": "持续的；持久的；持久不变的"
+      },
+      {
+        "pos": "n.",
+        "world": "sustainability",
+        "meaning": "持续性；永续性；能维持性"
+      },
+      {
+        "pos": "n.",
+        "world": "sustainer",
+        "meaning": "支持者，维持者；主发动机；支撑的人物"
+      },
+      {
+        "pos": "n.",
+        "world": "sustentation",
+        "meaning": "支撑，维持；食物"
+      }
+    ]
+  },
+  "synchronize": {
+    "world": "synchronize",
+    "phonetic": "ˈsɪŋkrənaɪz",
+    "meaning": {
+      "pos": "vt.",
+      "meaning": "（使）同步；对准（钟，表）；相符；（电脑）同步化"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "synchronous",
+        "meaning": "同步的；同时的"
+      },
+      {
+        "pos": "adj.",
+        "world": "synchronized",
+        "meaning": "同步的；同步化的"
+      },
+      {
+        "pos": "adj.",
+        "world": "synchronic",
+        "meaning": "不考虑历史上变化的；限于一时的；完全同步的"
+      },
+      {
+        "pos": "adj.",
+        "world": "synchronised",
+        "meaning": "同步的"
+      },
+      {
+        "pos": "adj.",
+        "world": "synchronizing",
+        "meaning": "同步的"
+      },
+      {
+        "pos": "adj.",
+        "world": "synchronal",
+        "meaning": "同步的；同时的"
+      },
+      {
+        "pos": "adv.",
+        "world": "synchronously",
+        "meaning": "同步地；同时地"
+      },
+      {
+        "pos": "n.",
+        "world": "synchronization",
+        "meaning": "[物] 同步；同时性"
+      },
+      {
+        "pos": "n.",
+        "world": "synchronisation",
+        "meaning": "同步；同一时刻；同时发生"
+      },
+      {
+        "pos": "n.",
+        "world": "synchrony",
+        "meaning": "同步"
+      },
+      {
+        "pos": "n.",
+        "world": "synchrotron",
+        "meaning": "[核] 同步加速器；同步回旋加速器"
+      },
+      {
+        "pos": "n.",
+        "world": "synchronicity",
+        "meaning": "同步性，同时发生"
+      },
+      {
+        "pos": "n.",
+        "world": "synchronism",
+        "meaning": "同时发生，同步性；对照性历史年谱"
+      },
+      {
+        "pos": "n.",
+        "world": "synchroneity",
+        "meaning": "同时性；对照性历史年谱（等于synchronism）"
+      },
+      {
+        "pos": "n.",
+        "world": "synchroniser",
+        "meaning": "同合器；同步器"
+      },
+      {
+        "pos": "n.",
+        "world": "synchronizer",
+        "meaning": "[电] 同步装置；同步闪光装置"
+      },
+      {
+        "pos": "n.",
+        "world": "synchronoscope",
+        "meaning": "同步指示器；同步示波器；同期表；同步表"
+      },
+      {
+        "pos": "n.",
+        "world": "synchroscope",
+        "meaning": "同步检定器；[电子] 同步示波器"
+      },
+      {
+        "pos": "vi.",
+        "world": "synchronise",
+        "meaning": "同步；同时发生"
+      }
+    ]
+  },
+  "reach": {
+    "world": "reach",
+    "phonetic": "riːtʃ",
+    "meaning": {
+      "pos": "v.",
+      "meaning": "到达，抵达；被看见，被听到；达到（特定的水平或数量）；达到（一个特定的时间或阶段）；（经讨论或思考后）达成，实现；伸，伸手；能伸到，能够到；把……递给；（大或长等）足够达到；（用电话等）与……联系；影响，打动；（航海）横风航驶；为……提供帮助（reach out to）"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "reachable",
+        "meaning": "可获得的；可达成的"
+      }
+    ]
+  },
+  "grand": {
+    "world": "grand",
+    "phonetic": "ɡrænd",
+    "meaning": {
+      "pos": "adj.",
+      "meaning": "壮丽的，堂皇的；宏伟的，宏大的；傲慢的，高高在上的；令人愉快的；<非正式>出色的，极好的；总括的；（常用于大型建筑物的名称前）大的；（对上层社会的人的称呼）大；（罪行）严重的；壮丽的，富丽堂皇的"
+    },
+    "relate": [
+      {
+        "pos": "adv.",
+        "world": "grandly",
+        "meaning": "盛大地；宏伟地；堂皇地"
+      },
+      {
+        "pos": "n.",
+        "world": "grandness",
+        "meaning": "壮大；伟大；宏伟"
+      }
+    ]
+  },
+  "reduce": {
+    "world": "reduce",
+    "phonetic": "rɪˈdjuːs",
+    "meaning": {
+      "pos": "v.",
+      "meaning": "减少，降低；（烹调中）使变浓稠，收汁；<美>节食减肥；使沦为，使陷入（不好的境地）；迫使，使不得不（做）；（通过破裂、燃烧等）使变成，使化为；归纳，简化；将分数约到（最小项）；（使）进行还原反应；减薄（底片或图片）；（语音）弱化；使（脱臼，断骨）复位；<古>攻克，征服（尤指围攻并占领城镇或要塞）"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "reduced",
+        "meaning": "减少的；[数] 简化的；缩减的"
+      },
+      {
+        "pos": "adj.",
+        "world": "reductive",
+        "meaning": "还原的；减少的"
+      },
+      {
+        "pos": "adj.",
+        "world": "reducible",
+        "meaning": "[数] 可约的，可化简的；可还原的；可缩小的"
+      },
+      {
+        "pos": "n.",
+        "world": "reduction",
+        "meaning": "减少；下降；缩小"
+      },
+      {
+        "pos": "n.",
+        "world": "reducer",
+        "meaning": "[助剂] 还原剂；减径管"
+      },
+      {
+        "pos": "n.",
+        "world": "reducing",
+        "meaning": "减低；减轻体重法，减肥法"
+      }
+    ]
+  },
+  "clutter": {
+    "world": "clutter",
+    "phonetic": "ˈklʌtə(r)",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "杂乱的东西；杂乱"
+    }
+  },
+  "spectator": {
+    "world": "spectator",
+    "phonetic": "spekˈteɪtə(r)",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "（尤指体育比赛的）观看者，观众；旁观者"
+    },
+    "relate": [
+      {
+        "pos": "vi.",
+        "world": "spectate",
+        "meaning": "出席观看"
+      }
+    ]
+  },
+  "prefer": {
+    "world": "prefer",
+    "phonetic": "prɪˈfɜː(r)",
+    "meaning": {
+      "pos": "v.",
+      "meaning": "更喜爱，宁可；<法律>举报，提出（控告）；<古>提拔（某人），提升"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "preferred",
+        "meaning": "优先的；首选的"
+      },
+      {
+        "pos": "adj.",
+        "world": "preferable",
+        "meaning": "更好的，更可取的；更合意的"
+      },
+      {
+        "pos": "adv.",
+        "world": "preferably",
+        "meaning": "较好；宁可，宁愿；更适宜"
+      },
+      {
+        "pos": "n.",
+        "world": "preferment",
+        "meaning": "晋升；优先权；酶原"
+      }
+    ]
+  },
+  "ignite": {
+    "world": "ignite",
+    "phonetic": "ɪɡˈnaɪt",
+    "meaning": {
+      "pos": "v.",
+      "meaning": "点燃，燃烧；引发，激起"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "ignitable",
+        "meaning": "可着火的；可燃性的"
+      },
+      {
+        "pos": "n.",
+        "world": "ignition",
+        "meaning": "点火，点燃；着火，燃烧；点火开关，点火装置"
+      },
+      {
+        "pos": "n.",
+        "world": "igniter",
+        "meaning": "点火器；点火剂；发火器"
+      },
+      {
+        "pos": "n.",
+        "world": "ignitor",
+        "meaning": "点火器；引爆装置；[电子] 引燃电极"
+      }
+    ]
+  },
+  "pulse": {
+    "world": "pulse",
+    "phonetic": "pʌls",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "脉搏，脉率； 强劲的音乐节拍，律动；（声波、光波或电流的）脉冲；（生化）（供细胞培养的）冲量；<文> 冲动；共有立场，心态；（喻）（活力或组织的）核心；（可食用的）豆子"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "pulsating",
+        "meaning": "脉动的；脉冲的；搏动的"
+      },
+      {
+        "pos": "adj.",
+        "world": "pulsing",
+        "meaning": "脉冲的"
+      },
+      {
+        "pos": "adj.",
+        "world": "pulsed",
+        "meaning": "脉冲的；跳动的；脉冲调制的"
+      },
+      {
+        "pos": "adj.",
+        "world": "pulseless",
+        "meaning": "无生气的；无脉动的"
+      },
+      {
+        "pos": "vi.",
+        "world": "pulsate",
+        "meaning": "搏动；悸动；有规律地跳动"
+      }
+    ]
+  },
+  "tend": {
+    "world": "tend",
+    "phonetic": "tend",
+    "meaning": {
+      "pos": "v.",
+      "meaning": "倾向于，往往会；照顾，护理；走向，趋向；<美>招待，照料（商店、酒吧等的顾客）"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "tender",
+        "meaning": "温柔的；柔软的；脆弱的；幼稚的；难对付的"
+      },
+      {
+        "pos": "adj.",
+        "world": "tendentious",
+        "meaning": "有偏见的，有倾向的；宣传性的"
+      },
+      {
+        "pos": "adj.",
+        "world": "tendencious",
+        "meaning": "宣传性的；有支持某种立场的倾向"
+      },
+      {
+        "pos": "n.",
+        "world": "tendency",
+        "meaning": "倾向，趋势；癖好"
+      }
+    ]
+  },
+  "pretty": {
+    "world": "pretty",
+    "phonetic": "ˈprɪti",
+    "meaning": {
+      "pos": "adj.",
+      "meaning": "（尤指女孩）漂亮的，标致的；（事物）悦目的，悦耳的；（男子）女子气的，俊俏的；巨大的，令人印象深刻的；好看的，令人愉快的； <非正式>非常糟糕的"
+    },
+    "relate": [
+      {
+        "pos": "adv.",
+        "world": "prettily",
+        "meaning": "漂亮地，可爱地；恰如其分地"
+      },
+      {
+        "pos": "n.",
+        "world": "prettiness",
+        "meaning": "可爱，漂亮"
+      },
+      {
+        "pos": "vt.",
+        "world": "prettify",
+        "meaning": "美化，粉饰；修饰"
+      }
+    ]
+  },
+  "interested": {
+    "world": "interest",
+    "phonetic": "ˈɪntrəst",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "兴趣，关注；吸引力，趣味；爱好；利息；利益，好处；权益，股权；利害关系，重要影响；利益集团，利益相关者"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "interesting",
+        "meaning": "有趣的；引起兴趣的，令人关注的"
+      },
+      {
+        "pos": "adj.",
+        "world": "interested",
+        "meaning": "感兴趣的；有权益的；有成见的"
+      },
+      {
+        "pos": "adv.",
+        "world": "interestingly",
+        "meaning": "有趣地"
+      }
+    ]
+  },
+  "lantern": {
+    "world": "lantern",
+    "phonetic": "ˈlæntən",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "灯笼，提灯；（灯塔上的）灯室；天窗"
+    },
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "lanternfish",
+        "meaning": "发光的鱼，灯笼鱼"
+      }
+    ]
+  },
+  "attach": {
+    "world": "attach",
+    "phonetic": "əˈtætʃ",
+    "meaning": {
+      "pos": "v.",
+      "meaning": "系上，贴上，连接；附上（附件）；赋予，认为……具有； 和……在一起，缠着； 附带（条件)；附属，依附；与……有关联；委派；扣押（债务人或其财产)；使依恋"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "attached",
+        "meaning": "附加的；依恋的，充满爱心的"
+      },
+      {
+        "pos": "adj.",
+        "world": "attachable",
+        "meaning": "可附上的；可连接的；可逮捕的；可没收的"
+      },
+      {
+        "pos": "n.",
+        "world": "attachment",
+        "meaning": "附件；依恋；连接物；扣押财产"
+      }
+    ]
+  },
+  "abdomen": {
+    "world": "abdomen",
+    "phonetic": "ˈæbdəmən",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "（人体）腹，腹部；（昆虫）腹部"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "abdominal",
+        "meaning": "腹部的；有腹鳍的"
+      },
+      {
+        "pos": "n.",
+        "world": "abdominocentesis",
+        "meaning": "[医] 腹腔穿刺术"
+      },
+      {
+        "pos": "n.",
+        "world": "abdominoplasty",
+        "meaning": "腹壁整形术；腹部去脂术；腹壁成形术"
+      }
+    ]
+  },
+  "conspicuous": {
+    "world": "conspicuous",
+    "phonetic": "kənˈspɪkjuəs",
+    "meaning": {
+      "pos": "adj.",
+      "meaning": "出色的，引人注目的；显眼的，明显的"
+    },
+    "relate": [
+      {
+        "pos": "adv.",
+        "world": "conspicuously",
+        "meaning": "显著地，明显地；超群地，惹人注目地"
+      },
+      {
+        "pos": "n.",
+        "world": "conspicuousness",
+        "meaning": "显而易见；惹人注目；突出"
+      }
+    ]
+  },
+  "lunge": {
+    "world": "lunge",
+    "phonetic": "lʌndʒ",
+    "meaning": {
+      "pos": "v.",
+      "meaning": "猛冲，猛扑；刺，戳；用驯马索训练"
+    }
+  },
+  "energy": {
+    "world": "energy",
+    "phonetic": "ˈenədʒi",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "能力，力气；精力，活力；能源；能，能量"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "energetic",
+        "meaning": "精力充沛的；积极的；有力的"
+      },
+      {
+        "pos": "adj.",
+        "world": "enervate",
+        "meaning": "衰弱的；无力的"
+      },
+      {
+        "pos": "adv.",
+        "world": "energetically",
+        "meaning": "积极地；精力充沛地"
+      },
+      {
+        "pos": "vi.",
+        "world": "energize",
+        "meaning": "活动；用力"
+      },
+      {
+        "pos": "vt.",
+        "world": "energise",
+        "meaning": "供给…能量；使精力充沛（等于energize）"
+      }
+    ]
+  },
+  "genus": {
+    "world": "genus",
+    "phonetic": "ˈdʒiːnəs",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "类，种；[生物] 属"
+    }
+  },
+  "femme": {
+    "world": "femme",
+    "phonetic": "fem",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "妻子；妇女"
+    }
+  },
+  "precision": {
+    "world": "precision",
+    "phonetic": "prɪˈsɪʒ(ə)n",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "精确（性），准确（性）；严谨，细致；（测量、计算或说明的）精确化（尤以数字表现）"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "precise",
+        "meaning": "精确的；明确的；严格的"
+      },
+      {
+        "pos": "adv.",
+        "world": "precisely",
+        "meaning": "精确地；恰恰"
+      },
+      {
+        "pos": "n.",
+        "world": "preciseness",
+        "meaning": "严谨；精确；古板"
+      }
+    ]
+  },
+  "hunt": {
+    "world": "hunt",
+    "phonetic": "hʌnt",
+    "meaning": {
+      "pos": "v.",
+      "meaning": "打猎，猎取；搜寻，搜索；追踪，追捕；（骑马用猎犬）猎（狐）；摆动，振荡"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "hunting",
+        "meaning": "打猎的；振荡的"
+      },
+      {
+        "pos": "adj.",
+        "world": "hunted",
+        "meaning": "被捕猎的；受迫害的"
+      },
+      {
+        "pos": "n.",
+        "world": "hunter",
+        "meaning": "猎人；猎犬；搜寻者"
+      },
+      {
+        "pos": "n.",
+        "world": "huntress",
+        "meaning": "女猎人"
+      }
+    ]
+  },
+  "despite": {
+    "world": "despite",
+    "phonetic": "dɪˈspaɪt",
+    "meaning": {
+      "pos": "prep.",
+      "meaning": "尽管，即使；不由自主地，忍不住地"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "despiteful",
+        "meaning": "有恶意的；故意为难的"
+      }
+    ]
+  },
+  "lure": {
+    "world": "lure",
+    "phonetic": "lʊə(r)",
+    "meaning": {
+      "pos": "v.",
+      "meaning": "引诱，诱惑"
+    }
+  },
+  "mimic": {
+    "world": "mimic",
+    "phonetic": "ˈmɪmɪk",
+    "meaning": {
+      "pos": "v.",
+      "meaning": "模仿（人的言行举止）；模拟（外观或效果）；模拟（另一种植物或动物）；（药）模拟（另一物质）的生理作用；（疾病）表现出（另一疾病）的症状"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "mimetic",
+        "meaning": "模仿的；拟态的；类似的"
+      },
+      {
+        "pos": "n.",
+        "world": "mime",
+        "meaning": "哑剧；小丑；滑稽戏"
+      },
+      {
+        "pos": "n.",
+        "world": "mimicry",
+        "meaning": "模仿，模拟；（动物等）拟态伪装"
+      },
+      {
+        "pos": "n.",
+        "world": "mimesis",
+        "meaning": "[生物] 拟态；模仿"
+      },
+      {
+        "pos": "n.",
+        "world": "mimicker",
+        "meaning": "模仿别人的人"
+      }
+    ]
+  },
+  "attack": {
+    "world": "attack",
+    "phonetic": "əˈtæk",
+    "meaning": {
+      "pos": "v.",
+      "meaning": "批评，抨击；侵蚀，侵害；全力应对，奋力处理；袭击，攻击；（体育比赛中）进攻"
+    },
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "attacker",
+        "meaning": "攻击者；进攻者"
+      }
+    ]
+  },
+  "nutritious": {
+    "world": "nutritious",
+    "phonetic": "njuˈtrɪʃəs",
+    "meaning": {
+      "pos": "adj.",
+      "meaning": "有营养的，营养丰富的"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "nutrient",
+        "meaning": "营养的；滋养的"
+      },
+      {
+        "pos": "adj.",
+        "world": "nutritional",
+        "meaning": "营养的；滋养的"
+      },
+      {
+        "pos": "adj.",
+        "world": "nutritive",
+        "meaning": "有营养的；滋养的；有营养成份的；与营养有关的"
+      },
+      {
+        "pos": "adv.",
+        "world": "nutritionally",
+        "meaning": "滋养地"
+      },
+      {
+        "pos": "n.",
+        "world": "nutrition",
+        "meaning": "营养，营养学；营养品"
+      },
+      {
+        "pos": "n.",
+        "world": "nutritionist",
+        "meaning": "营养学家"
+      },
+      {
+        "pos": "n.",
+        "world": "nutriment",
+        "meaning": "营养物；促进生长的东西"
+      },
+      {
+        "pos": "n.",
+        "world": "nutritiousness",
+        "meaning": "有营养成份"
+      }
+    ]
+  },
+  "snack": {
+    "world": "snack",
+    "phonetic": "snæk",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "零食，点心，小吃；快餐；<澳，非正式>易办到的事，小菜一碟"
+    }
+  },
+  "lack": {
+    "world": "lack",
+    "phonetic": "læk",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "缺乏，不足"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "lacking",
+        "meaning": "缺乏的；没有的；不足的"
+      }
+    ]
+  },
+  "sequester": {
+    "world": "sequester",
+    "phonetic": "sɪˈkwestə(r)",
+    "meaning": {
+      "pos": "vt.",
+      "meaning": "使隔绝；使隐退；没收，扣押"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "sequestered",
+        "meaning": "隐退的；偏僻的；幽静的"
+      },
+      {
+        "pos": "n.",
+        "world": "sequestration",
+        "meaning": "隔离；扣押；退隐"
+      },
+      {
+        "pos": "vt.",
+        "world": "sequestrate",
+        "meaning": "没收；扣押"
+      }
+    ]
+  },
+  "similar": {
+    "world": "similar",
+    "phonetic": "ˈsɪmələ(r)",
+    "meaning": {
+      "pos": "adj.",
+      "meaning": "相像的，类似的；（几何图形）相似的"
+    },
+    "relate": [
+      {
+        "pos": "adv.",
+        "world": "similarly",
+        "meaning": "同样地；类似于"
+      },
+      {
+        "pos": "n.",
+        "world": "similarity",
+        "meaning": "类似；相似点"
+      },
+      {
+        "pos": "n.",
+        "world": "similitude",
+        "meaning": "相似；外表；比拟"
+      }
+    ]
+  },
+  "unappealing": {
+    "world": "unappealing",
+    "phonetic": "ˌʌnəˈpiːlɪŋ",
+    "meaning": {
+      "pos": "adj.",
+      "meaning": "不能打动人的；无吸引力的"
+    }
+  },
+  "strategies": {
+    "world": "strategies",
+    "phonetic": "ˈstrætədʒiz",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "策略，战略（strategy 的复数）"
+    }
+  },
+  "research": {
+    "world": "research",
+    "phonetic": "rɪˈsɜːtʃ",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "（尤指大学或科研机构进行的）研究，探讨；研究工作，调查工作"
+    },
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "researcher",
+        "meaning": "研究员"
+      }
+    ]
+  },
+  "approach": {
+    "world": "approach",
+    "phonetic": "əˈprəʊtʃ",
+    "meaning": {
+      "pos": "v.",
+      "meaning": "靠近，临近；接洽，交谈；对付，处理；近似，接近于"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "approachable",
+        "meaning": "亲切的；可接近的"
+      },
+      {
+        "pos": "n.",
+        "world": "approachability",
+        "meaning": "可接近性；易接近"
+      }
+    ]
+  },
+  "caution": {
+    "world": "caution",
+    "phonetic": "ˈkɔːʃ(ə)n",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "小心，谨慎；提醒，告诫；（警察向犯轻罪的人发出的）警告"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "cautious",
+        "meaning": "谨慎的；十分小心的"
+      },
+      {
+        "pos": "adj.",
+        "world": "cautionary",
+        "meaning": "警告的；劝诫的"
+      },
+      {
+        "pos": "adv.",
+        "world": "cautiously",
+        "meaning": "慎重地，谨慎地"
+      },
+      {
+        "pos": "n.",
+        "world": "cautiousness",
+        "meaning": "谨慎；小心"
+      }
+    ]
+  },
+  "dodge": {
+    "world": "dodge",
+    "phonetic": "dɒdʒ",
+    "meaning": {
+      "pos": "v.",
+      "meaning": "闪开，躲开；巧妙躲避，施计回避；按变换序列鸣钟；（冲洗或放大时）局部遮光"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "dodgy",
+        "meaning": "狡猾的，逃避的；善于骗人的；躲闪的"
+      },
+      {
+        "pos": "n.",
+        "world": "dodging",
+        "meaning": "避开；音调改变"
+      },
+      {
+        "pos": "n.",
+        "world": "dodger",
+        "meaning": "欺瞒者；躲避者"
+      }
+    ]
+  },
+  "drop": {
+    "world": "drop",
+    "phonetic": "drɒp",
+    "meaning": {
+      "pos": "v.",
+      "meaning": "投，丢；躺倒；剔除，除名；停止，放弃；中途卸客，中途卸货；寄，送，写（信）；（道路、地面等）急剧向下倾斜；突然终止与（某人）的（恋爱）关系；（使）掉落；减少，降低"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "dropped",
+        "meaning": "抛踢球得分的"
+      },
+      {
+        "pos": "n.",
+        "world": "dropping",
+        "meaning": "落下；空投；滴下物"
+      },
+      {
+        "pos": "n.",
+        "world": "dropper",
+        "meaning": "滴管；使滴下的东西；点滴器"
+      }
+    ]
+  },
+  "centimeter": {
+    "world": "centimeter",
+    "phonetic": "ˈsentɪmiːtə(r)",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "[计量] 厘米；[计量] 公分"
+    }
+  },
+  "estimate": {
+    "world": "estimate",
+    "phonetic": "ˈestɪmət; ˈestɪmeɪt",
+    "meaning": {
+      "pos": "v.",
+      "meaning": "估计；判断，评价"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "estimable",
+        "meaning": "可估计的；可尊敬的；有价值的"
+      },
+      {
+        "pos": "n.",
+        "world": "estimation",
+        "meaning": "估计；尊重"
+      },
+      {
+        "pos": "n.",
+        "world": "estimator",
+        "meaning": "[统计] 估计量；评价者"
+      }
+    ]
+  },
+  "deceptive": {
+    "world": "deceptive",
+    "phonetic": "dɪˈseptɪv",
+    "meaning": {
+      "pos": "adj.",
+      "meaning": "欺骗性的，造成假象的"
+    },
+    "relate": [
+      {
+        "pos": "adv.",
+        "world": "deceptively",
+        "meaning": "迷惑地，骗人地；虚伪地"
+      },
+      {
+        "pos": "n.",
+        "world": "deception",
+        "meaning": "欺骗，欺诈；骗术"
+      },
+      {
+        "pos": "n.",
+        "world": "deceptiveness",
+        "meaning": "虚伪；迷惑骗人"
+      }
+    ]
+  },
+  "mean": {
+    "world": "mean",
+    "phonetic": "miːn",
+    "meaning": {
+      "pos": "v.",
+      "meaning": "意味着；表示……的意思，作……的解释；打算，意欲；使专门用于；导致，结果是；十分熟识；当真，说到做到；对某人重要"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "meaning",
+        "meaning": "意味深长的"
+      },
+      {
+        "pos": "adj.",
+        "world": "meaningful",
+        "meaning": "有意义的；意味深长的"
+      },
+      {
+        "pos": "adj.",
+        "world": "meaningless",
+        "meaning": "无意义的；无目的的"
+      },
+      {
+        "pos": "adv.",
+        "world": "meaningfully",
+        "meaning": "有意义地；意味深长地；有意图地"
+      },
+      {
+        "pos": "adv.",
+        "world": "meanly",
+        "meaning": "卑贱地；吝啬地；简陋地"
+      },
+      {
+        "pos": "n.",
+        "world": "meanness",
+        "meaning": "卑鄙；吝啬；劣等"
+      },
+      {
+        "pos": "n.",
+        "world": "meaningfulness",
+        "meaning": "有意义，富有意义"
+      },
+      {
+        "pos": "n.",
+        "world": "meaninglessness",
+        "meaning": "无意义；无道理"
+      },
+      {
+        "pos": "n.",
+        "world": "meany",
+        "meaning": "小气鬼；刻薄鬼；卑鄙家伙"
+      }
+    ]
+  },
+  "spider": {
+    "world": "spider",
+    "phonetic": "ˈspaɪdə(r)",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "蜘蛛；（搜索引擎的）蜘蛛程序，（计算机）爬虫程序；状似蜘蛛的物体；<英>蛛网形系索；台球棒三脚架；设圈套者"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "spidery",
+        "meaning": "细长足的；蜘蛛一般的；蜘蛛网一般的"
+      }
+    ]
+  },
+  "observe": {
+    "world": "observe",
+    "phonetic": "əbˈzɜːv",
+    "meaning": {
+      "pos": "v.",
+      "meaning": "注意到，观察到；注视，监视；（在科学研究中）观测，发现；说话，评论；遵守（规则、法律等）；庆祝（节日），纪念（某人或事件）；静默，默哀；举行，参加"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "observed",
+        "meaning": "观察的；观测的"
+      },
+      {
+        "pos": "adj.",
+        "world": "observant",
+        "meaning": "善于观察的；机警的；严格遵守的"
+      },
+      {
+        "pos": "adj.",
+        "world": "observable",
+        "meaning": "显著的；觉察得到的；看得见的"
+      },
+      {
+        "pos": "adj.",
+        "world": "observing",
+        "meaning": "观察的；注意的；观察力敏锐的"
+      },
+      {
+        "pos": "adj.",
+        "world": "observational",
+        "meaning": "观测的；根据观察的"
+      },
+      {
+        "pos": "adv.",
+        "world": "observingly",
+        "meaning": "注意观察地"
+      },
+      {
+        "pos": "n.",
+        "world": "observation",
+        "meaning": "观察；监视；观察报告"
+      },
+      {
+        "pos": "n.",
+        "world": "observer",
+        "meaning": "观察者；[天] 观测者；遵守者"
+      },
+      {
+        "pos": "n.",
+        "world": "observance",
+        "meaning": "惯例；遵守；仪式；庆祝"
+      }
+    ]
+  },
+  "sticky": {
+    "world": "sticky",
+    "phonetic": "ˈstɪki",
+    "meaning": {
+      "pos": "adj.",
+      "meaning": "黏性的，涂有黏性物质的；（皮肤因热而）黏湿的；（天气）湿热的，闷热的；（处境、问题等）难办的，棘手的；（网站）吸引人的，吸引人长时间浏览的；（食物）甜腻的；（价格，利率，薪水）变化缓慢的，对变化反应缓慢的；<英，非正式>持有异议的，抱不合作态度的；持久的；<非正式>感到热得难受的"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "sticking",
+        "meaning": "粘的；有粘性的"
+      },
+      {
+        "pos": "adv.",
+        "world": "stickily",
+        "meaning": "粘的；粘乎乎地"
+      },
+      {
+        "pos": "n.",
+        "world": "stick",
+        "meaning": "棍；手杖；呆头呆脑的人"
+      },
+      {
+        "pos": "n.",
+        "world": "stickiness",
+        "meaning": "粘性；胶粘"
+      }
+    ]
+  },
+  "trap": {
+    "world": "trap",
+    "phonetic": "træp",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "（捕捉动物的）陷阱，网，夹子；圈套，诡计；伏击；牢笼，困境；<俚>嘴；（尤指旧时使用的）双轮轻便马车；（应该避免的）错误，问题；（赛狗开始时的）放狗隔栏；（高尔夫球场的）沙坑，凹地；容器，存贮装置；（水管）存水弯，U形管；抛靶器（将泥鸽等抛于空中以打靶）；<史>（射球戏用的）抛球器"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "trapped",
+        "meaning": "捕获的；陷入困境的；收集的；受到限制的"
+      },
+      {
+        "pos": "adj.",
+        "world": "trapping",
+        "meaning": "俘获的；封闭的"
+      },
+      {
+        "pos": "n.",
+        "world": "trapper",
+        "meaning": "设陷阱捕兽者；捕捉器；[矿业] 矿井风门开关管理员"
+      }
+    ]
+  },
+  "capture": {
+    "world": "capture",
+    "phonetic": "ˈkæptʃə(r)",
+    "meaning": {
+      "pos": "v.",
+      "meaning": "俘获，捕获；夺取，占领；吸引，引起；记录，体现；拍摄，录制；吃掉（国际象棋棋子）；使（数据）保存于电脑中；俘获（原子，亚原子粒）；（河流）袭夺"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "captive",
+        "meaning": "被俘虏的；被迷住的"
+      },
+      {
+        "pos": "n.",
+        "world": "captor",
+        "meaning": "捕获者；俘虏者"
+      },
+      {
+        "pos": "n.",
+        "world": "capturer",
+        "meaning": "捕获者"
+      }
+    ]
+  },
+  "adopt": {
+    "world": "adopt",
+    "phonetic": "əˈdɒpt",
+    "meaning": {
+      "pos": "v.",
+      "meaning": "收养；采取，采纳，接受；正式通过；选定（名字），承袭（风俗）；移居，定居；提名（某人）为候选人；保持（姿势）；<英>（地方当局）承担（道路）维修保养责任"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "adopted",
+        "meaning": "被收养的；被采用的"
+      },
+      {
+        "pos": "adj.",
+        "world": "adoptive",
+        "meaning": "采用的；有收养关系的"
+      },
+      {
+        "pos": "adj.",
+        "world": "adoptable",
+        "meaning": "可采用的；可收养的"
+      },
+      {
+        "pos": "n.",
+        "world": "adoption",
+        "meaning": "采用；收养；接受"
+      },
+      {
+        "pos": "n.",
+        "world": "adopter",
+        "meaning": "养父母；[化工] 接受管"
+      },
+      {
+        "pos": "n.",
+        "world": "adoptee",
+        "meaning": "被收养者；被立嗣者"
+      }
+    ]
+  },
+  "bait": {
+    "world": "bait",
+    "phonetic": "beɪt",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "用作诱饵的人（或物）；饵，诱饵"
+    },
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "baiting",
+        "meaning": "诱饵"
+      }
+    ]
+  },
+  "bright": {
+    "world": "bright",
+    "phonetic": "braɪt",
+    "meaning": {
+      "pos": "adj.",
+      "meaning": "明亮的；鲜艳的；聪明的；欢快的，有活力的；光明的，有希望的；清晰嘹亮的"
+    },
+    "relate": [
+      {
+        "pos": "adv.",
+        "world": "brightly",
+        "meaning": "明亮地；鲜明地；生辉地"
+      },
+      {
+        "pos": "n.",
+        "world": "brightness",
+        "meaning": "[光][天] 亮度；聪明，活泼；鲜艳；愉快"
+      },
+      {
+        "pos": "vi.",
+        "world": "brighten",
+        "meaning": "明亮；变亮；活跃；快乐高兴"
+      }
+    ]
+  },
+  "fight": {
+    "world": "fight",
+    "phonetic": "faɪt",
+    "meaning": {
+      "pos": "v.",
+      "meaning": "与……作斗争，坚决反对；努力争取，为……而斗争；打仗，作战；打架；争吵，争论；参加拳击赛；打官司，进行（诉讼，辩护等）；努力抑制（情感）"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "fighting",
+        "meaning": "战斗的；好战的；适于格斗的"
+      },
+      {
+        "pos": "n.",
+        "world": "fighter",
+        "meaning": "战士，斗争者；斗士；奋斗者；好战者"
+      }
+    ]
+  },
+  "progeny": {
+    "world": "progeny",
+    "phonetic": "ˈprɒdʒəni",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "子孙；后裔；成果"
+    }
+  },
+  "beware": {
+    "world": "beware",
+    "phonetic": "bɪˈweə(r)",
+    "meaning": {
+      "pos": "v.",
+      "meaning": "当心，提防"
+    }
+  },
+  "treacherous": {
+    "world": "treacherous",
+    "phonetic": "ˈtretʃərəs",
+    "meaning": {
+      "pos": "adj.",
+      "meaning": "（人）不忠的，背信弃义的；（地面、道路、天气情况等）暗藏危险的"
+    },
+    "relate": [
+      {
+        "pos": "adv.",
+        "world": "treacherously",
+        "meaning": "背叛地；危险地；靠不住地"
+      },
+      {
+        "pos": "n.",
+        "world": "treachery",
+        "meaning": "背叛；变节；背叛行为"
+      }
+    ]
+  },
+  "trick": {
+    "world": "trick",
+    "phonetic": "trɪk",
+    "meaning": {
+      "pos": "n.",
+      "meaning": "花招，诡计，骗局；窍门，技巧；戏法，把戏；恶作剧，戏弄；引起错觉（或记忆紊乱）的事物；（纸牌的）一圈，一墩；（特别的）习惯，方式；舵手的一班（一般为二或四小时）；<非正式>嫖客"
+    },
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "tricksy",
+        "meaning": "欺骗的，狡猾的；恶作剧的；顽皮的"
+      },
+      {
+        "pos": "adv.",
+        "world": "trickily",
+        "meaning": "狡猾地；欺诈地；用奸计"
+      },
+      {
+        "pos": "n.",
+        "world": "trickery",
+        "meaning": "欺骗；诡计；奸计"
+      },
+      {
+        "pos": "n.",
+        "world": "tricker",
+        "meaning": "恶作剧者，欺骗者"
+      },
+      {
+        "pos": "n.",
+        "world": "trickiness",
+        "meaning": "诡计多端；狡猾；棘手；欺骗"
+      }
+    ]
+  }
+}
