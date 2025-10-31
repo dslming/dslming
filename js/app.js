@@ -32,7 +32,7 @@ window.onload = async function () {
     document.querySelector(".world-relate").innerHTML = "";
   })
   const article = articles[0];
-  const baseURL = window.location.origin;
+  const baseURL = window.location.origin + "/dslming/";
   const detail = await fetch(baseURL + article.detail).then(response => response.json())
   const content = await fetch(baseURL + article.content).then(response => response.text())
   const worlds = await fetch(baseURL + article.worlds).then(response => response.text())
