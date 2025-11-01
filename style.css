@@ -113,6 +113,7 @@
     width: 100%;
     text-align: left;
     box-sizing: border-box;
+    user-select: none;
   }
 
   .chinese-item {
@@ -213,6 +214,7 @@
 
 
   .worlds {
+    white-space: nowrap;
     display: inline-flex;
     flex-wrap: wrap;
     gap: 8px;
@@ -229,6 +231,7 @@
   /* 普通词的默认样式 */
   .worlds span {
     color: #ffffff;
+    white-space: nowrap;
   }
 
   /* 高亮词（有 onclick 的） */

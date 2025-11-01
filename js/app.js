@@ -6,7 +6,13 @@ const articles = [
     title: "firefly",
     content: "/ted/firefly/content.txt",
     worlds: "/ted/firefly/world.txt",
-    detail: "/ted/firefly/world-detail.json",
+    detail: "/ted/firefly/detail.json",
+  },
+  {
+    title: "crow",
+    content: "/ted/crow/content.txt",
+    worlds: "/ted/crow/world.txt",
+    detail: "/ted/crow/detail.json",
   }
 ]
 let articleHandler;
@@ -31,8 +37,17 @@ window.onload = async function () {
   document.querySelector(".world-relate").addEventListener("click", () => {
     document.querySelector(".world-relate").innerHTML = "";
   })
-  const article = articles[0];
-  const baseURL = window.location.origin + "/dslming/";
+
+  const articleTitle = window.location.search.slice(1)
+  const article = articles.find(article => article.title === articleTitle);
+  if(!article) {
+    return;
+  }
+
+  let baseURL = window.location.origin;
+  if(baseURL.indexOf("localhost") !== -1) {
+    baseURL += "/dslming/";
+  }
   const detail = await fetch(baseURL + article.detail).then(response => response.json())
   const content = await fetch(baseURL + article.content).then(response => response.text())
   const worlds = await fetch(baseURL + article.worlds).then(response => response.text())
