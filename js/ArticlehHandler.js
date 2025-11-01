@@ -15,7 +15,9 @@ export class ArticlehHandler {
       content,
       worldsDetail,
       sentenceElement,
-      paragraphInfoElement
+      paragraphInfoElement,
+      segment,
+      contentUrl
     } = options;
     // 文章所有分段
     this.paragraphs = handleTextToParagraphs(content);
@@ -24,9 +26,11 @@ export class ArticlehHandler {
     this.title = title;
     this.paragraphHandler = new ParagraphHandler({
       worlds: worlds,
+      segment: segment,
       worldsDetail,
       parent: sentenceElement,
-      paragraph: this.paragraphs[this.currentParagraphIndex]
+      paragraph: this.paragraphs[this.currentParagraphIndex],
+      contentUrl: contentUrl
     });
     this.updateTruncateInfo();
   }

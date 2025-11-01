@@ -115,10 +115,11 @@
 
   .phonetic {
     font-size: 2rem;
-    color: #44b9e7;
+    color: #fff;
     position: fixed;
     bottom: 6rem;
     user-select: none;
+    font-family: "Fredoka";
   }
 
   .chinese {
@@ -155,7 +156,7 @@
     user-select: none;
   }
 
-  .play-btn:hover {
+  .play-btn-canplay {
     background-color: #00e676;
     color: #000;
     user-select: none;

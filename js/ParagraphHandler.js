@@ -1,4 +1,5 @@
-import { AudioHandler } from "./AudioHandler.js";
+import { TextAudioHandler } from "./TextAudioHandler.js";
+import { WorldAudioHandler } from "./WorldAudioHandler.js";
 
 function getURL() {
   const urlInfo = new URL(window.location.href);
@@ -9,7 +10,15 @@ function getURL() {
   return url;
 }
 
-
+// 字符串 "0.12.0"：
+// 第一个数字：0 → 分钟
+// 第二个数字：12 → 秒
+// 第三个数字：0 → 帧（基于 30 帧/秒）
+function timeToSeconds(str) {
+  const [minutes, seconds, frames] = str.split('.').map(Number);
+  const totalSeconds = minutes * 60 + seconds + frames / 30;
+  return totalSeconds;
+}
 
 
 function extractSentences(paragraph) {
@@ -37,6 +46,7 @@ export class ParagraphHandler {
   #worldsDetail;
 
   constructor(options) {
+    this.segment = options.segment;
     this.#worldsDetail = options.worldsDetail;
     this.#worlds = options.worlds.match(/[a-zA-Z]+/g) || [];
     this.#parent = options.parent;
@@ -44,7 +54,8 @@ export class ParagraphHandler {
     this.#currentSentenceIndex = 0;
     this.paragraphIndex = 0;
     this.#sentences = extractSentences(this.#paragraph);
-    this.audioHandler = new AudioHandler();
+    this.audioWorldHandler = new WorldAudioHandler();
+    this.audioTextHandler = new TextAudioHandler(options.contentUrl);
     this.#play();
   }
 
@@ -99,11 +110,6 @@ export class ParagraphHandler {
     }
   }
 
-  playAudio() {
-    const sentence = this.#sentences[this.#currentSentenceIndex];
-    // this.audioHandler.play(this.paragraphIndex, this.#currentSentenceIndex);
-    this.audioHandler.play(sentence);
-  }
 
   async playWorld(word) {
     let ret = word;
@@ -111,7 +117,7 @@ export class ParagraphHandler {
     if (worldInfo) {
       ret = worldInfo.world;
     }
-    this.audioHandler.playWorld(ret);
+    this.audioWorldHandler.playWorld(ret);
 
     if (worldInfo) {
       const worlTypeMap = {
@@ -126,7 +132,7 @@ export class ParagraphHandler {
         'conj.': 'world-type-conj',
       }
 
-      if(worldInfo.world !== word) {
+      if (worldInfo.world !== word) {
         document.querySelector(".world-phonetic").textContent = `${worldInfo.world} /${worldInfo.phonetic}/`;
       } else {
         document.querySelector(".world-phonetic").textContent = `/${worldInfo.phonetic}/`;
@@ -148,6 +154,19 @@ export class ParagraphHandler {
       document.querySelector(".world-relate").innerHTML = str;
     }
 
+  }
+
+  playText() {
+    const lines = this.segment.line;
+    const currentText = this.getCurrentSentence();
+    lines.forEach(line => {
+      if (line.content.includes(currentText)) {
+        this.audioTextHandler.play(
+          timeToSeconds(line.begin),
+          timeToSeconds(line.end)
+        );
+      }
+    })
   }
 
   #play() {

@@ -2,7 +2,7 @@ import { makeYoudaoPronounceUrl } from "./audioTool.js";
 
 let audioPlayer = null;
 
-function playAudio(audioUrl) {
+function playWorldAudio(audioUrl) {
   return new Promise((resolve, reject) => {
     if (audioPlayer) {
       audioPlayer.pause();
@@ -19,7 +19,7 @@ function playAudio(audioUrl) {
   })
 }
 
-export class AudioHandler {
+export class WorldAudioHandler {
   constructor() {
   }
 
@@ -60,16 +60,23 @@ export class AudioHandler {
     }
 
     const audioUrl = `http://dict.youdao.com/dictvoice?type=2&audio=` + word;
-    await playAudio(audioUrl);
-    await playAudio(audioUrl);
-    await playAudio(audioUrl);
+    await playWorldAudio(audioUrl);
+    await playWorldAudio(audioUrl);
+    await playWorldAudio(audioUrl);
   }
 
-  play(text) {
-    const url = makeYoudaoPronounceUrl(text);
-    const audioPlayer = new Audio(url);
-    audioPlayer.play().catch(err => {
-      console.warn('播放失败:', err.message);
-    });
-  }
+  // playTextWithYouDao(text) {
+  //   const url = makeYoudaoPronounceUrl(text);
+  //   const audioPlayer = new Audio(url);
+  //   audioPlayer.play().catch(err => {
+  //     console.warn('播放失败:', err.message);
+  //   });
+  // }
+
+  // play(text) {
+  //   const a = new Audio("https://cdn.jsdelivr.net/gh/dslming/assets/audio/firefly.mp3")
+  //   a.play().catch(err => {
+  //     console.warn('播放失败:', err.message);
+  //   });
+  // }
 }

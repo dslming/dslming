@@ -7,12 +7,15 @@ const articles = [
     content: "/ted/firefly/content.txt",
     worlds: "/ted/firefly/world.txt",
     detail: "/ted/firefly/detail.json",
+    contentUrl: "https://cdn.jsdelivr.net/gh/dslming/assets/audio/firefly.mp3"
   },
   {
     title: "crow",
     content: "/ted/crow/content.txt",
+    segment: "/ted/crow/segment.json",
     worlds: "/ted/crow/world.txt",
     detail: "/ted/crow/detail.json",
+    contentUrl: "https://cdn.jsdelivr.net/gh/dslming/assets/audio/crow.mp3"
   }
 ]
 let articleHandler;
@@ -61,21 +64,25 @@ window.onload = async function () {
   const detail = await fetch(baseURL + article.detail).then(response => response.json())
   const content = await fetch(baseURL + article.content).then(response => response.text())
   const worlds = await fetch(baseURL + article.worlds).then(response => response.text())
+  const segment = await fetch(baseURL + article.segment).then(response => response.json())
 
   // 段落信息容器
   const paragraphInfoElement = document.querySelector(".truncate")
   const paragraphProgress = document.querySelector(".paragraph-progress");
 
   articleHandler = new ArticlehHandler({
-    title: "firefly",
+    title: article.title,
+    segment: segment,
     content: content,
     worlds: worlds,
     worldsDetail: detail,
     sentenceElement: sentenceElement,
-    paragraphInfoElement: paragraphInfoElement
+    paragraphInfoElement: paragraphInfoElement,
+    contentUrl: article.contentUrl
   });
   window.articleHandler = articleHandler;
   paragraphHandler = articleHandler.paragraphHandler;
+
   updateParagraphProgress(paragraphProgress, paragraphHandler.getProgress());
 
   nextBtn.onclick = function () {
@@ -94,7 +101,12 @@ window.onload = async function () {
     updateParagraphProgress(paragraphProgress, paragraphHandler.getProgress());
   }
 
+  setTimeout(async () => {
+    await paragraphHandler.audioTextHandler.load();
+    playVidowBtn.classList.add("play-btn-canplay");
+  }, 0);
+
   playVidowBtn.onclick = function () {
-    paragraphHandler.playAudio();
+    paragraphHandler.playText();
   }
 }
