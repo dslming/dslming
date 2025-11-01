@@ -34,6 +34,16 @@ window.onload = async function () {
   const nextBtn = document.querySelector(".arrow-btn-right")
   const previousBtn = document.querySelector(".arrow-btn-left")
   const playVidowBtn = document.querySelector(".play-vidow-btn")
+  const copyBtn = document.querySelector(".copy");
+  copyBtn.addEventListener("click", () => {
+    const text = paragraphHandler.getCurrentSentence();
+    navigator.clipboard.writeText(text).then(() => {
+      console.log("Text copied to clipboard");
+    }).catch(err => {
+      console.error("Error copying text: ", err);
+    });
+  })
+
   document.querySelector(".world-relate").addEventListener("click", () => {
     document.querySelector(".world-relate").innerHTML = "";
   })

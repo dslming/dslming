@@ -156,4 +156,8 @@ export class ParagraphHandler {
     const words = extractWords(sentence);
     this.#createWordElements(words);
   }
+
+  getCurrentSentence() {
+    return this.#sentences[this.#currentSentenceIndex];
+  }
 }
