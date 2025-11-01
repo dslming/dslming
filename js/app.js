@@ -45,7 +45,7 @@ window.onload = async function () {
   }
 
   let baseURL = window.location.origin;
-  if(baseURL.indexOf("localhost") !== -1) {
+  if(baseURL.includes("dslming.github.io")) {
     baseURL += "/dslming/";
   }
   const detail = await fetch(baseURL + article.detail).then(response => response.json())
