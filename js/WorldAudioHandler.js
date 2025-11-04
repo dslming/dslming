@@ -59,7 +59,9 @@ export class WorldAudioHandler {
       this.audioPlayer.currentTime = 0; // 可选：从头开始
     }
 
-    const audioUrl = `http://dict.youdao.com/dictvoice?type=2&audio=` + word;
+//     type=0：英式发音（British English）
+// type=1：美式发音（American English）
+    const audioUrl = `http://dict.youdao.com/dictvoice?type=1&audio=` + word;
     await playWorldAudio(audioUrl);
     await playWorldAudio(audioUrl);
     await playWorldAudio(audioUrl);

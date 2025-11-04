@@ -3,7 +3,7 @@ crow
 spies
 pitcher
 reach
-pabbles
+pebbles
 displace
 quenches
 thirst
@@ -21,13 +21,18 @@ fascinating
 bold
 brainy
 magpies
+
+strategic
 ransack
-treacherousbins
+trash
+bins
 snatch
 bites
 beaks
+
 hoard
 cache
+
 single
 thought
 scatter
@@ -35,6 +40,7 @@ pine
 nuts
 across
 recover
+
 scrub
 peanuts
 retrieved

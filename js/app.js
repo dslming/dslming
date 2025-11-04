@@ -4,20 +4,21 @@ import { ArticlehHandler } from "./ArticlehHandler.js";
 const articles = [
   {
     title: "firefly",
-    content: "/ted/firefly/content.txt",
-    worlds: "/ted/firefly/world.txt",
-    detail: "/ted/firefly/detail.json",
-    contentUrl: "https://cdn.jsdelivr.net/gh/dslming/assets/audio/firefly.mp3"
   },
   {
     title: "crow",
-    content: "/ted/crow/content.txt",
-    segment: "/ted/crow/segment.json",
-    worlds: "/ted/crow/world.txt",
-    detail: "/ted/crow/detail.json",
-    contentUrl: "https://cdn.jsdelivr.net/gh/dslming/assets/audio/crow.mp3"
   }
 ]
+
+articles.forEach(item => {
+  item.content = `/ted/${item.title}/content.txt`;
+  item.segment = `/ted/${item.title}/segment.json`;
+  item.worlds = `/ted/${item.title}/world.txt`;
+  item.detail = `/ted/${item.title}/detail.json`;
+  item.contentUrl = `https://cdn.jsdelivr.net/gh/dslming/assets/audio/${item.title}.mp3`
+})
+
+
 let articleHandler;
 let paragraphHandler;
 
@@ -26,8 +27,16 @@ function updateParagraphProgress(paragraphProgress, progress) {
   paragraphProgress.style.width = `${percentage}%`;
 }
 
-window.handleWorldClick = function (word) {
-  paragraphHandler.playWorld(word);
+window.handleWorldClick = function (word, index) {
+  paragraphHandler.playWorld(word, index);
+}
+
+// 编辑输入时，判断是否输入正确
+window.handleInput = function (input, expected, index) {
+  document.querySelector(".world-relate").textContent = ""
+  if (input.value.toLowerCase() === expected) {
+    paragraphHandler.exitEdit();
+  }
 }
 
 // truncate
@@ -38,6 +47,9 @@ window.onload = async function () {
   const previousBtn = document.querySelector(".arrow-btn-left")
   const playVidowBtn = document.querySelector(".play-vidow-btn")
   const copyBtn = document.querySelector(".copy");
+  const editBtn = document.querySelector(".edit");
+
+  // 拷贝当前句子
   copyBtn.addEventListener("click", () => {
     const text = paragraphHandler.getCurrentSentence();
     navigator.clipboard.writeText(text).then(() => {
@@ -47,18 +59,24 @@ window.onload = async function () {
     });
   })
 
+  // 进入单词编辑
+  editBtn.addEventListener("click", () => {
+    paragraphHandler.enterEdit();
+  })
+
   document.querySelector(".world-relate").addEventListener("click", () => {
     document.querySelector(".world-relate").innerHTML = "";
   })
 
   const articleTitle = window.location.search.slice(1)
   const article = articles.find(article => article.title === articleTitle);
-  if(!article) {
+  if (!article) {
+    console.error("error", articleTitle);
     return;
   }
 
   let baseURL = window.location.origin;
-  if(baseURL.includes("dslming.github.io")) {
+  if (baseURL.includes("dslming.github.io")) {
     baseURL += "/dslming/";
   }
   const detail = await fetch(baseURL + article.detail).then(response => response.json())
@@ -82,7 +100,7 @@ window.onload = async function () {
   });
   window.articleHandler = articleHandler;
   paragraphHandler = articleHandler.paragraphHandler;
-
+  paragraphHandler.setEditElement(editBtn);
   updateParagraphProgress(paragraphProgress, paragraphHandler.getProgress());
 
   nextBtn.onclick = function () {
@@ -91,6 +109,7 @@ window.onload = async function () {
       articleHandler.nextParagraph();
     }
     updateParagraphProgress(paragraphProgress, paragraphHandler.getProgress());
+    paragraphHandler.exitEdit();
   }
 
   previousBtn.onclick = function () {
@@ -99,6 +118,7 @@ window.onload = async function () {
       articleHandler.precisionParagraph();
     }
     updateParagraphProgress(paragraphProgress, paragraphHandler.getProgress());
+    paragraphHandler.exitEdit();
   }
 
   setTimeout(async () => {

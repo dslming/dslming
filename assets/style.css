@@ -36,6 +36,72 @@
     height: 100%;
   }
 
+  /**
+   * 编辑---------------------------------------- start -------------------
+   */
+  .edit {
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+  }
+
+  .edit img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .disable {
+    height: 0;
+  }
+
+  .enable {
+    height: 26px;
+  }
+
+  .fill-input {
+    /* 不要用 all: unset */
+    appearance: none;
+    -webkit-appearance: none;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+
+    color: currentColor !important;
+
+    font: inherit;
+    display: inline-block;
+    width: 60px;
+    text-align: left;
+  }
+
+  .fill-input::placeholder {
+    color: #999;
+    opacity: 1;
+  }
+
+  /* 可选：聚焦时轻微提示 */
+  .fill-input:focus {
+    background: rgba(0, 150, 255, 0.0);
+  }
+
+  .edit-line {
+    color: transparent !important;
+    position: absolute;
+    z-index: -9999;
+    font-size: 20px;
+    padding: 0;
+    justify-content: center;
+    font-family: "Fredoka", "Dutch801 Rm BT", "AvertaStd-Semibold", "PingFang SC";
+    word-wrap: break-word;
+    border-bottom: 1px solid #fff;
+  }
+
+  /**
+   * 编辑---------------------------------------- end -------------------
+   */
+
   .menu-icon {
     font-size: 20px;
     cursor: pointer;
@@ -120,20 +186,24 @@
     bottom: 6rem;
     user-select: none;
     font-family: "Fredoka";
+        z-index: 999;
   }
 
   .chinese {
     color: #a0a0b0;
     font-size: 1.1rem;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     height: 1.5rem;
     position: fixed;
-    bottom: 15rem;
+    bottom: 0rem;
     user-select: none;
     width: 100%;
     text-align: left;
     box-sizing: border-box;
     user-select: none;
+    height: 270px;
+    max-height: 270px;
+    overflow: scroll;
   }
 
   .chinese-item {
@@ -261,11 +331,6 @@
     font-weight: 500;
   }
 
-  /* 鼠标悬停时的高亮效果 */
-  .worlds .highlight:hover {
-    color: #e9a70f;
-    text-shadow: 0 0 4px rgba(226, 177, 17, 0.3);
-  }
 
   /* 被点击后保持激活状态（可选） */
   .worlds .highlight.active {
