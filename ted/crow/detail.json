@@ -2094,6 +2094,53 @@
       }
     ]
   },
+  "demonstrate": {
+    "world": "demonstrate",
+    "phonetic": "ˈdemənstreɪt",
+    "meaning": [
+      {
+        "pos": "v.",
+        "meaning": "证明；示范，演示；表露；游行，示威"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "demonstrative",
+        "meaning": "说明的；证明的；公开表露感情的"
+      },
+      {
+        "pos": "adj.",
+        "world": "demonstrable",
+        "meaning": "可论证的；显而易见的"
+      },
+      {
+        "pos": "adv.",
+        "world": "demonstrably",
+        "meaning": "可论证地；明确地"
+      },
+      {
+        "pos": "adv.",
+        "world": "demonstratively",
+        "meaning": "论证地"
+      },
+      {
+        "pos": "n.",
+        "world": "demonstration",
+        "meaning": "示范；证明；示威游行"
+      },
+      {
+        "pos": "n.",
+        "world": "demonstrator",
+        "meaning": "示威者；论证者；指示者；证明者"
+      },
+      {
+        "pos": "n.",
+        "world": "demonstrability",
+        "meaning": "论证可能性"
+      }
+    ]
+  },
   "impressive": {
     "world": "impressive",
     "phonetic": "ɪmˈpresɪv",
@@ -2239,6 +2286,36 @@
         "pos": "n.",
         "world": "fashionmonger",
         "meaning": "创流行的人；赶时髦的人"
+      }
+    ]
+  },
+  "hook": {
+    "world": "hook",
+    "phonetic": "hʊk",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "钩，挂钩；勾拳；曲线球；吸引人的东西；使（投手）下场；（尤指用于收割、剪羊毛）弧形切割工具；弯曲的笔画；弧形岬（或沙嘴）"
+      },
+      {
+        "pos": "v.",
+        "meaning": "钩住，挂住；（用手臂等身体部位）箍住；钓鱼；打曲线球；弯成钩状；吸引；<非正式>偷窃；<非正式>卖淫；把……连接到（某设备）"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】 （Hook）（英）胡克，（德、荷）霍克（人名）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "hooked",
+        "meaning": "钩状的；吸毒成瘾的；入迷的"
+      },
+      {
+        "pos": "adj.",
+        "world": "hooky",
+        "meaning": "多钩的"
       }
     ]
   },
@@ -2444,6 +2521,62 @@
         "pos": "n.",
         "world": "crackling",
         "meaning": "猪油渣；脆皮；连续的爆裂声"
+      }
+    ]
+  },
+  "tote": {
+    "world": "tote",
+    "phonetic": "toʊt",
+    "meaning": [
+      {
+        "pos": "vt.",
+        "meaning": "手提；携带；背负；合计"
+      },
+      {
+        "pos": "n.",
+        "meaning": "手提；负担；总数；装载；拖"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "total",
+        "meaning": "全部的；完全的；整个的"
+      },
+      {
+        "pos": "n.",
+        "world": "tot",
+        "meaning": "小孩；合计；少量"
+      },
+      {
+        "pos": "n.",
+        "world": "totality",
+        "meaning": "[天] 全食；全体；总数"
+      },
+      {
+        "pos": "n.",
+        "world": "totalizer",
+        "meaning": "加法计算器"
+      },
+      {
+        "pos": "n.",
+        "world": "totalization",
+        "meaning": "整体化，综合化"
+      },
+      {
+        "pos": "n.",
+        "world": "toter",
+        "meaning": "装载起重机"
+      },
+      {
+        "pos": "vt.",
+        "world": "totalise",
+        "meaning": "计算…的总数"
+      },
+      {
+        "pos": "vt.",
+        "world": "totalize",
+        "meaning": "计算…的总数"
       }
     ]
   },
@@ -3101,6 +3234,23 @@
         "pos": "n.",
         "world": "intellectualization",
         "meaning": "智能化；理智化"
+      }
+    ]
+  },
+  "researchers": {
+    "world": "researcher",
+    "phonetic": "ˈriːsɜːrtʃərˌrɪˈsɜːrtʃər",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "研究人员"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "research",
+        "meaning": "研究；调查"
       }
     ]
   },
@@ -3782,6 +3932,93 @@
       }
     ]
   },
+  "neurons": {
+    "world": "neuron",
+    "phonetic": "ˈnʊrɑːn",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "[解剖] 神经元，神经单位"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "neurological",
+        "meaning": "神经病学的，神经学上的"
+      },
+      {
+        "pos": "adj.",
+        "world": "neuronal",
+        "meaning": "[解剖] 神经元的"
+      },
+      {
+        "pos": "adj.",
+        "world": "neurologic",
+        "meaning": "神经病学的"
+      },
+      {
+        "pos": "adj.",
+        "world": "neuroleptic",
+        "meaning": "[药] 安定的；抑制神经的"
+      },
+      {
+        "pos": "adj.",
+        "world": "neuromotor",
+        "meaning": "传出神经兴奋的；神经运动的"
+      },
+      {
+        "pos": "adj.",
+        "world": "neuropsychiatric",
+        "meaning": "神经精神病学的"
+      },
+      {
+        "pos": "n.",
+        "world": "neurosis",
+        "meaning": "[心理] 神经症；神经衰弱症"
+      },
+      {
+        "pos": "n.",
+        "world": "neuroscience",
+        "meaning": "神经系统科学（指神经病学、 神经化学等）"
+      },
+      {
+        "pos": "n.",
+        "world": "neurology",
+        "meaning": "神经病学；神经学"
+      },
+      {
+        "pos": "n.",
+        "world": "neuropathy",
+        "meaning": "[内科] 神经病"
+      },
+      {
+        "pos": "n.",
+        "world": "neurohypophysis",
+        "meaning": "[解剖] 神经垂体"
+      },
+      {
+        "pos": "n.",
+        "world": "neurolinguistics",
+        "meaning": "神经语言学"
+      },
+      {
+        "pos": "n.",
+        "world": "neurophysiology",
+        "meaning": "神经生理学"
+      },
+      {
+        "pos": "n.",
+        "world": "neuropsychiatry",
+        "meaning": "神经精神病学"
+      },
+      {
+        "pos": "n.",
+        "world": "neuropsychology",
+        "meaning": "神经心理学"
+      }
+    ]
+  },
   "pallium": {
     "world": "pallium",
     "phonetic": "ˈpælɪəm",
@@ -3866,7 +4103,7 @@
       }
     ]
   },
-  "travelled": {
+  "traveled": {
     "world": "travel",
     "phonetic": "ˈtræv(ə)l",
     "meaning": [

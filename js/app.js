@@ -110,6 +110,8 @@ window.onload = async function () {
     }
     updateParagraphProgress(paragraphProgress, paragraphHandler.getProgress());
     paragraphHandler.exitEdit();
+    paragraphHandler.exitMean();
+    paragraphHandler.exitRelate();
   }
 
   previousBtn.onclick = function () {
@@ -118,6 +120,8 @@ window.onload = async function () {
       articleHandler.precisionParagraph();
     }
     updateParagraphProgress(paragraphProgress, paragraphHandler.getProgress());
+    articleHandler.exitMean();
+    articleHandler.exitRelate();
     paragraphHandler.exitEdit();
   }
 

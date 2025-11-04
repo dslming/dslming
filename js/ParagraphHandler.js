@@ -185,6 +185,17 @@ export class ParagraphHandler {
     this.spellWorldInfo = null;
   }
 
+  exitPhonetic() {
+    document.querySelector(".world-phonetic").textContent = "";
+  }
+
+  exitMean() {
+    document.querySelector(".world-mean").textContent = "";
+  }
+
+  exitRelate() {
+    document.querySelector(".world-relate").textContent = "";
+  }
 
   async playWorld(word, index) {
     if (this.spellWorldInfo && this.spellWorldInfo.state == "editing") {
