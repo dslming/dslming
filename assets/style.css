@@ -186,7 +186,7 @@
     bottom: 6rem;
     user-select: none;
     font-family: "Fredoka";
-        z-index: 999;
+    z-index: 999;
   }
 
   .chinese {
@@ -355,4 +355,10 @@
     left: 1rem;
     margin: 0.5rem;
     box-sizing: border-box;
+  }
+
+  .sentence-chinese {
+    margin-top: 2rem;
+    font-size: 16px;
+    color: #aaa;
   }

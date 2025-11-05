@@ -7,11 +7,23 @@ import { fileURLToPath } from 'node:url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const name = "crow"
+const target = "chinese" // english, chinese
+const name = "firefly";
+
+let inputName;
+let outName;
+
+if(target === "english") {
+  inputName = `english`;
+  outName = `english`;
+} else if(target === "chinese") {
+  inputName = `chinese`;
+  outName = `chinese`;
+}
 
 // 文件路径
-const inputPath = new URL(`${__dirname}/../ted/${name}/orgin.vtt`, import.meta.url).pathname;
-const outputPath = new URL(`${__dirname}/../ted/${name}/segment.json`, import.meta.url).pathname;
+const inputPath = new URL(`${__dirname}/../ted/${name}/${inputName}.vtt`, import.meta.url).pathname;
+const outputPath = new URL(`${__dirname}/../ted/${name}/${outName}.json`, import.meta.url).pathname;
 const outputDir = dirname(outputPath);
 
 // 句子结束标点（支持中英文）

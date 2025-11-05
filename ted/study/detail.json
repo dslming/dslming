@@ -1,1 +1,4184 @@
-{}
+{
+  "probably": {
+    "world": "probably",
+    "phonetic": "ˈprɑːbəbli",
+    "meaning": [
+      {
+        "pos": "adv.",
+        "meaning": "大概，或许"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "probable",
+        "meaning": "很可能的；可信的"
+      },
+      {
+        "pos": "n.",
+        "world": "probability",
+        "meaning": "可能性；机率；[数] 或然率"
+      }
+    ]
+  },
+  "heard": {
+    "world": "hear",
+    "phonetic": "hɪr",
+    "meaning": [
+      {
+        "pos": "v.",
+        "meaning": "听到，听见；聆听，倾听；听说，得知；审理，听审；脑际响起；听明白"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "hearable",
+        "meaning": "听得见的；中听的"
+      },
+      {
+        "pos": "n.",
+        "world": "hearing",
+        "meaning": "听力；审讯，听讯"
+      },
+      {
+        "pos": "n.",
+        "world": "hearer",
+        "meaning": "听者；旁听人"
+      }
+    ]
+  },
+  "practice": {
+    "world": "practice",
+    "phonetic": "ˈpræktɪs",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "实践，实际操作；通常的做法，惯例；练习；练习课，固定的训练时间；（医生、律师或其他专业人士的）业务，事务所；诉讼手续，诉讼程序"
+      },
+      {
+        "pos": "v.",
+        "meaning": "练习；经常做，养成……的习惯；信奉（宗教）；（医生、律师等）执业，从业"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "practical",
+        "meaning": "实际的；实用性的"
+      },
+      {
+        "pos": "adj.",
+        "world": "practicable",
+        "meaning": "可用的；行得通的；可实行的"
+      },
+      {
+        "pos": "adj.",
+        "world": "practiced",
+        "meaning": "熟练的；有经验的；老练的（等于practised）"
+      },
+      {
+        "pos": "adj.",
+        "world": "practised",
+        "meaning": "熟练的；老练的"
+      },
+      {
+        "pos": "adv.",
+        "world": "practically",
+        "meaning": "实际地；几乎；事实上"
+      },
+      {
+        "pos": "adv.",
+        "world": "practicably",
+        "meaning": "实用地；能用地"
+      },
+      {
+        "pos": "n.",
+        "world": "practicality",
+        "meaning": "实用性，实际性；实际，实例"
+      },
+      {
+        "pos": "n.",
+        "world": "practicability",
+        "meaning": "实用性，可行性"
+      },
+      {
+        "pos": "vi.",
+        "world": "practise",
+        "meaning": "练习，实践；实施，实行；从事"
+      }
+    ]
+  },
+  "started": {
+    "world": "start",
+    "phonetic": "stɑːrt",
+    "meaning": [
+      {
+        "pos": "v.",
+        "meaning": "开始，着手；（使）发生；发动，启动；创办，开办；出发，启程；以……起步（或起家）；（由……）起，起始；突然一惊，吓一跳；<非正式>开始抱怨，开始争论；（比赛中）首发上场；（眼睛）突起，鼓出；使松动，使脱落；使（猎物）离巢"
+      },
+      {
+        "pos": "n.",
+        "meaning": "开始，开端；启程，启动；（事业的）最初机遇，起步机会；起点（the start）；比赛，上场；突然一惊；领先的时间（距离）；新工作，新企业，新手；先发上场"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "starter",
+        "meaning": "起动机；发令员；第一道菜；发射装置；发起者"
+      }
+    ]
+  },
+  "poster": {
+    "world": "poster",
+    "phonetic": "ˈpoʊstər",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "海报，招贴画；大幅装饰画；发帖人，跟帖人"
+      },
+      {
+        "pos": "v.",
+        "meaning": "张贴海报"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】 （Poster）（英）波斯特（人名）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "post",
+        "meaning": "岗位；邮件；标杆"
+      }
+    ]
+  },
+  "famously": {
+    "world": "famously",
+    "phonetic": "ˈfeɪməsli",
+    "meaning": [
+      {
+        "pos": "adv.",
+        "meaning": "著名地；极好地"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "famous",
+        "meaning": "著名的；极好的，非常令人满意的"
+      }
+    ]
+  },
+  "forward": {
+    "world": "forward",
+    "phonetic": "ˈfɔːrwərd",
+    "meaning": [
+      {
+        "pos": "adv.",
+        "meaning": "向前；在船头，朝飞机头部；按顺序地；有进展地，前进地；向将来，往后；提前；（钟表）往前（拨）；从……起，自……以来"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "向前的，前进的；在前部的，位于前面的；（电子）正向的；未来的，将来的；期货的，预先的；早的，早熟的；鲁莽的，冒失的；热心的，动辄就……的"
+      },
+      {
+        "pos": "n.",
+        "meaning": "（足球、篮球等运动的）前锋；（尤指金融市场）远期协议，远期交易"
+      },
+      {
+        "pos": "v.",
+        "meaning": "转交，转寄；寄，发送；促进，推进"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】 （Forward） （英、美、加、澳）福沃德（人名）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "forwarding",
+        "meaning": "运输的；转发的"
+      },
+      {
+        "pos": "adv.",
+        "world": "forwards",
+        "meaning": "向前；今后"
+      },
+      {
+        "pos": "n.",
+        "world": "forwardness",
+        "meaning": "热心；早熟；提早；进步"
+      }
+    ]
+  },
+  "golfer": {
+    "world": "golfer",
+    "phonetic": "ˈɡɑːlfər",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "高尔夫球手"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "golf",
+        "meaning": "高尔夫球；高尔夫球运动"
+      },
+      {
+        "pos": "n.",
+        "world": "golfing",
+        "meaning": "打高尔夫球"
+      }
+    ]
+  },
+  "quintessential": {
+    "world": "quintessential",
+    "phonetic": "ˌkwɪntɪˈsenʃl",
+    "meaning": [
+      {
+        "pos": "adj.",
+        "meaning": "典型的，完美的；<正式>本质的，精髓的"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adv.",
+        "world": "quintessentially",
+        "meaning": "典型地；标准地"
+      }
+    ]
+  },
+  "decided": {
+    "world": "decide",
+    "phonetic": "dɪˈsaɪd",
+    "meaning": [
+      {
+        "pos": "v.",
+        "meaning": "影响（或决定）……的结果；断定，判定；使下决心；决定，选定；裁决，判决"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "decisive",
+        "meaning": "决定性的；果断的，坚定的"
+      },
+      {
+        "pos": "adj.",
+        "world": "decided",
+        "meaning": "明确的；显然的；坚决的，果断的"
+      },
+      {
+        "pos": "adj.",
+        "world": "deciding",
+        "meaning": "决定性的；无疑的"
+      },
+      {
+        "pos": "adv.",
+        "world": "decisively",
+        "meaning": "果断地；决然地"
+      },
+      {
+        "pos": "n.",
+        "world": "decision",
+        "meaning": "决定，决心；决议"
+      }
+    ]
+  },
+  "chess": {
+    "world": "chess",
+    "phonetic": "tʃes",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "国际象棋，西洋棋"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】 （Chess）（英）切斯（人名）"
+      }
+    ]
+  },
+  "technical": {
+    "world": "technical",
+    "phonetic": "ˈteknɪk(ə)l",
+    "meaning": [
+      {
+        "pos": "adj.",
+        "meaning": "工艺的，技术的；专业的，专门的；严格按照法律意义的，严格按字面解释的；（尤指体育或艺术等活动）技巧（上）的；与机器（或系统）运行相关的，技术性的"
+      },
+      {
+        "pos": "n.",
+        "meaning": "<美>（车后架设有机枪的）小卡车"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "abbr.",
+        "world": "tech",
+        "meaning": "技术（technology）；技术员（technician）"
+      },
+      {
+        "pos": "adj.",
+        "world": "technological",
+        "meaning": "技术的；工艺的"
+      },
+      {
+        "pos": "adv.",
+        "world": "technically",
+        "meaning": "技术上；专门地；学术上；工艺上"
+      },
+      {
+        "pos": "adv.",
+        "world": "technologically",
+        "meaning": "科技地；技术上地"
+      },
+      {
+        "pos": "n.",
+        "world": "technique",
+        "meaning": "技巧，技术；手法"
+      },
+      {
+        "pos": "n.",
+        "world": "technician",
+        "meaning": "技师，技术员；技巧纯熟的人"
+      },
+      {
+        "pos": "n.",
+        "world": "techno",
+        "meaning": "高科技舞曲"
+      },
+      {
+        "pos": "n.",
+        "world": "technologist",
+        "meaning": "技术专家；工艺学家"
+      },
+      {
+        "pos": "n.",
+        "world": "techie",
+        "meaning": "高科技专家；热衷电子学的电子迷；技师"
+      },
+      {
+        "pos": "n.",
+        "world": "technicality",
+        "meaning": "学术性；专门性；术语，专门语"
+      },
+      {
+        "pos": "n.",
+        "world": "technocrat",
+        "meaning": "技术统治论者；专家政治论者；技术统治"
+      },
+      {
+        "pos": "n.",
+        "world": "technocracy",
+        "meaning": "专家管理；专家政治论，技术统治论"
+      }
+    ]
+  },
+  "manner": {
+    "world": "manner",
+    "phonetic": "ˈmænər",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "态度，举止；礼貌；方式；（文学或艺术的）风格；习俗；<正式>种类；（语法）方式状语，方式副词"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】 （Manner）曼纳（人名）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "mannered",
+        "meaning": "矫饰的；守规矩的；矫揉造作的"
+      },
+      {
+        "pos": "n.",
+        "world": "mannerism",
+        "meaning": "特殊习惯；矫揉造作；怪癖"
+      }
+    ]
+  },
+  "daughters": {
+    "world": "daughter",
+    "phonetic": "ˈdɔːtər",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "女儿；[遗][农学] 子代"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "女儿的；子代的"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "daughterly",
+        "meaning": "女儿的；女儿似的"
+      }
+    ]
+  },
+  "grandmaster": {
+    "world": "Grandmaster",
+    "phonetic": "ˌɡrændˈmæstər",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "大师；最高段的棋手"
+      }
+    ]
+  },
+  "curious": {
+    "world": "curious",
+    "phonetic": "ˈkjʊriəs",
+    "meaning": [
+      {
+        "pos": "adj.",
+        "meaning": "好奇的，求知欲强的；稀奇的，不寻常的；爱挑剔的"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adv.",
+        "world": "curiously",
+        "meaning": "好奇地"
+      },
+      {
+        "pos": "n.",
+        "world": "curiosity",
+        "meaning": "好奇，好奇心；珍品，古董，古玩"
+      },
+      {
+        "pos": "n.",
+        "world": "curiousness",
+        "meaning": "好学；好奇；不寻常"
+      }
+    ]
+  },
+  "elite": {
+    "world": "elite",
+    "phonetic": "eɪˈliːt; ɪˈliːt",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "权力集团，上层人士；尖子，精英"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "出类拔萃的，精锐的"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "elitism",
+        "meaning": "精英主义；杰出人物统治论"
+      }
+    ]
+  },
+  "athletes": {
+    "world": "athlete",
+    "phonetic": "ˈæθliːt",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "运动员，体育健将；擅长运动的人"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "athletic",
+        "meaning": "运动的，运动员的；体格健壮的"
+      },
+      {
+        "pos": "n.",
+        "world": "athleticism",
+        "meaning": "崇尚运动，竞技热；运动竞赛"
+      }
+    ]
+  },
+  "deliberate": {
+    "world": "deliberate",
+    "phonetic": "dɪˈlɪbərət",
+    "meaning": [
+      {
+        "pos": "adj.",
+        "meaning": "故意的，蓄意的；从容的，小心翼翼的；深思熟虑的"
+      },
+      {
+        "pos": "v.",
+        "meaning": "仔细考虑，认真商讨"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "deliberative",
+        "meaning": "审议的；慎重的"
+      },
+      {
+        "pos": "adv.",
+        "world": "deliberately",
+        "meaning": "故意地；谨慎地；慎重地"
+      },
+      {
+        "pos": "n.",
+        "world": "deliberation",
+        "meaning": "审议；考虑；从容；熟思"
+      },
+      {
+        "pos": "n.",
+        "world": "deliberateness",
+        "meaning": "审慎；故意；深思熟虑"
+      }
+    ]
+  },
+  "course": {
+    "world": "course",
+    "phonetic": "kɔːrs",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "课程；过程；道路，航线；进程，进展；方针，总方向；行动方式，处理方法；疗程；一道菜；比赛场地；（砖、石等墙的）层；（常sing.）追踪狩猎（尤指野兔）；横帆；一组同音弦；追踪狩猎（尤指野兔）"
+      },
+      {
+        "pos": "v.",
+        "meaning": "奔流，快速流动；（感情、思想）涌动；（用猎犬）追踪（兔子）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "coursing",
+        "meaning": "追赶；奔驰；携带猎犬狩猎"
+      }
+    ]
+  },
+  "pattern": {
+    "world": "pattern",
+    "phonetic": "ˈpætərn",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "模式，方式；图案，花样；模范，典范；模型，底样；（布或墙纸的）样品；样式；（声音或词汇有规则排列的）模式"
+      },
+      {
+        "pos": "v.",
+        "meaning": "用图案装饰，给……加上花样；仿照，模仿；赋予……以固定（或易辨认）的形式；使形成，促成（某行为模式）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "patterned",
+        "meaning": "有图案的，组成图案的"
+      },
+      {
+        "pos": "n.",
+        "world": "patternmaker",
+        "meaning": "制模师，模型制造者；打样师；花样图案设计者；翻砂工"
+      }
+    ]
+  },
+  "sampling": {
+    "world": "sample",
+    "phonetic": "ˈsæmp(ə)l",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "样本，样品；试用产品，试样；（供科学或医学检测用的）抽样样本；（抽查的）样本，抽选人员；（用于新乐曲中的）选录的歌曲片段"
+      },
+      {
+        "pos": "v.",
+        "meaning": "品尝，尝试（食品、饮料）；体验（活动）；对……作抽样调查；节录，选录（歌曲等，用于其他录音）；确定（模拟信号）瞬时值"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "样品的，实例的"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】 （Sample）（美、英、爱尔兰）桑普尔（人名）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "sampling",
+        "meaning": "取样；抽样"
+      },
+      {
+        "pos": "n.",
+        "world": "sampler",
+        "meaning": "[自] 采样器；取样器；样品检查员"
+      }
+    ]
+  },
+  "variety": {
+    "world": "variety",
+    "phonetic": "vəˈraɪəti",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "多样化，变化；种类，品种；（人或物的）各式各样；综艺表演，杂耍表演"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "varied",
+        "meaning": "多变的；各式各样的；杂色的"
+      },
+      {
+        "pos": "vt.",
+        "world": "variegate",
+        "meaning": "使多样化，使丰富多彩；使成杂色"
+      }
+    ]
+  },
+  "physical": {
+    "world": "physical",
+    "phonetic": "ˈfɪzɪk(ə)l",
+    "meaning": [
+      {
+        "pos": "adj.",
+        "meaning": "身体的，肉体的；物质的，有形的；外形的，外在的；物理的，物理学的；根据自然规律的，符合自然法则的；粗暴的，粗野的；性欲的，肉欲的；（人）喜欢动手动脚的；肢体活动的"
+      },
+      {
+        "pos": "n.",
+        "meaning": "体格检查；（股票）（与期货相对的）现货股票"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "physicochemical",
+        "meaning": "物理化学的"
+      },
+      {
+        "pos": "adv.",
+        "world": "physically",
+        "meaning": "身体上，身体上地"
+      },
+      {
+        "pos": "n.",
+        "world": "physics",
+        "meaning": "物理学；物理现象"
+      },
+      {
+        "pos": "n.",
+        "world": "physicist",
+        "meaning": "物理学家；唯物论者"
+      },
+      {
+        "pos": "n.",
+        "world": "physic",
+        "meaning": "医学；药品（特指泻药）"
+      },
+      {
+        "pos": "n.",
+        "world": "physicality",
+        "meaning": "肉体性"
+      },
+      {
+        "pos": "n.",
+        "world": "physiatrics",
+        "meaning": "物理疗法"
+      },
+      {
+        "pos": "n.",
+        "world": "physicalism",
+        "meaning": "物理主义"
+      }
+    ]
+  },
+  "activities": {
+    "world": "activity",
+    "phonetic": "ækˈtɪvəti",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "活跃状况，热闹；活动；（Activity）热力活性，活度"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "active",
+        "meaning": "积极的；活跃的；主动的；有效的；现役的"
+      },
+      {
+        "pos": "adj.",
+        "world": "activated",
+        "meaning": "活性化的；活泼的"
+      },
+      {
+        "pos": "adj.",
+        "world": "actable",
+        "meaning": "能演出的；能实行的"
+      },
+      {
+        "pos": "adv.",
+        "world": "actively",
+        "meaning": "积极地；活跃地"
+      },
+      {
+        "pos": "n.",
+        "world": "action",
+        "meaning": "行动；活动；功能；战斗；情节"
+      },
+      {
+        "pos": "n.",
+        "world": "act",
+        "meaning": "行为，行动；法令，法案；（戏剧，歌剧的）一幕，段；装腔作势"
+      },
+      {
+        "pos": "n.",
+        "world": "actor",
+        "meaning": "男演员；行动者；作用物"
+      },
+      {
+        "pos": "n.",
+        "world": "activation",
+        "meaning": "[电子][物] 激活；活化作用"
+      },
+      {
+        "pos": "n.",
+        "world": "activism",
+        "meaning": "行动主义；激进主义"
+      },
+      {
+        "pos": "n.",
+        "world": "activator",
+        "meaning": "催化剂；[助剂] 活化剂；[助剂] 激活剂；触媒剂"
+      },
+      {
+        "pos": "n.",
+        "world": "activeness",
+        "meaning": "主观能动性；活动积极性"
+      },
+      {
+        "pos": "vi.",
+        "world": "activate",
+        "meaning": "激活；有活力"
+      }
+    ]
+  },
+  "gain": {
+    "world": "gain",
+    "phonetic": "ɡeɪn",
+    "meaning": [
+      {
+        "pos": "v.",
+        "meaning": "获得，赢得；受益；增加，增长；（经过努力）到达；（钟表）走快；持球前进，推进（一段距离）"
+      },
+      {
+        "pos": "n.",
+        "meaning": "增加；好处，改进；收益；将球推进的距离；（常用对数表示的功率或电压的）增益"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】 （Gain）（英、匈、法）盖恩（人名）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "gainful",
+        "meaning": "唯利是图的；有利益的；赚钱的"
+      },
+      {
+        "pos": "adv.",
+        "world": "gainfully",
+        "meaning": "有收入地；有利益地"
+      },
+      {
+        "pos": "n.",
+        "world": "gainer",
+        "meaning": "获得者，得利者；胜利者"
+      },
+      {
+        "pos": "n.",
+        "world": "gainfulness",
+        "meaning": "唯利是图（原形是gainful）"
+      }
+    ]
+  },
+  "delay": {
+    "world": "delay",
+    "phonetic": "dɪˈleɪ",
+    "meaning": [
+      {
+        "pos": "v.",
+        "meaning": "推迟，延期；延误，耽搁；（故意）拖延，磨蹭"
+      },
+      {
+        "pos": "n.",
+        "meaning": "延期，推迟；延误，耽搁；延迟器"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】 （Delay）（美）德莱（人名）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "delayed",
+        "meaning": "延时的；定时的"
+      },
+      {
+        "pos": "n.",
+        "world": "delayer",
+        "meaning": "缓燃剂，延缓剂；延迟器"
+      }
+    ]
+  },
+  "specializing": {
+    "world": "specialize",
+    "phonetic": "ˈspeʃəlaɪz",
+    "meaning": [
+      {
+        "pos": "vi.",
+        "meaning": "专门研究（或从事），专攻；专营；（生）使（器官）专化，使特化"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "special",
+        "meaning": "特别的；专门的，专用的"
+      },
+      {
+        "pos": "adj.",
+        "world": "specialist",
+        "meaning": "专家的；专业的"
+      },
+      {
+        "pos": "adj.",
+        "world": "specialty",
+        "meaning": "特色的；专门的；独立的"
+      },
+      {
+        "pos": "adj.",
+        "world": "specialized",
+        "meaning": "专业的；专门的"
+      },
+      {
+        "pos": "adj.",
+        "world": "specialised",
+        "meaning": "专门的；特别的（等于specialized）"
+      },
+      {
+        "pos": "adj.",
+        "world": "specialistic",
+        "meaning": "专家的；专攻的；专门学科的"
+      },
+      {
+        "pos": "adv.",
+        "world": "specially",
+        "meaning": "特别地；专门地"
+      },
+      {
+        "pos": "n.",
+        "world": "spec",
+        "meaning": "投机；说明书；细则"
+      },
+      {
+        "pos": "n.",
+        "world": "speciality",
+        "meaning": "专业，专长；特性"
+      },
+      {
+        "pos": "n.",
+        "world": "specialization",
+        "meaning": "专门化；特殊化；特化作用"
+      },
+      {
+        "pos": "n.",
+        "world": "specialisation",
+        "meaning": "专业化（等于specialization）；特化，适应化"
+      },
+      {
+        "pos": "n.",
+        "world": "specialness",
+        "meaning": "专门，特殊"
+      },
+      {
+        "pos": "n.",
+        "world": "specialism",
+        "meaning": "专长；专攻；专门研究"
+      },
+      {
+        "pos": "n.",
+        "world": "specializer",
+        "meaning": "专家"
+      },
+      {
+        "pos": "vi.",
+        "world": "specialise",
+        "meaning": "专门研究（等于specialize）"
+      }
+    ]
+  },
+  "peers": {
+    "world": "peer",
+    "phonetic": "pɪr",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "同龄人，同等地位的人，相匹敌的人；（英国）贵族"
+      },
+      {
+        "pos": "v.",
+        "meaning": "凝视，费力地看；隐现；<古>看见；<古>匹敌"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】 （Peer）（美、爱、英）皮尔（人名）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "peerless",
+        "meaning": "无与伦比的；出类拔萃的；无比的"
+      },
+      {
+        "pos": "n.",
+        "world": "peek",
+        "meaning": "偷看；一瞥，看一眼"
+      },
+      {
+        "pos": "n.",
+        "world": "peep",
+        "meaning": "偷看；隐约看见，瞥见"
+      },
+      {
+        "pos": "n.",
+        "world": "peephole",
+        "meaning": "窥视孔"
+      },
+      {
+        "pos": "n.",
+        "world": "peerage",
+        "meaning": "（全体）贵族；贵族地位；贵族阶级"
+      },
+      {
+        "pos": "n.",
+        "world": "peeress",
+        "meaning": "有爵位的妇女；贵族夫人"
+      }
+    ]
+  },
+  "plateau": {
+    "world": "plateau",
+    "phonetic": "plæˈtoʊ",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "高原；（发展、增长后的）稳定期，停滞期；高原印第安人；托盘"
+      },
+      {
+        "pos": "v.",
+        "meaning": "（在一段时间的发展之后）趋于平稳，进入停滞期"
+      }
+    ]
+  },
+  "comport": {
+    "world": "comport",
+    "phonetic": "kəmˈpɔːrt",
+    "meaning": [
+      {
+        "pos": "vt.",
+        "meaning": "行为；举动"
+      },
+      {
+        "pos": "vi.",
+        "meaning": "相称；适合；一致"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "comportment",
+        "meaning": "举止，态度；动作"
+      }
+    ]
+  },
+  "domains": {
+    "world": "domain",
+    "phonetic": "doʊˈmeɪn",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "领域，范围；领土，势力范围；（因特网上的）域；（函数的）定义域；地产"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】 （Domain）（英、法）多曼（人名）"
+      }
+    ]
+  },
+  "associate": {
+    "world": "associate",
+    "phonetic": "əˈsoʊsieɪt; əˈsoʊʃieɪt",
+    "meaning": [
+      {
+        "pos": "v.",
+        "meaning": "联想，联系；支持，同意；交往，（尤指）混在一起"
+      },
+      {
+        "pos": "n.",
+        "meaning": "同事，伙伴；副学士，准学士；副职，副手；准会员；联想"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "副的，准的，非正式的；联合的，有关连的"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "associated",
+        "meaning": "关联的；联合的"
+      },
+      {
+        "pos": "adj.",
+        "world": "associative",
+        "meaning": "联想的；联合的；组合的"
+      },
+      {
+        "pos": "adj.",
+        "world": "associable",
+        "meaning": "可联想的；交感性的"
+      },
+      {
+        "pos": "adj.",
+        "world": "associational",
+        "meaning": "联想的；协会的"
+      },
+      {
+        "pos": "n.",
+        "world": "association",
+        "meaning": "协会，联盟，社团；联合；联想"
+      },
+      {
+        "pos": "n.",
+        "world": "associability",
+        "meaning": "可联想性；交感性"
+      },
+      {
+        "pos": "n.",
+        "world": "associateship",
+        "meaning": "为准会员；准社员的职位"
+      },
+      {
+        "pos": "n.",
+        "world": "associationism",
+        "meaning": "联想心理学；观念联合论"
+      }
+    ]
+  },
+  "obligatory": {
+    "world": "obligatory",
+    "phonetic": "əˈblɪɡətɔːri",
+    "meaning": [
+      {
+        "pos": "adj.",
+        "meaning": "有义务的，强制性的；惯常的，赶时髦的；（规定，裁决）有约束力的"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "obliged",
+        "meaning": "必须的；感激的；有责任的"
+      },
+      {
+        "pos": "adj.",
+        "world": "obligate",
+        "meaning": "有责任的，有义务的；必需的"
+      },
+      {
+        "pos": "adj.",
+        "world": "obligated",
+        "meaning": "有义务的；责无旁贷的"
+      },
+      {
+        "pos": "n.",
+        "world": "obligation",
+        "meaning": "义务；职责；债务"
+      }
+    ]
+  },
+  "specialization": {
+    "world": "specialization",
+    "phonetic": "ˌspeʃələˈzeɪʃ(ə)n",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "专业；专业化，专门化；（生物）特化作用"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "special",
+        "meaning": "特别的；专门的，专用的"
+      },
+      {
+        "pos": "adj.",
+        "world": "specialist",
+        "meaning": "专家的；专业的"
+      },
+      {
+        "pos": "adj.",
+        "world": "specialty",
+        "meaning": "特色的；专门的；独立的"
+      },
+      {
+        "pos": "adj.",
+        "world": "specialized",
+        "meaning": "专业的；专门的"
+      },
+      {
+        "pos": "adj.",
+        "world": "specialised",
+        "meaning": "专门的；特别的（等于specialized）"
+      },
+      {
+        "pos": "adj.",
+        "world": "specialistic",
+        "meaning": "专家的；专攻的；专门学科的"
+      },
+      {
+        "pos": "adv.",
+        "world": "specially",
+        "meaning": "特别地；专门地"
+      },
+      {
+        "pos": "n.",
+        "world": "speciality",
+        "meaning": "专业，专长；特性"
+      },
+      {
+        "pos": "n.",
+        "world": "specialisation",
+        "meaning": "专业化（等于specialization）；特化，适应化"
+      },
+      {
+        "pos": "n.",
+        "world": "specialness",
+        "meaning": "专门，特殊"
+      },
+      {
+        "pos": "n.",
+        "world": "specialism",
+        "meaning": "专长；专攻；专门研究"
+      },
+      {
+        "pos": "n.",
+        "world": "specializer",
+        "meaning": "专家"
+      },
+      {
+        "pos": "vi.",
+        "world": "specialize",
+        "meaning": "专门从事；详细说明；特化"
+      },
+      {
+        "pos": "vi.",
+        "world": "specialise",
+        "meaning": "专门研究（等于specialize）"
+      }
+    ]
+  },
+  "exceptional": {
+    "world": "exceptional",
+    "phonetic": "ɪkˈsepʃən(ə)l",
+    "meaning": [
+      {
+        "pos": "adj.",
+        "meaning": "卓越的，杰出的；不寻常的，罕见的；（心理或身体上）有缺陷的"
+      },
+      {
+        "pos": "n.",
+        "meaning": "（公司账目上的）异常项目"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adv.",
+        "world": "exceptionally",
+        "meaning": "异常地；特殊地；例外地"
+      },
+      {
+        "pos": "conj.",
+        "world": "except",
+        "meaning": "除了；要不是"
+      },
+      {
+        "pos": "n.",
+        "world": "exception",
+        "meaning": "例外；异议"
+      }
+    ]
+  },
+  "musicians": {
+    "world": "musician",
+    "phonetic": "mjuˈzɪʃ(ə)n",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "音乐家，乐师，作曲家"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "musical",
+        "meaning": "音乐的；悦耳的"
+      },
+      {
+        "pos": "adv.",
+        "world": "musically",
+        "meaning": "音乐上地；声音好听地"
+      },
+      {
+        "pos": "n.",
+        "world": "music",
+        "meaning": "音乐，乐曲"
+      },
+      {
+        "pos": "n.",
+        "world": "musicality",
+        "meaning": "音乐性；音感"
+      },
+      {
+        "pos": "n.",
+        "world": "musicianship",
+        "meaning": "音乐才能；音乐鉴赏力；音乐技巧"
+      },
+      {
+        "pos": "n.",
+        "world": "musicologist",
+        "meaning": "音乐学者，音乐理论家"
+      },
+      {
+        "pos": "n.",
+        "world": "musicology",
+        "meaning": "音乐学；音乐理论"
+      }
+    ]
+  },
+  "instrument": {
+    "world": "instrument",
+    "phonetic": "ˈɪnstrəmənt",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "器械；乐器；仪器；促成某事的人（或事物），手段；受利用（或控制）的人，工具；文据，正式法律文件"
+      },
+      {
+        "pos": "v.",
+        "meaning": "给……装备测量仪器"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "instrumental",
+        "meaning": "乐器的；有帮助的；仪器的，器械的"
+      },
+      {
+        "pos": "adj.",
+        "world": "instrumentalist",
+        "meaning": "工具主义的"
+      },
+      {
+        "pos": "n.",
+        "world": "instrumentation",
+        "meaning": "使用仪器；乐器法；仪表化"
+      },
+      {
+        "pos": "n.",
+        "world": "instrumentality",
+        "meaning": "手段；工具；机构"
+      },
+      {
+        "pos": "n.",
+        "world": "instrumentalism",
+        "meaning": "[劳经] 工具主义"
+      }
+    ]
+  },
+  "precocious": {
+    "world": "precocious",
+    "phonetic": "prɪˈkoʊʃəs",
+    "meaning": [
+      {
+        "pos": "adj.",
+        "meaning": "早熟的；过早发育的"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "precocial",
+        "meaning": "早熟性的"
+      },
+      {
+        "pos": "adv.",
+        "world": "precociously",
+        "meaning": "早熟地"
+      },
+      {
+        "pos": "n.",
+        "world": "precocity",
+        "meaning": "（人或植物等的）早熟"
+      },
+      {
+        "pos": "n.",
+        "world": "precociousness",
+        "meaning": "早熟"
+      }
+    ]
+  },
+  "exploring": {
+    "world": "explore",
+    "phonetic": "ɪkˈsplɔːr",
+    "meaning": [
+      {
+        "pos": "v.",
+        "meaning": "探讨，探究；考察，探索；（用手或身体其他部位）探查，仔细检查"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "explorative",
+        "meaning": "探究的；探险的；探测的"
+      },
+      {
+        "pos": "n.",
+        "world": "exploration",
+        "meaning": "探测；探究；踏勘"
+      },
+      {
+        "pos": "n.",
+        "world": "explorer",
+        "meaning": "探险家；探测者，探测器"
+      }
+    ]
+  },
+  "admired": {
+    "world": "admire",
+    "phonetic": "ədˈmaɪər",
+    "meaning": [
+      {
+        "pos": "v.",
+        "meaning": "钦佩，仰慕；欣赏，观赏"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "admirable",
+        "meaning": "令人钦佩的；极好的；值得赞扬的"
+      },
+      {
+        "pos": "adj.",
+        "world": "admired",
+        "meaning": "受人钦佩的；感到羡慕的"
+      },
+      {
+        "pos": "adj.",
+        "world": "admiring",
+        "meaning": "赞赏的，羡慕的"
+      },
+      {
+        "pos": "adv.",
+        "world": "admirably",
+        "meaning": "美好地，极好地；令人钦佩地"
+      },
+      {
+        "pos": "adv.",
+        "world": "admiringly",
+        "meaning": "钦佩地；羡慕地"
+      },
+      {
+        "pos": "n.",
+        "world": "admiration",
+        "meaning": "钦佩；赞赏；羡慕；赞美"
+      },
+      {
+        "pos": "n.",
+        "world": "admirer",
+        "meaning": "爱慕者；赞赏者；钦佩者"
+      }
+    ]
+  },
+  "shunned": {
+    "world": "shun",
+    "phonetic": "ʃʌn",
+    "meaning": [
+      {
+        "pos": "v.",
+        "meaning": "（故意）避开，躲开"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】 （Shun）（日）春（姓氏）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "shunning",
+        "meaning": "回避"
+      }
+    ]
+  },
+  "painting": {
+    "world": "paint",
+    "phonetic": "peɪnt",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "油漆，涂料；绘画颜料（paints）；（已干的）油漆层，涂层；<非正式>化妆，涂脂抹粉；（计算机）（尤指模拟真画效果的）绘图功能；<美>花马，杂色马；（篮球）三秒区"
+      },
+      {
+        "pos": "v.",
+        "meaning": "（给……）上油漆，（给……）涂颜料；用油漆（或涂料）覆盖（paint sth. out）；（用颜料）绘画；涂，抹（嘴唇、指甲等）；（以某种方式）描绘，描写；（计算机）用绘图程序作图；（在雷达屏幕上）显示（飞机，车辆）"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】 （Paint）（美）潘（人名）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "painted",
+        "meaning": "描画的；着色的；刷上油漆的"
+      },
+      {
+        "pos": "adj.",
+        "world": "paintable",
+        "meaning": "适于绘画的"
+      },
+      {
+        "pos": "adj.",
+        "world": "painterly",
+        "meaning": "画家的；美术的；开放式画风的"
+      },
+      {
+        "pos": "n.",
+        "world": "painting",
+        "meaning": "绘画；油画；着色"
+      },
+      {
+        "pos": "n.",
+        "world": "painter",
+        "meaning": "画家；油漆匠"
+      }
+    ]
+  },
+  "drawing": {
+    "world": "draw",
+    "phonetic": "drɔː",
+    "meaning": [
+      {
+        "pos": "v.",
+        "meaning": "画，绘画；草拟，制定；吸引，使注意；引起（反应）；获得，得到；推断出；抽出，吸出；（从银行账户）取出；拉，拖；利用，动用；抽（烟），吸（气）；放（血），抽（血）；拔出，掏出；以平局结束；抽签，抓阄；（向特定方向）移动；使说出，使吐露；作（比较或对比）；（船）吃（水）；（帆）吃饱风；（滚木球）使（球）朝预定的目标作弧线运动；（茶）被泡开"
+      },
+      {
+        "pos": "n.",
+        "meaning": "平局；抽彩，抽签；有吸引力的人（或事物）；吸烟；拔枪；（高尔夫）偏球；<非正式>大麻制品"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】 （Draw）（英）德劳（人名）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "drawn",
+        "meaning": "拔出的"
+      },
+      {
+        "pos": "n.",
+        "world": "drawing",
+        "meaning": "图画；牵引；素描术"
+      },
+      {
+        "pos": "n.",
+        "world": "drawer",
+        "meaning": "抽屉；[会计] 开票人"
+      }
+    ]
+  },
+  "dreamed": {
+    "world": "dream",
+    "phonetic": "driːm",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "梦；梦想；恍惚，出神；梦一般美妙的人或事物"
+      },
+      {
+        "pos": "v.",
+        "meaning": "做梦，梦见；梦想，想象；做白日梦，开小差；考虑，料想；白白浪费时间，虚度光阴"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "理想的，完美的"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "dreaming",
+        "meaning": "有梦想的"
+      },
+      {
+        "pos": "adj.",
+        "world": "dreamy",
+        "meaning": "梦想的；空幻的；轻柔的；恍惚的"
+      },
+      {
+        "pos": "adj.",
+        "world": "dreamless",
+        "meaning": "无梦的，不做梦的"
+      },
+      {
+        "pos": "adj.",
+        "world": "dreamlike",
+        "meaning": "梦一般的；朦胧的"
+      },
+      {
+        "pos": "adv.",
+        "world": "dreamfully",
+        "meaning": "梦多地；经常容易梦见地"
+      },
+      {
+        "pos": "adv.",
+        "world": "dreamily",
+        "meaning": "梦似地，朦胧地；爱梦想地"
+      },
+      {
+        "pos": "n.",
+        "world": "dreamer",
+        "meaning": "梦想家；做梦的人；不切实际的人"
+      },
+      {
+        "pos": "n.",
+        "world": "dreaminess",
+        "meaning": "多梦；朦胧；梦幻状态；耽于幻想"
+      }
+    ]
+  },
+  "novelist": {
+    "world": "novelist",
+    "phonetic": "ˈnɑːvəlɪst",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "小说家"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "novel",
+        "meaning": "新奇的；异常的"
+      },
+      {
+        "pos": "vt.",
+        "world": "novelize",
+        "meaning": "使小说化；编成小说"
+      }
+    ]
+  },
+  "prestigious": {
+    "world": "prestigious",
+    "phonetic": "preˈstiːdʒəs",
+    "meaning": [
+      {
+        "pos": "adj.",
+        "meaning": "有威望的，有声望的"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "prestige",
+        "meaning": "威望，声望；声誉"
+      }
+    ]
+  },
+  "prize": {
+    "world": "prize",
+    "phonetic": "praɪz",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "奖品，奖项；非常珍贵的人（或物），十分重要的人（或物）；<史>（海战中）缴获的敌船"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "可获奖的，优等的；作为奖品的；获奖的；有奖的；<英，非正式>完全的；非常重要的，珍贵的"
+      },
+      {
+        "pos": "v.",
+        "meaning": "珍视，高度重视；<美>撬开；竭力打探（消息等）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "prizewinning",
+        "meaning": "有得奖可能的；已获奖的"
+      }
+    ]
+  },
+  "flaming": {
+    "world": "flame",
+    "phonetic": "fleɪm",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "火焰，火舌；强烈的感情，激情；含辱骂内容的电子邮件；<非正式>恋人，情人"
+      },
+      {
+        "pos": "v.",
+        "meaning": "燃烧；（感情）爆发；（因激动而）变红；发送辱骂资讯"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】 （Flame）（法）弗拉姆，（西）弗拉梅（人名）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "flamboyant",
+        "meaning": "艳丽的；火焰似的；炫耀的"
+      },
+      {
+        "pos": "adj.",
+        "world": "flaming",
+        "meaning": "燃烧的；火红的；激昂的"
+      },
+      {
+        "pos": "n.",
+        "world": "flamethrower",
+        "meaning": "火焰喷射器；喷火器"
+      }
+    ]
+  },
+  "spectacularly": {
+    "world": "spectacularly",
+    "phonetic": "spekˈtækjələrli",
+    "meaning": [
+      {
+        "pos": "adv.",
+        "meaning": "壮观地；引人注目地；令人印象深刻地，非常"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "spectacular",
+        "meaning": "壮观的，惊人的；公开展示的"
+      },
+      {
+        "pos": "n.",
+        "world": "spectacle",
+        "meaning": "景象，奇观；眼镜；引人羡慕的人"
+      },
+      {
+        "pos": "n.",
+        "world": "spectinomycin",
+        "meaning": "奇放线菌素，[微] 壮观霉素，奇霉素"
+      }
+    ]
+  },
+  "philosophy": {
+    "world": "philosophy",
+    "phonetic": "fəˈlɑːsəfi",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "哲学；哲学体系，思想体系；人生哲学，生活（工作）准则；（某一知识或经验领域的）理论基础研究，基本原理"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "philosophic",
+        "meaning": "哲学的；贤明的"
+      },
+      {
+        "pos": "adv.",
+        "world": "philosophically",
+        "meaning": "哲学上；贤明地"
+      },
+      {
+        "pos": "n.",
+        "world": "philosopher",
+        "meaning": "哲学家；哲人"
+      },
+      {
+        "pos": "n.",
+        "world": "philosophizer",
+        "meaning": "哲理家"
+      },
+      {
+        "pos": "n.",
+        "world": "philosophizing",
+        "meaning": "哲学思维"
+      },
+      {
+        "pos": "vi.",
+        "world": "philosophize",
+        "meaning": "进行哲学探讨，理性地思考"
+      }
+    ]
+  },
+  "fulfill": {
+    "world": "fulfill",
+    "phonetic": "fʊlˈfɪl",
+    "meaning": [
+      {
+        "pos": "vt.",
+        "meaning": "履行；实现；满足；使结束（等于 fulfil）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "fulfillment",
+        "meaning": "履行；实行"
+      },
+      {
+        "pos": "n.",
+        "world": "fulfilment",
+        "meaning": "实现；成就"
+      }
+    ]
+  },
+  "requirement": {
+    "world": "requirement",
+    "phonetic": "rɪˈkwaɪərmənt",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "要求，必要条件；需要（要求）的事物"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "required",
+        "meaning": "必需的；（美）必修的"
+      },
+      {
+        "pos": "vt.",
+        "world": "require",
+        "meaning": "需要；要求；命令"
+      }
+    ]
+  },
+  "statements": {
+    "world": "statement",
+    "phonetic": "ˈsteɪtmənt",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "声明，报告；说明，说法，表态；结算单，报表；（某观点的） 表达；（嫌犯或证人向警方提供的） 陈述，证词；（文字）陈述，表述；评估报告（英国地方教育主管部门针对儿童的特殊需要而提出意见）；（乐）（作品主题或旋律的）呈现；（计算机程序中的）语句"
+      },
+      {
+        "pos": "vt.",
+        "meaning": "对儿童进行特殊教育评估认定"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "state",
+        "meaning": "国家的；州的；正式的"
+      },
+      {
+        "pos": "adj.",
+        "world": "stated",
+        "meaning": "规定的；阐明的；定期的"
+      }
+    ]
+  },
+  "solved": {
+    "world": "solve",
+    "phonetic": "sɑːlv",
+    "meaning": [
+      {
+        "pos": "v.",
+        "meaning": "解决，处理；解释，解答"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "solvent",
+        "meaning": "有偿付能力的；有溶解力的"
+      },
+      {
+        "pos": "adj.",
+        "world": "solved",
+        "meaning": "解决了的"
+      },
+      {
+        "pos": "adj.",
+        "world": "solvable",
+        "meaning": "可以解决的；可以解的；可溶的"
+      },
+      {
+        "pos": "n.",
+        "world": "solution",
+        "meaning": "解决方案；溶液；溶解；解答"
+      },
+      {
+        "pos": "n.",
+        "world": "solvency",
+        "meaning": "偿付能力；溶解力"
+      },
+      {
+        "pos": "n.",
+        "world": "solubility",
+        "meaning": "溶解度；可解决性"
+      },
+      {
+        "pos": "n.",
+        "world": "solver",
+        "meaning": "解决者；[计] 解算机；[数] 求解程序"
+      },
+      {
+        "pos": "n.",
+        "world": "solvation",
+        "meaning": "[化学] 溶解；[化学] 溶剂化作用；溶化"
+      },
+      {
+        "pos": "n.",
+        "world": "solubleness",
+        "meaning": "溶解度，可溶性"
+      },
+      {
+        "pos": "n.",
+        "world": "solvability",
+        "meaning": "[数] 可解性；解决之可能性；溶解度"
+      },
+      {
+        "pos": "v.",
+        "world": "solving",
+        "meaning": "解决"
+      }
+    ]
+  },
+  "led": {
+    "world": "led",
+    "phonetic": "led",
+    "meaning": [
+      {
+        "pos": "v.",
+        "meaning": "领导；通向；指引；导致（lead 的过去分词）"
+      }
+    ]
+  },
+  "underlies": {
+    "world": "underlie",
+    "phonetic": "ˌʌndərˈlaɪ",
+    "meaning": [
+      {
+        "pos": "vt.",
+        "meaning": "构成……的基础，为……的起因；位于……的下面"
+      }
+    ]
+  },
+  "athlete": {
+    "world": "athlete",
+    "phonetic": "ˈæθliːt",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "运动员，体育健将；擅长运动的人"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "athletic",
+        "meaning": "运动的，运动员的；体格健壮的"
+      },
+      {
+        "pos": "n.",
+        "world": "athleticism",
+        "meaning": "崇尚运动，竞技热；运动竞赛"
+      }
+    ]
+  },
+  "tennis": {
+    "world": "tennis",
+    "phonetic": "ˈtenɪs",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "网球"
+      },
+      {
+        "pos": "n.",
+        "meaning": "（Tennis）（英）坦尼斯（人名）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "tennist",
+        "meaning": "网球运动员"
+      }
+    ]
+  },
+  "skiing": {
+    "world": "ski",
+    "phonetic": "skiː",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "滑雪（水）板；（车辆的）滑橇；水橇，滑水撬（=waterski）"
+      },
+      {
+        "pos": "v.",
+        "meaning": "滑雪，滑水"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "滑雪的，滑水的"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "skiing",
+        "meaning": "滑雪运动；滑雪术"
+      },
+      {
+        "pos": "n.",
+        "world": "skier",
+        "meaning": "滑雪的人"
+      }
+    ]
+  },
+  "wrestling": {
+    "world": "wrestle",
+    "phonetic": "ˈres(ə)l",
+    "meaning": [
+      {
+        "pos": "v.",
+        "meaning": "（与某人）摔跤，扭打；使劲搬动，用力操作；努力解决，艰难对付"
+      },
+      {
+        "pos": "n.",
+        "meaning": "摔跤，角力；艰苦的斗争，搏斗"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "wrestling",
+        "meaning": "摔跤；扭斗"
+      },
+      {
+        "pos": "n.",
+        "world": "wrestler",
+        "meaning": "摔跤选手，搏斗者"
+      }
+    ]
+  },
+  "actually": {
+    "world": "actually",
+    "phonetic": "ˈæktʃuəli",
+    "meaning": [
+      {
+        "pos": "adv.",
+        "meaning": "实际上，事实上；（用于开始新话题）其实；竟然，居然"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "actual",
+        "meaning": "真实的，实际的；现行的，目前的"
+      },
+      {
+        "pos": "n.",
+        "world": "actualization",
+        "meaning": "实现；现实化"
+      },
+      {
+        "pos": "n.",
+        "world": "actuality",
+        "meaning": "现状；现实；事实"
+      },
+      {
+        "pos": "vi.",
+        "world": "actualise",
+        "meaning": "成为现实；发挥出潜力（等于actualize）"
+      },
+      {
+        "pos": "vt.",
+        "world": "actualize",
+        "meaning": "实施，实行；实现"
+      }
+    ]
+  },
+  "coach": {
+    "world": "coach",
+    "phonetic": "koʊtʃ",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "教练；私人教师；长途客车，长途汽车；火车车厢；四轮大马车；（飞机）经济舱，（火车）普通车厢；<美>（体育队的）领队；（棒球运动中的）跑垒指挥员；教练"
+      },
+      {
+        "pos": "v.",
+        "meaning": "训练，指导；（尤指私人）辅导；指示，专门传授；乘火车（或汽车、马车）旅行"
+      },
+      {
+        "pos": "adv.",
+        "meaning": "<美>乘（飞机、火车的）经济舱地"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "coaching",
+        "meaning": "辅导；教练技术"
+      }
+    ]
+  },
+  "declined": {
+    "world": "decline",
+    "phonetic": "dɪˈklaɪn",
+    "meaning": [
+      {
+        "pos": "v.",
+        "meaning": "下降，衰退；拒绝，谢绝；变格，词形变化"
+      },
+      {
+        "pos": "n.",
+        "meaning": "减少，衰退"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "declination",
+        "meaning": "倾斜；偏差；衰微"
+      }
+    ]
+  },
+  "handball": {
+    "world": "handball",
+    "phonetic": "ˈhændbɔːl",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "手球，手球运动"
+      }
+    ]
+  },
+  "volleyball": {
+    "world": "volleyball",
+    "phonetic": "ˈvɑːlibɔːl",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "排球"
+      }
+    ]
+  },
+  "soccer": {
+    "world": "soccer",
+    "phonetic": "ˈsɑːkər",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "英式足球，足球"
+      }
+    ]
+  },
+  "badminton": {
+    "world": "badminton",
+    "phonetic": "ˈbædmɪntən",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "羽毛球"
+      }
+    ]
+  },
+  "skateboarding": {
+    "world": "skateboard",
+    "phonetic": "ˈskeɪtbɔːrd",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "滑板"
+      },
+      {
+        "pos": "v.",
+        "meaning": "（在滑板上）滑行"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "skate",
+        "meaning": "溜冰；冰鞋"
+      },
+      {
+        "pos": "n.",
+        "world": "skating",
+        "meaning": "溜冰，滑冰"
+      },
+      {
+        "pos": "n.",
+        "world": "skateboarding",
+        "meaning": "滑板运动"
+      },
+      {
+        "pos": "n.",
+        "world": "skater",
+        "meaning": "溜冰者"
+      },
+      {
+        "pos": "n.",
+        "world": "skateboarder",
+        "meaning": "滑溜冰板的人；滑板运动员"
+      }
+    ]
+  },
+  "enthusiasts": {
+    "world": "enthusiast",
+    "phonetic": "ɪnˈθuːziæst",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "热衷者，爱好者；热烈支持者，热情赞成者；<古>基督教狂热分子"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "enthusiastic",
+        "meaning": "热情的；热心的；狂热的"
+      },
+      {
+        "pos": "adv.",
+        "world": "enthusiastically",
+        "meaning": "热心地；满腔热情地"
+      }
+    ]
+  },
+  "dramatic": {
+    "world": "dramatic",
+    "phonetic": "drəˈmætɪk",
+    "meaning": [
+      {
+        "pos": "adj.",
+        "meaning": "巨大而突然的，急剧的；激动人心的，引人注目的，给人深刻印象的；有关戏剧的，戏剧表演的；夸张的"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "dramaturgic",
+        "meaning": "编剧法的，戏剧作法的；演出的"
+      },
+      {
+        "pos": "adv.",
+        "world": "dramatically",
+        "meaning": "戏剧地；引人注目地"
+      },
+      {
+        "pos": "n.",
+        "world": "drama",
+        "meaning": "戏剧，戏剧艺术；剧本；戏剧性事件"
+      },
+      {
+        "pos": "n.",
+        "world": "dramatization",
+        "meaning": "编剧；改编成戏剧"
+      },
+      {
+        "pos": "n.",
+        "world": "dramatics",
+        "meaning": "演剧活动；演剧技术；业余演戏；戏剧性行为"
+      },
+      {
+        "pos": "n.",
+        "world": "dramaturgy",
+        "meaning": "演出法；戏剧作法"
+      },
+      {
+        "pos": "vi.",
+        "world": "dramatize",
+        "meaning": "戏剧化"
+      },
+      {
+        "pos": "vi.",
+        "world": "dramatise",
+        "meaning": "戏剧化；可改编成剧本（等于dramatize）"
+      }
+    ]
+  },
+  "tidy": {
+    "world": "tidy",
+    "phonetic": "ˈtaɪdi",
+    "meaning": [
+      {
+        "pos": "adj.",
+        "meaning": "整洁的，有条理的；（人）爱整洁的，爱整齐的；<非正式>（款额）巨大的；相当好的，令人满意的"
+      },
+      {
+        "pos": "v.",
+        "meaning": "使整洁，整理"
+      },
+      {
+        "pos": "n.",
+        "meaning": "盛零碎物品的容器；<英>整理，收拾；<美>（椅子靠背的）罩单，套子"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】 （Tidy）泰迪（人名）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adv.",
+        "world": "tidily",
+        "meaning": "整齐地；整洁地"
+      },
+      {
+        "pos": "n.",
+        "world": "tidiness",
+        "meaning": "整齐；干净整洁"
+      }
+    ]
+  },
+  "narrative": {
+    "world": "narrative",
+    "phonetic": "ˈnærətɪv",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "记叙文，叙述；叙事技巧"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "叙述的；叙事体的"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "narrator",
+        "meaning": "叙述者；解说员"
+      },
+      {
+        "pos": "n.",
+        "world": "narration",
+        "meaning": "叙述，讲述；故事"
+      },
+      {
+        "pos": "vi.",
+        "world": "narrate",
+        "meaning": "叙述；讲述"
+      }
+    ]
+  },
+  "extrapolate": {
+    "world": "extrapolate",
+    "phonetic": "ɪkˈstræpəleɪt",
+    "meaning": [
+      {
+        "pos": "vt.",
+        "meaning": "外推；推断"
+      },
+      {
+        "pos": "vi.",
+        "meaning": "外推；进行推断"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "extrapolated",
+        "meaning": "推测的"
+      },
+      {
+        "pos": "n.",
+        "world": "extrapolation",
+        "meaning": "[数] 外推法；推断"
+      }
+    ]
+  },
+  "uniquely": {
+    "world": "uniquely",
+    "phonetic": "juˈniːkli",
+    "meaning": [
+      {
+        "pos": "adv.",
+        "meaning": "独特地；珍奇地"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "unique",
+        "meaning": "独特的，稀罕的；[数] 唯一的，独一无二的"
+      },
+      {
+        "pos": "n.",
+        "world": "uniqueness",
+        "meaning": "独特性；独一无二；单值性"
+      }
+    ]
+  },
+  "horrible": {
+    "world": "horrible",
+    "phonetic": "ˈhɔːrəb(ə)l",
+    "meaning": [
+      {
+        "pos": "adj.",
+        "meaning": "可怕的，令人恐惧的；糟糕的，讨厌的；不友好的"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "horrid",
+        "meaning": "可怕的；恐怖的；极讨厌的"
+      },
+      {
+        "pos": "adj.",
+        "world": "horrendous",
+        "meaning": "可怕的；惊人的"
+      },
+      {
+        "pos": "adj.",
+        "world": "horrific",
+        "meaning": "可怕的；令人毛骨悚然的"
+      },
+      {
+        "pos": "adv.",
+        "world": "horribly",
+        "meaning": "可怕地；非常地"
+      },
+      {
+        "pos": "adv.",
+        "world": "horridly",
+        "meaning": "可怕地；讨厌地"
+      },
+      {
+        "pos": "n.",
+        "world": "horridness",
+        "meaning": "怕人；讨厌"
+      }
+    ]
+  },
+  "epitome": {
+    "world": "epitome",
+    "phonetic": "ɪˈpɪtəmi",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "典型，缩影；摘要，概要"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "vt.",
+        "world": "epitomize",
+        "meaning": "摘要；概括；成为…的缩影"
+      },
+      {
+        "pos": "vt.",
+        "world": "epitomise",
+        "meaning": "象征；体现；代表（等于epitomize）"
+      }
+    ]
+  },
+  "psychologist": {
+    "world": "psychologist",
+    "phonetic": "saɪˈkɑːlədʒɪst",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "心理学家"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "psychological",
+        "meaning": "心理的；心理学的；精神上的"
+      },
+      {
+        "pos": "adj.",
+        "world": "psychometric",
+        "meaning": "心理测量的"
+      },
+      {
+        "pos": "adj.",
+        "world": "psychoanalytic",
+        "meaning": "精神分析的；心理分析的"
+      },
+      {
+        "pos": "adj.",
+        "world": "psychogenic",
+        "meaning": "精神性的，心理性的"
+      },
+      {
+        "pos": "adj.",
+        "world": "psychopathological",
+        "meaning": "精神病理学的"
+      },
+      {
+        "pos": "adv.",
+        "world": "psychologically",
+        "meaning": "心理上地；心理学地"
+      },
+      {
+        "pos": "n.",
+        "world": "psychology",
+        "meaning": "心理学；心理状态"
+      },
+      {
+        "pos": "n.",
+        "world": "psycholinguistic",
+        "meaning": "心理语言学"
+      },
+      {
+        "pos": "n.",
+        "world": "psychogenesis",
+        "meaning": "[心理] 心理发生；精神发生"
+      },
+      {
+        "pos": "n.",
+        "world": "psychometrics",
+        "meaning": "[心理] 心理测验学"
+      },
+      {
+        "pos": "n.",
+        "world": "psychometry",
+        "meaning": "心理测验；心理测定学；心灵占卜术"
+      }
+    ]
+  },
+  "environment": {
+    "world": "environment",
+    "phonetic": "ɪnˈvaɪrənmənt",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "自然环境，生态环境；周围状况，条件；工作平台，软件包"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "environmental",
+        "meaning": "环境的，周围的；有关环境的"
+      },
+      {
+        "pos": "adv.",
+        "world": "environmentally",
+        "meaning": "有关环境方面"
+      },
+      {
+        "pos": "n.",
+        "world": "environmentalist",
+        "meaning": "环保人士；环境论者；研究环境问题的专家"
+      },
+      {
+        "pos": "n.",
+        "world": "environmentalism",
+        "meaning": "环境保护论"
+      },
+      {
+        "pos": "vt.",
+        "world": "environ",
+        "meaning": "环绕；包围；（敌意地或保护性的）围住"
+      }
+    ]
+  },
+  "feedback": {
+    "world": "feedback",
+    "phonetic": "ˈfiːdbæk",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "反馈意见；（信号返回电子音响系统所致的）噪声；（返回机器、系统或者程序的）返回信息，返回电流"
+      }
+    ]
+  },
+  "accurate": {
+    "world": "accurate",
+    "phonetic": "ˈækjərət",
+    "meaning": [
+      {
+        "pos": "adj.",
+        "meaning": "准确的，精确的；（工具，方法）精密的；正确无误的；（武器、投掷）精准的"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adv.",
+        "world": "accurately",
+        "meaning": "精确地，准确地"
+      },
+      {
+        "pos": "n.",
+        "world": "accuracy",
+        "meaning": "[数] 精确度，准确性"
+      }
+    ]
+  },
+  "spectrum": {
+    "world": "spectrum",
+    "phonetic": "ˈspektrəm",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "范围，幅度；光谱；波谱，频谱；余象"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "spectroscopic",
+        "meaning": "光谱学的；分光镜的"
+      },
+      {
+        "pos": "adj.",
+        "world": "spectrographic",
+        "meaning": "光谱的"
+      },
+      {
+        "pos": "adj.",
+        "world": "spectrometric",
+        "meaning": "光谱测定的；度谱的；分光仪的；能谱仪的"
+      },
+      {
+        "pos": "n.",
+        "world": "spectroscopy",
+        "meaning": "[光] 光谱学"
+      },
+      {
+        "pos": "n.",
+        "world": "spectrometry",
+        "meaning": "[物][光][分化] 光谱测定法，[光] 度谱术"
+      }
+    ]
+  },
+  "wicked": {
+    "world": "wicked",
+    "phonetic": "ˈwɪkɪd",
+    "meaning": [
+      {
+        "pos": "adj.",
+        "meaning": "邪恶的，不道德的；恶作剧的，淘气的，调皮的；<非正式>很坏的，恶劣的；<非正式>很棒的，极好的；<非正式>令人不快的，令人厌恶的"
+      },
+      {
+        "pos": "adv.",
+        "meaning": "<非正式>极其，非常"
+      },
+      {
+        "pos": "n.",
+        "meaning": "恶人，邪恶的人（the wicked）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adv.",
+        "world": "wickedly",
+        "meaning": "恶劣地；居心叵测地"
+      },
+      {
+        "pos": "n.",
+        "world": "wickedness",
+        "meaning": "邪恶；不道德"
+      }
+    ]
+  },
+  "delayed": {
+    "world": "delay",
+    "phonetic": "dɪˈleɪ",
+    "meaning": [
+      {
+        "pos": "v.",
+        "meaning": "推迟，延期；延误，耽搁；（故意）拖延，磨蹭"
+      },
+      {
+        "pos": "n.",
+        "meaning": "延期，推迟；延误，耽搁；延迟器"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】 （Delay）（美）德莱（人名）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "delayed",
+        "meaning": "延时的；定时的"
+      },
+      {
+        "pos": "n.",
+        "world": "delayer",
+        "meaning": "缓燃剂，延缓剂；延迟器"
+      }
+    ]
+  },
+  "inaccurate": {
+    "world": "inaccurate",
+    "phonetic": "ɪnˈækjərət",
+    "meaning": [
+      {
+        "pos": "adj.",
+        "meaning": "不精确的，不准确的"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adv.",
+        "world": "inaccurately",
+        "meaning": "不准确地；不正确地"
+      },
+      {
+        "pos": "n.",
+        "world": "inaccuracy",
+        "meaning": "错误；不精确"
+      }
+    ]
+  },
+  "increasingly": {
+    "world": "increasingly",
+    "phonetic": "ɪnˈkriːsɪŋli",
+    "meaning": [
+      {
+        "pos": "adv.",
+        "meaning": "越来越多地，不断增加地"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "increasing",
+        "meaning": "越来越多的，渐增的"
+      }
+    ]
+  },
+  "hyper": {
+    "world": "hyper",
+    "phonetic": "ˈhaɪpər",
+    "meaning": [
+      {
+        "pos": "adj.",
+        "meaning": "<非正式>（行为）兴奋的，紧张的"
+      },
+      {
+        "pos": "n.",
+        "meaning": "宣传人员"
+      }
+    ]
+  },
+  "trick": {
+    "world": "trick",
+    "phonetic": "trɪk",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "花招，诡计，骗局；窍门，技巧；戏法，把戏；恶作剧，戏弄；引起错觉（或记忆紊乱）的事物；（纸牌的）一圈，一墩；（特别的）习惯，方式；舵手的一班（一般为二或四小时）；<非正式>嫖客"
+      },
+      {
+        "pos": "v.",
+        "meaning": "欺骗，哄骗；（纹章）（用由字母、符号标明的颜色）给（盾形徽章）勾勒轮廓"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "骗人的，使人产生错觉的；<美>（身体部位）虚弱的，有毛病的；巧妙的，取乐的"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】 （Trick）（英）特里克（人名）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "tricksy",
+        "meaning": "欺骗的，狡猾的；恶作剧的；顽皮的"
+      },
+      {
+        "pos": "adv.",
+        "world": "trickily",
+        "meaning": "狡猾地；欺诈地；用奸计"
+      },
+      {
+        "pos": "n.",
+        "world": "trickery",
+        "meaning": "欺骗；诡计；奸计"
+      },
+      {
+        "pos": "n.",
+        "world": "tricker",
+        "meaning": "恶作剧者，欺骗者"
+      },
+      {
+        "pos": "n.",
+        "world": "trickiness",
+        "meaning": "诡计多端；狡猾；棘手；欺骗"
+      }
+    ]
+  },
+  "meandering": {
+    "world": "meander",
+    "phonetic": "miˈændər",
+    "meaning": [
+      {
+        "pos": "v.",
+        "meaning": "（河流、道路等）蜿蜒，曲折前行；漫步，闲逛，徘徊；漫谈，闲聊；（文章）行文散漫"
+      },
+      {
+        "pos": "n.",
+        "meaning": "河流（或道路）弯道，河曲；漫游"
+      }
+    ]
+  },
+  "zigzagging": {
+    "world": "zigzag",
+    "phonetic": "ˈzɪɡzæɡ",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "之字形，锯齿形线条；（之字形路线中的）急转弯；行动、计划或想法突然变来变去"
+      },
+      {
+        "pos": "v.",
+        "meaning": "呈之字形移动，曲折行进；突然且彻底地变化，随后又突然变回原样"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "之字形的，曲折的"
+      },
+      {
+        "pos": "adv.",
+        "meaning": "之字形地，曲折地"
+      }
+    ]
+  },
+  "keeping": {
+    "world": "keep",
+    "phonetic": "kiːp",
+    "meaning": [
+      {
+        "pos": "v.",
+        "meaning": "（使）保持，（使）留在；继续，重复；耽搁，延误；保有，留下；存放，储存；经营，管理；保鲜；保守（秘密）；遵守；记录，记载；饲养；供养；保护；（按规定）纪念，庆祝；守门；尊重（法律或习俗）"
+      },
+      {
+        "pos": "n.",
+        "meaning": "生活必需品，生活费用；城堡主楼"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】 （Keep）（英）基普（人名）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "kept",
+        "meaning": "受人资助控制的"
+      },
+      {
+        "pos": "n.",
+        "world": "keeper",
+        "meaning": "监护人；饲养员；看守人；管理人"
+      },
+      {
+        "pos": "n.",
+        "world": "keeping",
+        "meaning": "保管；一致；协调；遵守"
+      }
+    ]
+  },
+  "broader": {
+    "world": "broad",
+    "phonetic": "brɔːd",
+    "meaning": [
+      {
+        "pos": "adj.",
+        "meaning": "宽广的，宽阔的；……宽；咧开嘴的；广泛的，普遍的；大致的，概括的；明确的，明显的；粗俗滑稽的；口音重的"
+      },
+      {
+        "pos": "n.",
+        "meaning": "<美>对女人的粗俗称呼；宽阔部分"
+      },
+      {
+        "pos": "adv.",
+        "meaning": "宽阔地"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】 （Broad）（英、德）布罗德（人名）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adv.",
+        "world": "broadly",
+        "meaning": "明显地；宽广地；概括地；露骨地；粗鄙地"
+      },
+      {
+        "pos": "n.",
+        "world": "breadth",
+        "meaning": "宽度，幅度；宽宏"
+      },
+      {
+        "pos": "n.",
+        "world": "broadness",
+        "meaning": "宽阔；广大；粗野；露骨；宽宏大量"
+      },
+      {
+        "pos": "vi.",
+        "world": "broaden",
+        "meaning": "扩大，变阔；变宽，加宽"
+      }
+    ]
+  },
+  "technological": {
+    "world": "technological",
+    "phonetic": "ˌteknəˈlɑːdʒɪk(ə)l",
+    "meaning": [
+      {
+        "pos": "adj.",
+        "meaning": "技术的，科技的，工艺的"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "technical",
+        "meaning": "工艺的，科技的；技术上的；专门的"
+      },
+      {
+        "pos": "adv.",
+        "world": "technically",
+        "meaning": "技术上；专门地；学术上；工艺上"
+      },
+      {
+        "pos": "adv.",
+        "world": "technologically",
+        "meaning": "科技地；技术上地"
+      },
+      {
+        "pos": "n.",
+        "world": "technology",
+        "meaning": "技术；工艺；术语"
+      },
+      {
+        "pos": "n.",
+        "world": "technique",
+        "meaning": "技巧，技术；手法"
+      },
+      {
+        "pos": "n.",
+        "world": "technician",
+        "meaning": "技师，技术员；技巧纯熟的人"
+      },
+      {
+        "pos": "n.",
+        "world": "technologist",
+        "meaning": "技术专家；工艺学家"
+      },
+      {
+        "pos": "n.",
+        "world": "technocrat",
+        "meaning": "技术统治论者；专家政治论者；技术统治"
+      },
+      {
+        "pos": "n.",
+        "world": "technophile",
+        "meaning": "技术爱好者"
+      },
+      {
+        "pos": "n.",
+        "world": "technocracy",
+        "meaning": "专家管理；专家政治论，技术统治论"
+      },
+      {
+        "pos": "n.",
+        "world": "technophobe",
+        "meaning": "技术恐惧者"
+      },
+      {
+        "pos": "n.",
+        "world": "technophobia",
+        "meaning": "技术恐惧（指对技术对社会及环境造成不良影响的恐惧）"
+      }
+    ]
+  },
+  "innovation": {
+    "world": "innovation",
+    "phonetic": "ˌɪnəˈveɪʃ(ə)n",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "新事物，新方法；革新，创新"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "innovative",
+        "meaning": "革新的，创新的"
+      },
+      {
+        "pos": "adj.",
+        "world": "innovational",
+        "meaning": "革新的；富有革新精神的"
+      },
+      {
+        "pos": "n.",
+        "world": "innovator",
+        "meaning": "改革者，创新者"
+      },
+      {
+        "pos": "n.",
+        "world": "innovativeness",
+        "meaning": "创新性，创新精神"
+      },
+      {
+        "pos": "vi.",
+        "world": "innovate",
+        "meaning": "创新；改革；革新"
+      }
+    ]
+  },
+  "impactful": {
+    "world": "impactful",
+    "phonetic": "ɪmˈpæktfl",
+    "meaning": [
+      {
+        "pos": "adj.",
+        "meaning": "有效的；有力的"
+      }
+    ]
+  },
+  "patents": {
+    "world": "patent",
+    "phonetic": "ˈpæt(ə)nt",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "专利（权），专利证书；专利发明"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "受专利保护的，专利的；专利生产的，专利经销的；显而易见的，赤裸裸的；（寄生虫感染）明显的，显著的；（脉管、导管或孔）开放的，不闭合的"
+      },
+      {
+        "pos": "v.",
+        "meaning": "获得……的专利权；授予专利"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "patented",
+        "meaning": "专利的"
+      },
+      {
+        "pos": "n.",
+        "world": "patentee",
+        "meaning": "专利权所有人"
+      }
+    ]
+  },
+  "individuals": {
+    "world": "individual",
+    "phonetic": "ˌɪndɪˈvɪdʒuəl",
+    "meaning": [
+      {
+        "pos": "adj.",
+        "meaning": "单独的，个别的；个人的；独特的，与众不同的"
+      },
+      {
+        "pos": "n.",
+        "meaning": "个人，个体；与众不同的人，有个性的人；某种类型的人"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "individualistic",
+        "meaning": "个人主义的；利己主义的"
+      },
+      {
+        "pos": "adj.",
+        "world": "individualized",
+        "meaning": "个人的；有个性的；具有个人特色的"
+      },
+      {
+        "pos": "adv.",
+        "world": "individually",
+        "meaning": "个别地，单独地"
+      },
+      {
+        "pos": "n.",
+        "world": "individualism",
+        "meaning": "个人主义；利己主义；个人特征"
+      },
+      {
+        "pos": "n.",
+        "world": "individualist",
+        "meaning": "利己主义者，个人主义者"
+      },
+      {
+        "pos": "n.",
+        "world": "individualization",
+        "meaning": "个性化；个体化"
+      },
+      {
+        "pos": "v.",
+        "world": "individualise",
+        "meaning": "赋予个性"
+      },
+      {
+        "pos": "vt.",
+        "world": "individualize",
+        "meaning": "赋予个性；个别处理；使适应个别需要"
+      },
+      {
+        "pos": "vt.",
+        "world": "individuate",
+        "meaning": "个别化；表现区别；一一列举；赋予个性；使个体化"
+      }
+    ]
+  },
+  "technology": {
+    "world": "technology",
+    "phonetic": "tekˈnɑːlədʒi",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "科技，技术；技术设备，先进机器；技术学，工艺学；术语"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "technological",
+        "meaning": "技术的；工艺的"
+      },
+      {
+        "pos": "adv.",
+        "world": "technically",
+        "meaning": "技术上；专门地；学术上；工艺上"
+      },
+      {
+        "pos": "adv.",
+        "world": "technologically",
+        "meaning": "科技地；技术上地"
+      },
+      {
+        "pos": "n.",
+        "world": "technique",
+        "meaning": "技巧，技术；手法"
+      },
+      {
+        "pos": "n.",
+        "world": "technician",
+        "meaning": "技师，技术员；技巧纯熟的人"
+      },
+      {
+        "pos": "n.",
+        "world": "technologist",
+        "meaning": "技术专家；工艺学家"
+      },
+      {
+        "pos": "n.",
+        "world": "technicality",
+        "meaning": "学术性；专门性；术语，专门语"
+      },
+      {
+        "pos": "n.",
+        "world": "technocrat",
+        "meaning": "技术统治论者；专家政治论者；技术统治"
+      },
+      {
+        "pos": "n.",
+        "world": "technophile",
+        "meaning": "技术爱好者"
+      },
+      {
+        "pos": "n.",
+        "world": "technocracy",
+        "meaning": "专家管理；专家政治论，技术统治论"
+      },
+      {
+        "pos": "n.",
+        "world": "technophobe",
+        "meaning": "技术恐惧者"
+      },
+      {
+        "pos": "n.",
+        "world": "technophobia",
+        "meaning": "技术恐惧（指对技术对社会及环境造成不良影响的恐惧）"
+      }
+    ]
+  },
+  "forefront": {
+    "world": "forefront",
+    "phonetic": "ˈfɔːrfrʌnt",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "重要位置，最前沿；（思考、关注的）重心"
+      }
+    ]
+  },
+  "score": {
+    "world": "score",
+    "phonetic": "skɔːr",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "（游戏或比赛中的）得分，比分；（测验的）评分，分数；<非正式>实情，真相（the score）；<非正式>毒品到手；<非正式>犯罪所得；<正式>二十，约二十个（复数 score）；<正式>很多，大量（scores）；（一首乐曲的）总谱；（电影或戏剧的）配乐；刻痕，划痕；宿怨；<史>（尤指酒馆中有对应顾客名字刻痕的）往来账户"
+      },
+      {
+        "pos": "v.",
+        "meaning": "（在运动、比赛或考试中）得（分）；评分，打分数；（在游戏或比赛中）记分；（棒球）使（队友）得分；<非正式>（使）成功，赢得；<英，非正式> （尤指在辩论等活动中机灵地）驳倒，挫败（score off）；<非正式>购买，弄到（毒品）；<美，非正式>得到（某事物）；<非正式>（通常指与新认识的人）发生性关系；为……写总谱，为……配乐；（在表面上）刻痕，画线；画掉，删去（score sth. out/through）；检测（实验细胞、菌落等），并记录有某种特征的数量"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】  （Score）（英）斯科尔（人名）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "scoring",
+        "meaning": "得分的"
+      },
+      {
+        "pos": "adj.",
+        "world": "scoreless",
+        "meaning": "没得分的"
+      },
+      {
+        "pos": "n.",
+        "world": "scorer",
+        "meaning": "（竞赛等的）记分员；记录员；得分者；刻划痕迹的人"
+      },
+      {
+        "pos": "n.",
+        "world": "scorekeeper",
+        "meaning": "得分者；记分员"
+      }
+    ]
+  },
+  "well": {
+    "world": "well",
+    "phonetic": "wel",
+    "meaning": [
+      {
+        "pos": "adv.",
+        "meaning": "顺利地，令人满意地；熟练地，技术好地；妥善地，恰当地；赞扬地，赞许地；有益地，有利地；容易地；友善地；有充分理由，合理地；很，非常；富裕地，舒适地；完全地，充分地；大大地，远远地；（程度或标准）多少，怎样"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "健康的；令人满意的；明智的，可取的"
+      },
+      {
+        "pos": "n.",
+        "meaning": "水井，油井，气井；楼梯井，电梯井道；<英>（法庭中的）律师席；韦尔斯（有矿泉的地方）（Wells）；（储液体的）凹槽；（大量）来源，源泉；吧台酒架；廉价酒；（物理）势阱，电位阱"
+      },
+      {
+        "pos": "int.",
+        "meaning": "（用于表示想要开口说话）嗯，好；唔，嗯，哦（表示对要说的话不确定）；好吧，算了（对不愉快的事表示接受）；好啦，哎呀（用于劝说或让人不要生气、焦虑等）；嗳（表示生气或不赞成）；怎么样呢，哎（表示等待回答或行动）；好啦（用于结束活动或对话）；（停顿后继续交谈）唔，这个；（表示惊奇、愤怒或宽慰）哎呀，哟，啊；噢（用于纠正刚才说过的话）"
+      },
+      {
+        "pos": "v.",
+        "meaning": "（液体）流出，涌出；（感情）涌上，涌起"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】 （Well）（英、德、荷）韦尔（人名）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "wellness",
+        "meaning": "健康"
+      }
+    ]
+  },
+  "electronics": {
+    "world": "electronics",
+    "phonetic": "ɪˌlekˈtrɑːnɪks",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "电子学；电子设备，电子器件"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "electronic",
+        "meaning": "电子的"
+      },
+      {
+        "pos": "adv.",
+        "world": "electronically",
+        "meaning": "电子地"
+      },
+      {
+        "pos": "n.",
+        "world": "electron",
+        "meaning": "电子"
+      }
+    ]
+  },
+  "exams": {
+    "world": "exam",
+    "phonetic": "ɪɡˈzæm",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "考试；试卷；<美>医学检查"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "examination",
+        "meaning": "考试；检查；查问"
+      }
+    ]
+  },
+  "settle": {
+    "world": "settle",
+    "phonetic": "ˈset(ə)l",
+    "meaning": [
+      {
+        "pos": "v.",
+        "meaning": "解决，结束（争端等）；确定，决定；定居，安家；殖民，移居于；安置，安顿；（使）平静，（使）安定；降落，停留；（使）沉降，下陷；付清，结算；处理，分配（财产）；笼罩，稳定下来；把......放好，安放；（无可奈何地）接受（或答应）"
+      },
+      {
+        "pos": "n.",
+        "meaning": "高背扶手木长椅"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】 （Settle）（英）塞特尔（人名）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "settled",
+        "meaning": "稳定的；固定的"
+      },
+      {
+        "pos": "n.",
+        "world": "settlement",
+        "meaning": "解决，处理；[会计] 结算；沉降；殖民"
+      },
+      {
+        "pos": "n.",
+        "world": "settler",
+        "meaning": "移居者；殖民者"
+      },
+      {
+        "pos": "n.",
+        "world": "settling",
+        "meaning": "安置；固定；沉淀物；移居"
+      }
+    ]
+  },
+  "low": {
+    "world": "low",
+    "phonetic": "loʊ",
+    "meaning": [
+      {
+        "pos": "adj.",
+        "meaning": "低的，矮的；在底部的；领口开得低的；（纬度）低的，近赤道的；低于通常（或平均）数量（或水平、价值）的；（声、热或光）低的，暗的；（地位、阶层上）低微的，低等的；消沉的，精神不振的；（质量或标准）低的；（艺术，文化）低俗的；不诚实的，下流的；（观点）贬低的，轻蔑的； （供应品）将耗尽的，短缺的；（元音）舌位低的"
+      },
+      {
+        "pos": "adv.",
+        "meaning": "在（或向）低位置；低于通常（或期望）的水平；低声地，小声地"
+      },
+      {
+        "pos": "n.",
+        "meaning": "低点；（人生的）低谷；低气压区"
+      },
+      {
+        "pos": "v.",
+        "meaning": "（牛）哞哞叫"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】 （Low）（英、德）洛（人名）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "lowly",
+        "meaning": "卑贱的；地位低的；谦逊的"
+      },
+      {
+        "pos": "n.",
+        "world": "lowliness",
+        "meaning": "卑微；下贱"
+      },
+      {
+        "pos": "n.",
+        "world": "lowness",
+        "meaning": "低下；卑贱；微弱"
+      }
+    ]
+  },
+  "tier": {
+    "world": "tier",
+    "phonetic": "tɪr",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "（高度各不相同的）一层，一排；（机构或系统的）层次，等级；（衣服的）一层褶裥（或荷叶边）"
+      },
+      {
+        "pos": "v.",
+        "meaning": "层叠，层层排列；成递升排列"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】 （Tier）（英）蒂尔（人名）"
+      }
+    ]
+  },
+  "machine": {
+    "world": "machine",
+    "phonetic": "məˈʃiːn",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "机器，机械（装置）；计算机，电脑；（组织的）核心机构，领导核心；车辆（常指摩托车）；效率高的人（或动物）；机械般工作的人；（投币式）自动售货机"
+      },
+      {
+        "pos": "v.",
+        "meaning": "用机器制造（加工）；机器缝制，用缝纫机缝"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】 （Machine）（意）马基内（人名）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "machinelike",
+        "meaning": "机器般的"
+      },
+      {
+        "pos": "n.",
+        "world": "machinery",
+        "meaning": "机械；机器；机构；机械装置"
+      },
+      {
+        "pos": "n.",
+        "world": "machination",
+        "meaning": "阴谋；诡计"
+      },
+      {
+        "pos": "n.",
+        "world": "machinist",
+        "meaning": "机械工；机械师；机械安装修理工"
+      }
+    ]
+  },
+  "maintenance": {
+    "world": "maintenance",
+    "phonetic": "ˈmeɪntənəns",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "维护，保养；保持，维持；（依法应负担的）生活费，抚养费；包揽诉讼罪，非法资助诉讼罪"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "maintainable",
+        "meaning": "可维持的；可主张的；可维修的"
+      },
+      {
+        "pos": "n.",
+        "world": "maintainer",
+        "meaning": "维修工；保持器"
+      },
+      {
+        "pos": "vt.",
+        "world": "maintain",
+        "meaning": "维持；继续；维修；主张；供养"
+      }
+    ]
+  },
+  "company": {
+    "world": "company",
+    "phonetic": "ˈkʌmpəni",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "公司；陪伴，同伴；宾客，来宾；在一起的一群人；连队；剧团，歌舞团；女童军大队"
+      },
+      {
+        "pos": "v.",
+        "meaning": "<古>结交，交往；<古>陪伴"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】 （Company）（美、瑞）孔帕尼（人名）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "companionable",
+        "meaning": "好交往的；友善的；适于做朋友的"
+      },
+      {
+        "pos": "adj.",
+        "world": "companionate",
+        "meaning": "伙伴的，同伴的；友爱的，友好的"
+      },
+      {
+        "pos": "n.",
+        "world": "companion",
+        "meaning": "同伴；朋友；指南；手册"
+      },
+      {
+        "pos": "n.",
+        "world": "companionship",
+        "meaning": "友谊；陪伴；交谊"
+      }
+    ]
+  },
+  "industry": {
+    "world": "industry",
+    "phonetic": "ˈɪndəstri",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "工业，生产制造；行业，产业；勤奋，勤劳；范围，领域"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "industrial",
+        "meaning": "工业的，产业的；从事工业的；供工业用的；来自勤劳的"
+      },
+      {
+        "pos": "adj.",
+        "world": "industrious",
+        "meaning": "勤勉的"
+      },
+      {
+        "pos": "adj.",
+        "world": "industrialized",
+        "meaning": "工业化的"
+      },
+      {
+        "pos": "adv.",
+        "world": "industriously",
+        "meaning": "勤奋地，努力地"
+      },
+      {
+        "pos": "adv.",
+        "world": "industrially",
+        "meaning": "企业（工业）地"
+      },
+      {
+        "pos": "n.",
+        "world": "industrialization",
+        "meaning": "工业化"
+      },
+      {
+        "pos": "n.",
+        "world": "industrialist",
+        "meaning": "实业家；工业家；产业工人"
+      },
+      {
+        "pos": "n.",
+        "world": "industriousness",
+        "meaning": "勤勉，勤奋"
+      },
+      {
+        "pos": "n.",
+        "world": "industrialism",
+        "meaning": "产业主义，工业主义；工业制度"
+      },
+      {
+        "pos": "vi.",
+        "world": "industrialize",
+        "meaning": "实现工业化"
+      },
+      {
+        "pos": "vt.",
+        "world": "industrialise",
+        "meaning": "使工业化（等于industrialize）"
+      }
+    ]
+  },
+  "handheld": {
+    "world": "handheld",
+    "phonetic": "ˈhændheld",
+    "meaning": [
+      {
+        "pos": "adj.",
+        "meaning": "掌上型；手持型"
+      }
+    ]
+  },
+  "wooden": {
+    "world": "wooden",
+    "phonetic": "ˈwʊd(ə)n",
+    "meaning": [
+      {
+        "pos": "adj.",
+        "meaning": "木制的；（行为）僵硬的，呆板的；木头似的，木头特性的"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adv.",
+        "world": "woodenly",
+        "meaning": "呆板地；笨拙地；木然地"
+      },
+      {
+        "pos": "n.",
+        "world": "wood",
+        "meaning": "木材；木制品；树林"
+      },
+      {
+        "pos": "n.",
+        "world": "woodenware",
+        "meaning": "木制用具"
+      }
+    ]
+  },
+  "storefront": {
+    "world": "storefront",
+    "phonetic": "ˈstɔːrfrʌnt",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "[贸易] 店面；店头"
+      }
+    ]
+  },
+  "operation": {
+    "world": "operation",
+    "phonetic": "ˌɑːpəˈreɪʃ(ə)n",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "运作，实施；运转，操作；手术；（有组织的）活动，行动；军事行动；企业，公司；业务，经营 ；（数学）运算"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "operating",
+        "meaning": "操作的；[外科] 外科手术的"
+      },
+      {
+        "pos": "adj.",
+        "world": "operational",
+        "meaning": "操作的；运作的"
+      },
+      {
+        "pos": "adj.",
+        "world": "operative",
+        "meaning": "有效的；运转着的；从事生产劳动的"
+      },
+      {
+        "pos": "adj.",
+        "world": "operant",
+        "meaning": "操作的；有效的"
+      },
+      {
+        "pos": "adj.",
+        "world": "operable",
+        "meaning": "可操作的；可动手术的"
+      },
+      {
+        "pos": "n.",
+        "world": "operator",
+        "meaning": "经营者；操作员；话务员；行家"
+      },
+      {
+        "pos": "n.",
+        "world": "operand",
+        "meaning": "[计] 操作数；[计] 运算对象"
+      },
+      {
+        "pos": "n.",
+        "world": "operationalism",
+        "meaning": "操作主义（等于operationism）"
+      },
+      {
+        "pos": "vi.",
+        "world": "operate",
+        "meaning": "运转；动手术；起作用"
+      }
+    ]
+  },
+  "magnum": {
+    "world": "magnum",
+    "phonetic": "ˈmæɡnəm",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "大酒瓶（容量为1.5升）；头状骨"
+      }
+    ]
+  },
+  "opus": {
+    "world": "opus",
+    "phonetic": "ˈoʊpəs",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "作品"
+      }
+    ]
+  },
+  "incentivize": {
+    "world": "incentivize",
+    "phonetic": "ɪnˈsentɪvaɪz",
+    "meaning": [
+      {
+        "pos": "v.",
+        "meaning": "有奖鼓励，激励"
+      }
+    ]
+  },
+  "head": {
+    "world": "head",
+    "phonetic": "hed",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "头；头脑，智力；顶部；排头；领导人，负责人；<英>校长，院长；人数，（动物的）头数；（植物的）叶球，头状花序；一头长，一头高；钉头，锤头；啤酒沫；（河流）源头；脓头；硬币正面（有人头像）；磁头；（短语的）中心词，主导词；水压，蒸汽压力；紧要关头；桌子的上首座位，床头；<非正式>头痛；蓄水高度，水头"
+      },
+      {
+        "pos": "v.",
+        "meaning": "朝（某方向）行进；领导，主管；居……之首；加标题；用头顶（球）；形成……的头或顶部；砍（植物或树木的）枝；（莴苣，卷心菜）结球，长成球状；发源"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "领头的，负责的；头的；在顶端的；从前方来的"
+      },
+      {
+        "pos": "adv.",
+        "meaning": "（硬币）有头像的一面朝上（heads）"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】 （Head）（英）黑德（人名）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "headed",
+        "meaning": "有头的；有标题的"
+      },
+      {
+        "pos": "adj.",
+        "world": "heady",
+        "meaning": "兴奋的；任性的；性急的；顽固的；使人头晕的"
+      },
+      {
+        "pos": "adj.",
+        "world": "headless",
+        "meaning": "不在意的；无头脑的；无领导者的"
+      },
+      {
+        "pos": "n.",
+        "world": "header",
+        "meaning": "头球；页眉；数据头；收割台"
+      },
+      {
+        "pos": "n.",
+        "world": "heading",
+        "meaning": "标题；（足球）头球；信头"
+      },
+      {
+        "pos": "n.",
+        "world": "headship",
+        "meaning": "能力；领导者的职位；校长的职位；职务"
+      }
+    ]
+  },
+  "encourage": {
+    "world": "encourage",
+    "phonetic": "ɪnˈkɜːrɪdʒ",
+    "meaning": [
+      {
+        "pos": "v.",
+        "meaning": "鼓励，激励；鼓动，怂恿；刺激，促进"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "encouraging",
+        "meaning": "令人鼓舞的；鼓励的，奖励的"
+      },
+      {
+        "pos": "adj.",
+        "world": "encouraged",
+        "meaning": "受到鼓舞的"
+      },
+      {
+        "pos": "adv.",
+        "world": "encouragingly",
+        "meaning": "鼓励地；勉励人地"
+      },
+      {
+        "pos": "n.",
+        "world": "encouragement",
+        "meaning": "鼓励"
+      }
+    ]
+  },
+  "travel": {
+    "world": "travel",
+    "phonetic": "ˈtræv(ə)l",
+    "meaning": [
+      {
+        "pos": "v.",
+        "meaning": "（尤指长途）旅行；走动，移动；（以某速度、朝某方向或在某距离内）行进；（光或声音）传播；（食品等）经得起长途运输；周游，走遍；（尤指车辆）快速行进；（消息）流传；盛行各地；（篮球运动中）走步；（目光）扫视，移动；交往；想象来到"
+      },
+      {
+        "pos": "n.",
+        "meaning": "旅行；（出国）旅游；（机器部件的）运动范围，运动速度，运动模式"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "travelling",
+        "meaning": "旅行的；移动的；旅行用的"
+      },
+      {
+        "pos": "adj.",
+        "world": "traveled",
+        "meaning": "富有旅行经验的；旅客多的；旅客使用的"
+      },
+      {
+        "pos": "adj.",
+        "world": "travelled",
+        "meaning": "有过…旅行的，去过…地方的"
+      }
+    ]
+  },
+  "eminent": {
+    "world": "eminent",
+    "phonetic": "ˈemɪnənt",
+    "meaning": [
+      {
+        "pos": "adj.",
+        "meaning": "（在某领域或职业中）卓越的，出众的；突出的，明显的"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adv.",
+        "world": "eminently",
+        "meaning": "突出地；显著地"
+      },
+      {
+        "pos": "n.",
+        "world": "eminence",
+        "meaning": "显赫；卓越；高处"
+      }
+    ]
+  },
+  "mathematician": {
+    "world": "mathematician",
+    "phonetic": "ˌmæθəməˈtɪʃn",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "数学家"
+      },
+      {
+        "pos": "",
+        "meaning": "善作数字计算的人"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "mathematical",
+        "meaning": "数学的，数学上的；精确的"
+      },
+      {
+        "pos": "adv.",
+        "world": "mathematically",
+        "meaning": "算术地，数学上地"
+      },
+      {
+        "pos": "n.",
+        "world": "math",
+        "meaning": "数学（等于mathematics）"
+      },
+      {
+        "pos": "n.",
+        "world": "mathematics",
+        "meaning": "数学；数学运算"
+      },
+      {
+        "pos": "n.",
+        "world": "maths",
+        "meaning": "数学（等于mathematics）"
+      }
+    ]
+  },
+  "healthy": {
+    "world": "healthy",
+    "phonetic": "ˈhelθi",
+    "meaning": [
+      {
+        "pos": "adj.",
+        "meaning": "健康的，健壮的；有益身心的；明智的，合理的；运作良好的，兴旺发达的；大量的，可观的"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "[n.",
+        "world": "healthfulness",
+        "meaning": "于健康有益；卫生"
+      },
+      {
+        "pos": "adj.",
+        "world": "healthful",
+        "meaning": "健康的；有益健康的；卫生的"
+      },
+      {
+        "pos": "adv.",
+        "world": "healthily",
+        "meaning": "健康地"
+      },
+      {
+        "pos": "n.",
+        "world": "health",
+        "meaning": "健康；卫生；保健；兴旺"
+      },
+      {
+        "pos": "n.",
+        "world": "healthcare",
+        "meaning": "医疗保健；健康护理，健康服务；卫生保健"
+      },
+      {
+        "pos": "n.",
+        "world": "healthiness",
+        "meaning": "健康；健全"
+      }
+    ]
+  },
+  "ecosystem": {
+    "world": "ecosystem",
+    "phonetic": "ˈiːkoʊsɪstəm",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "生态系统"
+      }
+    ]
+  },
+  "mud": {
+    "world": "mud",
+    "phonetic": "mʌd",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "泥，淤泥，泥浆；（多指与腐化有关的）侮蔑，诽谤"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "muddy",
+        "meaning": "泥泞的；模糊的；混乱的"
+      },
+      {
+        "pos": "n.",
+        "world": "mudder",
+        "meaning": "善于在泥地上跑的马"
+      },
+      {
+        "pos": "n.",
+        "world": "muddiness",
+        "meaning": "泥污；混浊不清"
+      }
+    ]
+  },
+  "seeing": {
+    "world": "see",
+    "phonetic": "siː",
+    "meaning": [
+      {
+        "pos": "v.",
+        "meaning": "看见，看到；有视力，看得见；看（电影或电视节目）；注意到，看出；了解，发现；设想，预测；考虑，定夺；理解，认识到；参阅，参见；阅读；认为，看待；看望，探访；遇见，碰见；会见，会晤；交往；确保，查明；经历，遭受； （地点或时间）目睹，见证；帮助（或支持）……度过；送，护送；与（对方）下同样赌注；看（用于口语，引导注意力）；看上（see sth. in）"
+      },
+      {
+        "pos": "n.",
+        "meaning": "主教教区"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】  （See）（英）西伊，（柬）塞，（德）泽（人名）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "seeing",
+        "meaning": "看见的；有视觉的"
+      },
+      {
+        "pos": "adj.",
+        "world": "seeable",
+        "meaning": "看得见的"
+      },
+      {
+        "pos": "v.",
+        "world": "saw",
+        "meaning": "看见（see的过去式）"
+      },
+      {
+        "pos": "v.",
+        "world": "seen",
+        "meaning": "看见；理解（see的过去分词）"
+      }
+    ]
+  },
+  "granular": {
+    "world": "granular",
+    "phonetic": "ˈɡrænjələr",
+    "meaning": [
+      {
+        "pos": "adj.",
+        "meaning": "颗粒的；粒状的"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "granulated",
+        "meaning": "成颗粒的"
+      },
+      {
+        "pos": "n.",
+        "world": "granularity",
+        "meaning": "间隔尺寸，[岩] 粒度"
+      },
+      {
+        "pos": "n.",
+        "world": "granulation",
+        "meaning": "粗糙；使成粒状"
+      },
+      {
+        "pos": "vi.",
+        "world": "granulate",
+        "meaning": "成为粒状；表面变粗糙"
+      }
+    ]
+  },
+  "soaring": {
+    "world": "soar",
+    "phonetic": "sɔːr",
+    "meaning": [
+      {
+        "pos": "v.",
+        "meaning": "（数量、价值、水平、规模等）急升，猛涨；高飞，翱翔；升空，升腾；（精神或希望）高涨；(树木、建筑等）高耸，屹立；升至（很高的高度），高达；（音乐）升高，增强"
+      },
+      {
+        "pos": "n.",
+        "meaning": "高飞；高涨"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】 （Soar）（英、葡）索尔（人名）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "soaring",
+        "meaning": "翱翔的；高耸的；猛增的"
+      }
+    ]
+  },
+  "integrating": {
+    "world": "integrate",
+    "phonetic": "ˈɪntɪɡreɪt",
+    "meaning": [
+      {
+        "pos": "v.",
+        "meaning": "（使）合并，成为一体；（使）加入，融入群体；（使）取消种族隔离；求……的积分；表示（面积、温度等）的总和，表示……的平均值"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "整合的"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "integral",
+        "meaning": "积分的；完整的，整体的"
+      },
+      {
+        "pos": "adj.",
+        "world": "integrated",
+        "meaning": "综合的；完整的；互相协调的"
+      },
+      {
+        "pos": "adj.",
+        "world": "integrative",
+        "meaning": "综合的"
+      },
+      {
+        "pos": "adv.",
+        "world": "integrally",
+        "meaning": "完整地，整体地；固有地"
+      },
+      {
+        "pos": "n.",
+        "world": "integrity",
+        "meaning": "完整；正直；诚实；廉正"
+      },
+      {
+        "pos": "n.",
+        "world": "integration",
+        "meaning": "集成；综合"
+      },
+      {
+        "pos": "n.",
+        "world": "integer",
+        "meaning": "[数] 整数；整体；完整的事物"
+      },
+      {
+        "pos": "n.",
+        "world": "integrator",
+        "meaning": "[自] 积分器；[电子] 积分电路；整合之人"
+      },
+      {
+        "pos": "n.",
+        "world": "integrality",
+        "meaning": "完整性；不可欠缺"
+      },
+      {
+        "pos": "n.",
+        "world": "integrationist",
+        "meaning": "主张取消种族隔离的人"
+      }
+    ]
+  },
+  "knowledge": {
+    "world": "knowledge",
+    "phonetic": "ˈnɑːlɪdʒ",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "知识，学问；知道，了解；计算机系统存储的信息；（与见解相对的）认知"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】 （Knowledge）（南非）诺利奇（人名）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "knowledgeable",
+        "meaning": "知识渊博的，有知识的；有见识的；聪明的"
+      },
+      {
+        "pos": "adj.",
+        "world": "knowing",
+        "meaning": "博学的；狡猾的；心照不宣的"
+      },
+      {
+        "pos": "adj.",
+        "world": "knowable",
+        "meaning": "可知的；能认识的；易知的"
+      },
+      {
+        "pos": "n.",
+        "world": "knower",
+        "meaning": "认识者；理解者"
+      }
+    ]
+  },
+  "shortsighted": {
+    "world": "shortsighted",
+    "phonetic": "ˌʃɔːrtˈsaɪtɪd",
+    "meaning": [
+      {
+        "pos": "adj.",
+        "meaning": "目光短浅的；近视的"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "shortsightedness",
+        "meaning": "近视"
+      }
+    ]
+  }
+}

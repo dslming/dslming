@@ -13,7 +13,8 @@ const articles = [
 ]
 
 articles.forEach(item => {
-  item.segment = `/ted/${item.title}/segment.json`;
+  item.englishSegment = `/ted/${item.title}/english.json`;
+  item.chineseSegment = `/ted/${item.title}/chinese.json`;
   item.worlds = `/ted/${item.title}/world.txt`;
   item.detail = `/ted/${item.title}/detail.json`;
   item.contentUrl = `https://cdn.jsdelivr.net/gh/dslming/assets/audio/${item.title}.mp3`
@@ -42,7 +43,8 @@ window.handleInput = function (input, expected, index) {
 // truncate
 window.onload = async function () {
   // 句子容器
-  const sentenceElement = document.querySelector(".worlds")
+  const englishSentenceElement = document.querySelector(".worlds")
+  const chineseSentenceElement = document.querySelector(".sentence-chinese")
   const nextBtn = document.querySelector(".arrow-btn-right")
   const previousBtn = document.querySelector(".arrow-btn-left")
   const playVidowBtn = document.querySelector(".play-vidow-btn")
@@ -68,7 +70,10 @@ window.onload = async function () {
     document.querySelector(".world-relate").innerHTML = "";
   })
 
-  const articleTitle = window.location.search.slice(1)
+  const searchInfo = window.location.search.split('&')
+  const articleTitle = searchInfo[0].slice(1);
+  const sentenceIndex = searchInfo[1];
+
   const article = articles.find(article => article.title === articleTitle);
   if (!article) {
     console.error("error", articleTitle);
@@ -81,7 +86,8 @@ window.onload = async function () {
   }
   const detail = await fetch(baseURL + article.detail).then(response => response.json())
   const worlds = await fetch(baseURL + article.worlds).then(response => response.text())
-  const segment = await fetch(baseURL + article.segment).then(response => response.json())
+  const englishSegment = await fetch(baseURL + article.englishSegment).then(response => response.json())
+  const chineseSegment = await fetch(baseURL + article.chineseSegment).then(response => response.json())
 
   // 段落信息容器
   const paragraphInfoElement = document.querySelector(".truncate")
@@ -89,16 +95,22 @@ window.onload = async function () {
 
   paragraphHandler = new ParagraphHandler({
     title: article.title,
-    segment: segment,
+    englishSegment: englishSegment,
+    chineseSegment: chineseSegment,
     worlds: worlds,
     worldsDetail: detail,
-    sentenceElement: sentenceElement,
+    englishSentenceElement: englishSentenceElement,
+    chineseSentenceElement: chineseSentenceElement,
     paragraphInfoElement: paragraphInfoElement,
     contentUrl: article.contentUrl
   });
   window.paragraphHandler = paragraphHandler;
+  if(articleTitle && sentenceIndex) {
+    paragraphHandler.setCurrentSentenceIndex(parseInt(sentenceIndex));
+  }
   paragraphHandler.setEditElement(editBtn);
   updateParagraphProgress(paragraphProgress, paragraphHandler.getProgress());
+
 
   nextBtn.onclick = function () {
     paragraphHandler.playNext();

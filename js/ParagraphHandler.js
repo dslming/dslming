@@ -52,27 +52,38 @@ function extractWords(sentence) {
 
 // 段落处理类, 处理单个段落里的句子
 export class ParagraphHandler {
-  #sentenceElement;
-  #paragraph;
+  #englishSentenceElement;
+  #chineseSentenceElement;
   #currentSentenceIndex;
-  #sentences;
+  #englishSentences;
+  #chineseSentences;
   #worlds;
   #worldsDetail;
 
   constructor(options) {
-    this.#sentences = options.segment.line;
-    this.segment = options.segment;
+    this.#englishSentences = options.englishSegment.line;
+    this.#chineseSentences = options.chineseSegment.line;
+    this.englishSegment = options.englishSegment;
+    this.chineseSegment = options.chineseSegment;
     this.#worldsDetail = options.worldsDetail;
     this.#worlds = options.worlds.match(/[a-zA-Z]+/g) || [];
-    this.#sentenceElement = options.sentenceElement;
+    this.#englishSentenceElement = options.englishSentenceElement;
+    this.#chineseSentenceElement = options.chineseSentenceElement;
     this.#currentSentenceIndex = 0;
     this.audioWorldHandler = new WorldAudioHandler();
     this.audioTextHandler = new TextAudioHandler(options.contentUrl);
     this.#play();
+    this.#updateParagraphInfoElement();
+  }
+
+  setCurrentSentenceIndex(index) {
+    this.#currentSentenceIndex = index - 1;
+    this.#play();
+    this.#updateParagraphInfoElement();
   }
 
   getProgress() {
-    return (this.#currentSentenceIndex + 1) / this.#sentences.length;
+    return (this.#currentSentenceIndex + 1) / this.#englishSentences.length;
   }
 
 
@@ -90,13 +101,23 @@ export class ParagraphHandler {
 
     })
     str += '.'
-    this.#sentenceElement.innerHTML = str;
+    this.#englishSentenceElement.innerHTML = str;
+  }
+
+  #updateParagraphInfoElement() {
+    const paragraphInfoElement = document.querySelector(".truncate");
+    paragraphInfoElement.textContent = `${this.#currentSentenceIndex + 1} / ${this.#englishSentences.length}`;
+
+    const searchInfo = window.location.search.split('&')
+    const articleTitle = searchInfo[0].slice(1);
+    // window.location.search = `?${articleTitle}&${this.#currentSentenceIndex + 1}`;
   }
 
   playNext() {
-    if (this.#currentSentenceIndex < this.#sentences.length - 1) {
+    if (this.#currentSentenceIndex < this.#englishSentences.length - 1) {
       this.#currentSentenceIndex++;
       this.#play();
+      this.#updateParagraphInfoElement();
       return true;
     } else {
       console.log("Already at the last sentence.");
@@ -108,6 +129,7 @@ export class ParagraphHandler {
     if (this.#currentSentenceIndex > 0) {
       this.#currentSentenceIndex--;
       this.#play();
+      this.#updateParagraphInfoElement();
       return true;
     } else {
       console.log("Already at the first sentence.");
@@ -263,7 +285,7 @@ export class ParagraphHandler {
   }
 
   playText() {
-    const version = this.segment.version;
+    const version = this.englishSegment.version;
     const currentText = this.getCurrentSentence();
 
     if (version === "1.1.0") {
@@ -279,14 +301,21 @@ export class ParagraphHandler {
     }
   }
 
+  #createChineseSentence() {
+    this.#chineseSentenceElement.innerHTML = ''; // Clear previous content
+    const sentence = this.#chineseSentences[this.#currentSentenceIndex];
+    this.#chineseSentenceElement.textContent = sentence.content;
+  }
+
   #play() {
-    this.#sentenceElement.innerHTML = ''; // Clear previous content
-    const sentence = this.#sentences[this.#currentSentenceIndex];
+    this.#englishSentenceElement.innerHTML = ''; // Clear previous content
+    const sentence = this.#englishSentences[this.#currentSentenceIndex];
     const words = extractWords(sentence.content);
     this.#createWordElements(words);
+    this.#createChineseSentence();
   }
 
   getCurrentSentence() {
-    return this.#sentences[this.#currentSentenceIndex];
+    return this.#englishSentences[this.#currentSentenceIndex];
   }
 }
