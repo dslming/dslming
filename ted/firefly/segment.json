@@ -1,219 +1,210 @@
 {
+  "version": "1.1.0",
   "line": [
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
-      "content": "You're a male firefly, and it seems you're hitting it off with this female."
+      "begin": "00:00:06.961",
+      "end": "00:00:10.631",
+      "content": "You’re a male firefly and it seems you’re hitting it off with this female."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
-      "content": "She's sending you the right signals back, but what's this?"
+      "begin": "00:00:10.631",
+      "end": "00:00:13.843",
+      "content": "She’s sending you the right signals back— but what’s this?"
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
-      "content": "Suddenly she's lunging at you?"
+      "begin": "00:00:14.010",
+      "end": "00:00:16.012",
+      "content": "Suddenly, she’s lunging at you."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
-      "content": "That's not normal."
+      "begin": "00:00:16.179",
+      "end": "00:00:17.388",
+      "content": "That’s not normal."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
-      "content": "Let's pause here to understand what's going on and see if you'll make it out alive."
+      "begin": "00:00:17.472",
+      "end": "00:00:21.809",
+      "content": "Let’s pause here to understand what’s going on and see if you'll make it out alive."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
+      "begin": "00:00:22.393",
+      "end": "00:00:29.525",
       "content": "The first firefly is thought to have lived over 100 million years ago, illuminating the night with a glowing green light."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
-      "content": "And today, there are around 2,000 firefly species found all over the world, from forests and grasslands to marshes and deserts."
+      "begin": "00:00:29.901",
+      "end": "00:00:38.534",
+      "content": "And today, there are around 2,000 firefly species, found all over the world, from forests and grasslands to marshes and deserts."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
+      "begin": "00:00:39.494",
+      "end": "00:00:43.122",
       "content": "All fireflies produce light at some point in their lives."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
+      "begin": "00:00:43.289",
+      "end": "00:00:54.175",
       "content": "They do this with a reaction-catalyzing enzyme called luciferase and a molecule called luciferin, which undergoes a luminous transformation when it interacts with oxygen."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
-      "content": "Meanwhile, many firefly species also produce unpleasant-tasting toxic defensive chemicals like lucibufagins."
+      "begin": "00:00:54.467",
+      "end": "00:01:02.350",
+      "content": "Meanwhile, many firefly species also produce unpleasant tasting, toxic, defensive chemicals like lucibufagins."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
+      "begin": "00:01:02.725",
+      "end": "00:01:09.023",
       "content": "So it's thought that glowing might help signal their toxicity and deter predators from eating them."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
+      "begin": "00:01:09.440",
+      "end": "00:01:12.860",
       "content": "Developing fireflies also light up to varying degrees."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
+      "begin": "00:01:12.860",
+      "end": "00:01:19.534",
       "content": "In fact, fireflies generally spend just a few weeks in their adult bodies and actually pass most of their lives as larvae."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
+      "begin": "00:01:19.826",
+      "end": "00:01:29.919",
       "content": "During this stage, many species are highly active, fierce predators that use venom to paralyze prey, then externally liquefy their victims with their saliva."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
+      "begin": "00:01:30.378",
+      "end": "00:01:34.382",
       "content": "Immature fireflies also tend to glow when they're disturbed."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
-      "content": "When they finally become adults, their light skills help dissuade predators, but they're also usually channeled towards mating."
+      "begin": "00:01:34.632",
+      "end": "00:01:42.515",
+      "content": "When they finally become adults, their light skills help dissuade predators— but they're also usually channeled towards mating."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
-      "content": "There are some exceptions, like so-called dark fireflies, which are active during the day and rely on pheromones instead of light for courtship."
+      "begin": "00:01:42.890",
+      "end": "00:01:50.815",
+      "content": "There are some exceptions, like so-called “dark” fireflies, which are active during the day and rely on pheromones instead of light for courtship."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
+      "begin": "00:01:51.232",
+      "end": "00:01:58.990",
       "content": "But how it goes in many cases is that males fly around, flashing, while females observe until spotting the right one."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
-      "content": "Different species display different colors, including reds, yellows, greens, and blues, all resulting from variation in the luciferase enzyme's structure."
+      "begin": "00:01:59.365",
+      "end": "00:02:09.292",
+      "content": "Different species display different colors— including reds, yellows, greens, and blues— all resulting from variation in the luciferase enzyme’s structure."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
+      "begin": "00:02:09.458",
+      "end": "00:02:14.714",
       "content": "They also flash in unique patterns, from rapid flickers to sustained glows."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
+      "begin": "00:02:15.047",
+      "end": "00:02:25.766",
       "content": "In some species, males synchronize their flashing once they reach great enough numbers, resulting in grand displays that help reduce visual clutter for their female spectators."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
+      "begin": "00:02:25.892",
+      "end": "00:02:29.896",
       "content": "And females of just about every species are looking for something different."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
-      "content": "Cattail flash-trained firefly females, for example, prefer faster flickers, while ignited firefly females select for longer light pulses."
+      "begin": "00:02:30.188",
+      "end": "00:02:39.113",
+      "content": "Cattail flash-train firefly females, for example, prefer faster flickers, while ignited firefly females select for longer light pulses."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
+      "begin": "00:02:39.572",
+      "end": "00:02:45.411",
       "content": "Compared to males, female fireflies tend to keep their bioluminescent signals pretty simple."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
+      "begin": "00:02:45.494",
+      "end": "00:02:52.084",
       "content": "Generally, an interested female will point her lantern at a chosen male and respond to his flashes, drawing him in."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
+      "begin": "00:02:52.168",
+      "end": "00:02:56.839",
       "content": "Successful matches may mate for hours, attached at the abdomen."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
-      "content": "But things don't always go so smoothly."
+      "begin": "00:02:56.923",
+      "end": "00:03:02.511",
+      "content": "But things don’t always go so smoothly, which takes us back to that conspicuous lunge."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
-      "content": "Which takes us back to that conspicuous lunge."
-    },
-    {
-      "begin": "0.0.0",
-      "end": "0.0.0",
+      "begin": "00:03:02.678",
+      "end": "00:03:10.770",
       "content": "Many fireflies don't even eat as adults, instead channeling all the energy they stored as larvae into finding mates."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
+      "begin": "00:03:11.020",
+      "end": "00:03:14.857",
       "content": "But that's not the case for the females of one genus of fireflies."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
-      "content": "They're called femme fatales, and they're predators that hunt the adult males of other firefly species."
+      "begin": "00:03:15.066",
+      "end": "00:03:21.989",
+      "content": "They are called femme fatales, and they're predators that hunt the adult males of other firefly species."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
+      "begin": "00:03:22.240",
+      "end": "00:03:30.164",
       "content": "Despite being much larger, femme fatales lure males by mimicking the unique flashing patterns the females of their species give off."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
+      "begin": "00:03:30.331",
+      "end": "00:03:34.085",
       "content": "Then, instead of mating, they attack and eat them."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
-      "content": "But femme fatales are after more than just nutritious snacks."
+      "begin": "00:03:34.335",
+      "end": "00:03:45.179",
+      "content": "But femme fatales are after more than just nutritious snacks: they lack their own natural toxins and are able to sequester those of other species when they consume them."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
-      "content": "They lack their own natural toxins, and are able to sequester those of other species when they consume them."
+      "begin": "00:03:45.304",
+      "end": "00:03:49.517",
+      "content": "And this similarly helps make them unappealing to would-be predators."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
-      "content": "And this, similarly, helps make them unappealing to would-be predators."
-    },
-    {
-      "begin": "0.0.0",
-      "end": "0.0.0",
+      "begin": "00:03:49.767",
+      "end": "00:03:54.272",
       "content": "But the males they aim to prey on seem to also have defense strategies."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
+      "begin": "00:03:54.397",
+      "end": "00:04:01.862",
       "content": "One research team observed that males often approached femme fatales with caution and dodged attacks by dropping several centimeters."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
+      "begin": "00:04:02.029",
+      "end": "00:04:06.742",
       "content": "In fact, they estimated that less than 10% of femme fatale hunts are successful."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
+      "begin": "00:04:07.159",
+      "end": "00:04:13.541",
       "content": "Interestingly, this isn't the only time firefly flashes are channeled towards more deceptive means."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
+      "begin": "00:04:13.791",
+      "end": "00:04:23.801",
       "content": "Certain Chinese orb-weaver spiders have been observed to wrap fireflies in their webs, keeping them alive so they attract others to the sticky trap."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
+      "begin": "00:04:24.260",
+      "end": "00:04:32.810",
       "content": "The spiders even seem to make captured males adopt female flashing patterns in order to bait other males on the search for a mate."
     },
     {
-      "begin": "0.0.0",
-      "end": "0.0.0",
-      "content": "So as a male firefly, while the right bright signal could mean the hard-fought promise of progeny, it's best to beware of the treacherous tricks light can play."
+      "begin": "00:04:33.227",
+      "end": "00:04:43.529",
+      "content": "So, as a male firefly, while the right bright signal could mean the hard-fought promise of progeny, it's best to beware of the treacherous tricks light can play."
     }
   ]
 }

@@ -1,0 +1,295 @@
+{
+  "version": "1.1.0",
+  "line": [
+    {
+      "begin": "00:00:07.211",
+      "end": "00:00:10.757",
+      "content": "Many of you here have probably heard of the 10,000 hours rule."
+    },
+    {
+      "begin": "00:00:10.965",
+      "end": "00:00:15.928",
+      "content": "It’s the idea that to become great in anything takes 10,000 hours of focused practice."
+    },
+    {
+      "begin": "00:00:15.970",
+      "end": "00:00:18.514",
+      "content": "So you’d better get started as early as possible."
+    },
+    {
+      "begin": "00:00:18.639",
+      "end": "00:00:22.268",
+      "content": "The poster child for this story is Tiger Woods."
+    },
+    {
+      "begin": "00:00:22.477",
+      "end": "00:00:25.897",
+      "content": "His father famously gave him a putter when he was seven months old."
+    },
+    {
+      "begin": "00:00:25.938",
+      "end": "00:00:29.192",
+      "content": "Fast forward to the age of 21— he’s the greatest golfer in the world."
+    },
+    {
+      "begin": "00:00:29.192",
+      "end": "00:00:31.110",
+      "content": "Quintessential 10,000 hours story."
+    },
+    {
+      "begin": "00:00:31.319",
+      "end": "00:00:38.076",
+      "content": "Another is that of the three Polgar sisters, whose father decided to teach them chess in a very technical manner from a very early age."
+    },
+    {
+      "begin": "00:00:38.159",
+      "end": "00:00:48.336",
+      "content": "Two of his daughters went on to become grandmaster chess players I got curious: if this 10,000 hours rule is correct, then we should see that elite athletes get a head start in so-called deliberate practice."
+    },
+    {
+      "begin": "00:00:48.336",
+      "end": "00:00:53.591",
+      "content": "And in fact, when scientists study elite athletes, they see that they spend more time in deliberate practice."
+    },
+    {
+      "begin": "00:00:53.716",
+      "end": "00:00:55.009",
+      "content": "Not a big surprise."
+    },
+    {
+      "begin": "00:00:55.009",
+      "end": "00:01:05.603",
+      "content": "When they actually track athletes over the course of their development, the pattern looks like this: the future elites tend to have what scientists call a sampling period, where they try a variety of physical activities."
+    },
+    {
+      "begin": "00:01:05.603",
+      "end": "00:01:11.567",
+      "content": "They gain broad general skills and delay specializing until later than peers who plateau at lower levels."
+    },
+    {
+      "begin": "00:01:11.859",
+      "end": "00:01:21.119",
+      "content": "That doesn’t really comport with the 10,000 hours rule, does it? So I started to wonder about other domains that we associate with obligatory early specialization, like music."
+    },
+    {
+      "begin": "00:01:21.119",
+      "end": "00:01:22.995",
+      "content": "Turns out the pattern is often similar."
+    },
+    {
+      "begin": "00:01:22.995",
+      "end": "00:01:29.585",
+      "content": "The exceptional musicians didn’t start spending more time in deliberate practice than the average musicians until their third instrument."
+    },
+    {
+      "begin": "00:01:29.585",
+      "end": "00:01:31.712",
+      "content": "They too tended to have a sampling period."
+    },
+    {
+      "begin": "00:01:31.712",
+      "end": "00:01:35.216",
+      "content": "Even musicians we think of as famously precocious, like Yo-Yo Ma."
+    },
+    {
+      "begin": "00:01:35.216",
+      "end": "00:01:40.429",
+      "content": "So this got me interested in exploring the developmental backgrounds of people whose work I had long admired."
+    },
+    {
+      "begin": "00:01:40.429",
+      "end": "00:01:45.017",
+      "content": "Duke Ellington shunned music lessons as a kid to focus on baseball and painting and drawing."
+    },
+    {
+      "begin": "00:01:45.017",
+      "end": "00:01:55.278",
+      "content": "Mariam Mirzakhani wasn’t interested in math as a girl, dreamed of becoming a novelist, and went on to become the first and so far only woman to win the Fields Medal, the most prestigious prize in the world in math."
+    },
+    {
+      "begin": "00:01:55.278",
+      "end": "00:02:04.078",
+      "content": "Vincent van Gogh had five different careers before flaming out spectacularly, and, in his late 20s, picked up a book called “The Guide to the ABCs of Drawing.”"
+    },
+    {
+      "begin": "00:02:04.203",
+      "end": "00:02:10.334",
+      "content": "Claude Shannon was an electrical engineer at the University of Michigan who took a philosophy course just to fulfill a requirement."
+    },
+    {
+      "begin": "00:02:10.334",
+      "end": "00:02:18.384",
+      "content": "And in it he learned about a near century-old system of logic by which true and false statements could be coded as ones and zeros and solved like math problems."
+    },
+    {
+      "begin": "00:02:18.467",
+      "end": "00:02:23.806",
+      "content": "This led to the development of binary code, which underlies all of our digital computers today."
+    },
+    {
+      "begin": "00:02:23.806",
+      "end": "00:02:30.146",
+      "content": "Frances Hesselbein took her first professional job at the age of 54, and went on to become the CEO of the Girl Scouts."
+    },
+    {
+      "begin": "00:02:30.271",
+      "end": "00:02:32.064",
+      "content": "Here’s an athlete I’ve followed."
+    },
+    {
+      "begin": "00:02:32.064",
+      "end": "00:02:34.650",
+      "content": "He tried some tennis, some skiing, wrestling."
+    },
+    {
+      "begin": "00:02:34.650",
+      "end": "00:02:39.947",
+      "content": "His mother was actually a tennis coach, but she declined to coach him because he wouldn’t return balls normally."
+    },
+    {
+      "begin": "00:02:39.947",
+      "end": "00:02:44.368",
+      "content": "And he kept trying more sports: handball, volleyball, soccer, badminton, skateboarding."
+    },
+    {
+      "begin": "00:02:44.452",
+      "end": "00:02:47.580",
+      "content": "So who is this dabbler? This is Roger Federer."
+    },
+    {
+      "begin": "00:02:47.830",
+      "end": "00:02:50.917",
+      "content": "Every bit as famous as an adult as Tiger Woods."
+    },
+    {
+      "begin": "00:02:50.917",
+      "end": "00:02:55.755",
+      "content": "And yet even tennis enthusiasts don't usually know anything about his developmental story."
+    },
+    {
+      "begin": "00:02:55.796",
+      "end": "00:03:05.848",
+      "content": "Why is that? I think it’s partly because the Tiger story is very dramatic, but also because it seems like this tidy narrative that we can extrapolate to anything that we want to be good at in our own lives."
+    },
+    {
+      "begin": "00:03:05.973",
+      "end": "00:03:11.437",
+      "content": "But it turns out that in many ways, golf is a uniquely horrible model of almost everything that humans want to learn."
+    },
+    {
+      "begin": "00:03:11.437",
+      "end": "00:03:15.858",
+      "content": "Golf is the epitome of what the psychologist Robin Hogarth called a kind learning environment."
+    },
+    {
+      "begin": "00:03:15.858",
+      "end": "00:03:20.029",
+      "content": "Next steps and goals are clear; rules that are clear and never change."
+    },
+    {
+      "begin": "00:03:20.363",
+      "end": "00:03:23.908",
+      "content": "When you do something, you get feedback that is quick and accurate."
+    },
+    {
+      "begin": "00:03:24.116",
+      "end": "00:03:26.577",
+      "content": "Chess, also a kind learning environment."
+    },
+    {
+      "begin": "00:03:26.744",
+      "end": "00:03:33.584",
+      "content": "On the other end of the spectrum are wicked learning environments where next steps and goals may not be clear— rules may change."
+    },
+    {
+      "begin": "00:03:33.626",
+      "end": "00:03:38.214",
+      "content": "You may or may not get feedback when you do something, it may be delayed, it may be inaccurate."
+    },
+    {
+      "begin": "00:03:38.214",
+      "end": "00:03:51.435",
+      "content": "Which one of these sounds like the world we're increasingly living in? So if hyper-specialization isn’t always the trick in a wicked world, what is? That can be difficult to talk about, because sometimes it looks like meandering or zigzagging or keeping a broader view."
+    },
+    {
+      "begin": "00:03:51.435",
+      "end": "00:03:52.979",
+      "content": "It can look like getting behind."
+    },
+    {
+      "begin": "00:03:52.979",
+      "end": "00:04:06.450",
+      "content": "But if we look at research on technological innovation, it shows that increasingly the most impactful patents are authored by teams that include individuals who have worked across a large number of different technology classes and often merge things from different domains."
+    },
+    {
+      "begin": "00:04:06.450",
+      "end": "00:04:11.747",
+      "content": "Someone whose work I've admired, who was sort of on the forefront of this, is a Japanese man named Junpei Yokoi."
+    },
+    {
+      "begin": "00:04:11.747",
+      "end": "00:04:19.547",
+      "content": "Yokoi didn't score well in his electronics exams at school, so he had to settle for a low-tier job as a machine maintenance worker at a playing card company in Kyoto."
+    },
+    {
+      "begin": "00:04:19.547",
+      "end": "00:04:26.929",
+      "content": "He combined some well-known technology from the calculator industry, with some well-known technology from the credit card industry, and made handheld games."
+    },
+    {
+      "begin": "00:04:26.929",
+      "end": "00:04:33.853",
+      "content": "And it turned this playing card company, which was founded in a wooden storefront in the 19th century, into a toy and game operation."
+    },
+    {
+      "begin": "00:04:33.853",
+      "end": "00:04:36.063",
+      "content": "You may have heard of it, it’s called Nintendo."
+    },
+    {
+      "begin": "00:04:36.063",
+      "end": "00:04:38.024",
+      "content": "His magnum opus was the Game Boy."
+    },
+    {
+      "begin": "00:04:38.316",
+      "end": "00:04:45.948",
+      "content": "We probably don't make as many of those people as we could, because we don't tend to incentivize anything that doesn't look like a head start or specialization."
+    },
+    {
+      "begin": "00:04:46.115",
+      "end": "00:04:58.252",
+      "content": "And naturally, I think there are as many ways to succeed as there are people, but I think we tend only to incentivize and encourage the Tiger path, when increasingly, in a wicked world, we need people who travel the Roger path as well."
+    },
+    {
+      "begin": "00:04:58.377",
+      "end": "00:05:06.594",
+      "content": "Or as the eminent physicist and mathematician and writer Freeman Dyson put it: “For a healthy ecosystem, we need both birds and frogs."
+    },
+    {
+      "begin": "00:05:06.719",
+      "end": "00:05:09.722",
+      "content": "Frogs are down in the mud seeing all the granular details."
+    },
+    {
+      "begin": "00:05:09.722",
+      "end": "00:05:14.602",
+      "content": "The birds are soaring up above, not seeing those details, but integrating the knowledge of the frogs.”"
+    },
+    {
+      "begin": "00:05:14.602",
+      "end": "00:05:15.644",
+      "content": "And we need both."
+    },
+    {
+      "begin": "00:05:15.644",
+      "end": "00:05:19.899",
+      "content": "The problem, Dyson said, is that we’re telling everyone to become frogs."
+    },
+    {
+      "begin": "00:05:20.149",
+      "end": "00:05:23.736",
+      "content": "And I think in a wicked world, that's increasingly shortsighted."
+    }
+  ]
+}

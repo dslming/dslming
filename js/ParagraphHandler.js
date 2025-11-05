@@ -10,6 +10,7 @@ function getURL() {
   return url;
 }
 
+// 剪映视频时间格式转换为秒数
 // 字符串 "0.12.0"：
 // 第一个数字：0 → 分钟
 // 第二个数字：12 → 秒
@@ -20,14 +21,27 @@ function timeToSeconds(str) {
   return totalSeconds;
 }
 
+/**
+ * 解析 VTT 时间戳字符串 → 秒（浮点数）
+ * @param {string} timestamp - 形如 "00:00:07.211" 或 "01:23:45.678"
+ * @returns {number} 总秒数（带毫秒），如 7.211
+ */
+function parseVttTimestampToSeconds(timestamp) {
+  // 严格匹配 HH:MM:SS.mmm
+  const match = timestamp.match(/^(\d{2}):(\d{2}):(\d{2})\.(\d{3})$/);
+  if (!match) {
+    throw new Error(`Invalid VTT timestamp format: ${timestamp}`);
+  }
 
-function extractSentences(paragraph) {
-  const sentences = paragraph
-    .split(/(?<=[.!?])\s+/)  // Split on whitespace following . ! or ?
-    .map(s => s.trim())      // Trim extra whitespace
-    .filter(s => s.length > 0); // Remove empty strings
-  return sentences
+  const [_, hh, mm, ss, ms] = match;
+  const hours = parseInt(hh, 10);
+  const minutes = parseInt(mm, 10);
+  const seconds = parseInt(ss, 10);
+  const millis = parseInt(ms, 10);
+
+  return hours * 3600 + minutes * 60 + seconds + millis / 1000;
 }
+
 
 function extractWords(sentence) {
   const words = sentence.match(/\b\w+(?:['’]\w+)?\b/g)
@@ -38,7 +52,7 @@ function extractWords(sentence) {
 
 // 段落处理类, 处理单个段落里的句子
 export class ParagraphHandler {
-  #parent;
+  #sentenceElement;
   #paragraph;
   #currentSentenceIndex;
   #sentences;
@@ -46,14 +60,12 @@ export class ParagraphHandler {
   #worldsDetail;
 
   constructor(options) {
+    this.#sentences = options.segment.line;
     this.segment = options.segment;
     this.#worldsDetail = options.worldsDetail;
     this.#worlds = options.worlds.match(/[a-zA-Z]+/g) || [];
-    this.#parent = options.parent;
-    this.#paragraph = options.paragraph;
+    this.#sentenceElement = options.sentenceElement;
     this.#currentSentenceIndex = 0;
-    this.paragraphIndex = 0;
-    this.#sentences = extractSentences(this.#paragraph);
     this.audioWorldHandler = new WorldAudioHandler();
     this.audioTextHandler = new TextAudioHandler(options.contentUrl);
     this.#play();
@@ -61,14 +73,6 @@ export class ParagraphHandler {
 
   getProgress() {
     return (this.#currentSentenceIndex + 1) / this.#sentences.length;
-  }
-
-  setParagraph(paragraph, paragraphIndex) {
-    this.#paragraph = paragraph;
-    this.#sentences = extractSentences(this.#paragraph);
-    this.#currentSentenceIndex = 0;
-    this.paragraphIndex = paragraphIndex;
-    this.#play();
   }
 
 
@@ -86,7 +90,7 @@ export class ParagraphHandler {
 
     })
     str += '.'
-    this.#parent.innerHTML = str;
+    this.#sentenceElement.innerHTML = str;
   }
 
   playNext() {
@@ -177,7 +181,7 @@ export class ParagraphHandler {
     if (!this.spellWorldInfo) return;
 
     const dom = document.querySelector(`.world-index-${this.spellWorldInfo.index}`);
-    if(!dom) return;
+    if (!dom) return;
     dom.classList.add("highlight");
     dom.removeChild(dom.firstChild);
     dom.textContent = this.spellWorldInfo.word;
@@ -259,22 +263,26 @@ export class ParagraphHandler {
   }
 
   playText() {
-    const lines = this.segment.line;
+    const version = this.segment.version;
     const currentText = this.getCurrentSentence();
-    lines.forEach(line => {
-      if (line.content.includes(currentText)) {
-        this.audioTextHandler.play(
-          timeToSeconds(line.begin),
-          timeToSeconds(line.end)
-        );
-      }
-    })
+
+    if (version === "1.1.0") {
+      this.audioTextHandler.play(
+        parseVttTimestampToSeconds(currentText.begin),
+        parseVttTimestampToSeconds(currentText.end)
+      );
+    } else {
+      this.audioTextHandler.play(
+        timeToSeconds(currentText.begin),
+        timeToSeconds(currentText.end)
+      );
+    }
   }
 
   #play() {
-    this.#parent.innerHTML = ''; // Clear previous content
+    this.#sentenceElement.innerHTML = ''; // Clear previous content
     const sentence = this.#sentences[this.#currentSentenceIndex];
-    const words = extractWords(sentence);
+    const words = extractWords(sentence.content);
     this.#createWordElements(words);
   }
 

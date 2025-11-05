@@ -1,5 +1,5 @@
 
-import { ArticlehHandler } from "./ArticlehHandler.js";
+import { ParagraphHandler } from "./ParagraphHandler.js";
 
 const articles = [
   {
@@ -7,11 +7,12 @@ const articles = [
   },
   {
     title: "crow",
+  }, {
+    title: "study",
   }
 ]
 
 articles.forEach(item => {
-  item.content = `/ted/${item.title}/content.txt`;
   item.segment = `/ted/${item.title}/segment.json`;
   item.worlds = `/ted/${item.title}/world.txt`;
   item.detail = `/ted/${item.title}/detail.json`;
@@ -19,7 +20,6 @@ articles.forEach(item => {
 })
 
 
-let articleHandler;
 let paragraphHandler;
 
 function updateParagraphProgress(paragraphProgress, progress) {
@@ -80,7 +80,6 @@ window.onload = async function () {
     baseURL += "/dslming/";
   }
   const detail = await fetch(baseURL + article.detail).then(response => response.json())
-  const content = await fetch(baseURL + article.content).then(response => response.text())
   const worlds = await fetch(baseURL + article.worlds).then(response => response.text())
   const segment = await fetch(baseURL + article.segment).then(response => response.json())
 
@@ -88,26 +87,21 @@ window.onload = async function () {
   const paragraphInfoElement = document.querySelector(".truncate")
   const paragraphProgress = document.querySelector(".paragraph-progress");
 
-  articleHandler = new ArticlehHandler({
+  paragraphHandler = new ParagraphHandler({
     title: article.title,
     segment: segment,
-    content: content,
     worlds: worlds,
     worldsDetail: detail,
     sentenceElement: sentenceElement,
     paragraphInfoElement: paragraphInfoElement,
     contentUrl: article.contentUrl
   });
-  window.articleHandler = articleHandler;
-  paragraphHandler = articleHandler.paragraphHandler;
+  window.paragraphHandler = paragraphHandler;
   paragraphHandler.setEditElement(editBtn);
   updateParagraphProgress(paragraphProgress, paragraphHandler.getProgress());
 
   nextBtn.onclick = function () {
-    const success = paragraphHandler.playNext();
-    if (!success) {
-      articleHandler.nextParagraph();
-    }
+    paragraphHandler.playNext();
     updateParagraphProgress(paragraphProgress, paragraphHandler.getProgress());
     paragraphHandler.exitEdit();
     paragraphHandler.exitMean();
@@ -115,13 +109,10 @@ window.onload = async function () {
   }
 
   previousBtn.onclick = function () {
-    const success = paragraphHandler.playPrevious();
-    if (!success) {
-      articleHandler.precisionParagraph();
-    }
+    paragraphHandler.playPrevious();
     updateParagraphProgress(paragraphProgress, paragraphHandler.getProgress());
-    articleHandler.exitMean();
-    articleHandler.exitRelate();
+    paragraphHandler.exitMean();
+    paragraphHandler.exitRelate();
     paragraphHandler.exitEdit();
   }
 

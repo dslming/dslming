@@ -1,204 +1,205 @@
 {
+  "version": "1.1.0",
   "line": [
     {
-      "begin": "0.6.0",
-      "end": "0.12.0",
-      "content": "In one of Aesop's 2,500-year-old fables, a crow is searching for water."
+      "begin": "00:00:06.544",
+      "end": "00:00:11.049",
+      "content": "In one of Aesop’s 2,500-year-old fables, a crow is searching for water."
     },
     {
-      "begin": "0.12.0",
-      "end": "0.15.0",
-      "content": "It spies a pitcher and discovers liquid inside."
+      "begin": "00:00:12.592",
+      "end": "00:00:18.097",
+      "content": "It spies a pitcher and discovers liquid inside— but it's beyond reach."
     },
     {
-      "begin": "0.16.0",
-      "end": "0.18.0",
-      "content": "But it's beyond reach."
-    },
-    {
-      "begin": "0.18.0",
-      "end": "0.21.15",
+      "begin": "00:00:18.556",
+      "end": "00:00:21.768",
       "content": "Soon, the crow begins dropping pebbles into the pitcher."
     },
     {
-      "begin": "0.22.0",
-      "end": "0.26.5",
+      "begin": "00:00:22.143",
+      "end": "00:00:26.355",
       "content": "One by one, they displace the water, and the crow quenches its thirst."
     },
     {
-      "begin": "0.27.0",
-      "end": "0.30.5",
+      "begin": "00:00:27.315",
+      "end": "00:00:30.526",
       "content": "Interestingly, this fable turns out to be pretty accurate."
     },
     {
-      "begin": "0.30.0",
-      "end": "0.42.5",
+      "begin": "00:00:30.651",
+      "end": "00:00:42.455",
       "content": "In a 2014 experiment, scientists placed a food reward in a tube partially filled with water and watched as crow after crow dropped stone after stone in until the food was in beak-snatching distance."
     },
     {
-      "begin": "0.43.0",
-      "end": "0.53.2",
-      "content": "This is just one of many fascinating displays of intelligence from corvids, the bold, brainy family of songbirds that includes crows, ravens, jays, and magpies."
+      "begin": "00:00:43.164",
+      "end": "00:00:53.091",
+      "content": "This is just one of many fascinating displays of intelligence from corvids— the bold, brainy family of songbirds that includes crows, ravens, jays, and magpies."
     },
     {
-      "begin": "0.54.0",
-      "end": "0.57.5",
+      "begin": "00:00:54.300",
+      "end": "00:00:57.678",
       "content": "To start, corvids are strategic when it comes to their food."
     },
     {
-      "begin": "0.58.0",
-      "end": "1.02.07",
-      "content": "They ransack trash bins and snatch bites from under other birds' beaks."
+      "begin": "00:00:58.096",
+      "end": "00:01:02.100",
+      "content": "They ransack trash bins and snatch bites from under other birds’ beaks."
     },
     {
-      "begin": "1.03.00",
-      "end": "01.05.23",
+      "begin": "00:01:03.476",
+      "end": "00:01:05.520",
       "content": "They also hoard and cache their food."
     },
     {
-      "begin": "1.05.23",
-      "end": "1.16.00",
+      "begin": "00:01:05.895",
+      "end": "00:01:16.155",
       "content": "A single Clark's nutcracker, for instance, is thought to scatter some 30,000 pine nuts across more than 2,000 cache sites, which it can recover more than nine months later."
     },
     {
-      "begin": "1.16.00",
-      "end": "1.25.06",
-      "content": "And in one experiment, scrub jays, given waxworms and peanuts, cached and retrieved the perishable worms first and left the peanuts for later."
+      "begin": "00:01:16.989",
+      "end": "00:01:24.914",
+      "content": "And in one experiment, scrub jays given waxworms and peanuts cached and retrieved the perishable worms first and left the peanuts for later."
     },
     {
-      "begin": "1.25.00",
-      "end": "1.31.11",
-      "content": "It seemed that jays not only recalled where they buried things, but also what they buried, and when."
+      "begin": "00:01:25.915",
+      "end": "00:01:31.003",
+      "content": "It seemed the jays not only recalled where they buried things, but also what they buried and when."
     },
     {
-      "begin": "1.31.10",
-      "end": "1.40.08",
-      "content": "What's more, experiments show that scrub jays will bury food when they know it won't be available the next day, suggesting they can plan for future events, too."
+      "begin": "00:01:31.462",
+      "end": "00:01:39.846",
+      "content": "What's more, experiments show that scrub jays will bury food when they know it won’t be available the next day, suggesting they can plan for future events too."
     },
     {
-      "begin": "1.40.08",
-      "end": "1.44.00",
+      "begin": "00:01:40.596",
+      "end": "00:01:43.599",
       "content": "And corvid abilities extend beyond meal prepping."
     },
     {
-      "begin": "1.44.00",
-      "end": "1.48.07",
+      "begin": "00:01:43.975",
+      "end": "00:01:47.979",
       "content": "In one experiment, a masked person trapped and released a wild crow."
     },
     {
-      "begin": "1.49.07",
-      "end": "1.53.00",
+      "begin": "00:01:49.397",
+      "end": "00:01:53.067",
       "content": "When the masked person returned, crows dive-bombed them."
     },
     {
-      "begin": "1.54.16",
-      "end": "02.03.25",
+      "begin": "00:01:54.694",
+      "end": "00:02:03.703",
       "content": "If they wore a different mask, however, they were ignored, suggesting that corvids can distinguish between— and remember— different human facial characteristics."
     },
     {
-      "begin": "2.05.00",
-      "end": "2.12.19",
-      "content": "Crows also tend to gather around the bodies of their dead companions and caw, a behavior sometimes likened to a funeral."
+      "begin": "00:02:05.329",
+      "end": "00:02:12.295",
+      "content": "Crows also tend to gather around the bodies of their dead companions and caw— a behavior sometimes likened to a funeral."
     },
     {
-      "begin": "2.12.19",
-      "end": "2.21.00",
-      "content": "And one study showed that crows were slower to return to an area where they'd seen a dead companion, suggesting they associated it with risk."
+      "begin": "00:02:12.962",
+      "end": "00:02:21.137",
+      "content": "And one study showed that crows were slower to return to an area where they’d seen a dead companion, suggesting they associated it with risk."
     },
     {
-      "begin": "2.24.00",
-      "end": "2.32.00",
-      "content": "Corvids, like New Caledonian crows, also demonstrate an impressive proclivity for reasoning and tool use."
+      "begin": "00:02:24.974",
+      "end": "00:02:31.606",
+      "content": "Corvids like New Caledonian crows also demonstrate an impressive proclivity for reasoning and tool use."
     },
     {
-      "begin": "2.32.23",
-      "end": "2.37.08",
+      "begin": "00:02:32.815",
+      "end": "00:02:37.111",
       "content": "Even in the wild, they fashion sticks into hook-shaped probes for food."
     },
     {
-      "begin": "2.37.08",
-      "end": "2.45.12",
+      "begin": "00:02:37.486",
+      "end": "00:02:45.119",
       "content": "Some Japanese crows have been observed placing nuts on the road, waiting nearby, then retrieving the rewards once passing cars have cracked them open."
     },
     {
-      "begin": "2.45.12",
-      "end": "2.48.18",
-      "content": "Corvids also do things that are harder to explain."
+      "begin": "00:02:45.912",
+      "end": "00:02:48.539",
+      "content": "But corvids also do things that are harder to explain."
     },
     {
-      "begin": "2.48.18",
-      "end": "2.55.26",
-      "content": "They sometimes tote trinkets around, which might help them practice cashing or serve as gifts to their partners."
+      "begin": "00:02:48.623",
+      "end": "00:02:55.588",
+      "content": "They sometimes tote trinkets around, which might help them practice caching or serve as gifts to their partners."
     },
     {
-      "begin": "2.56.00",
-      "end": "3.00.28",
+      "begin": "00:02:56.339",
+      "end": "00:03:00.635",
       "content": "And they've been spotted repeatedly sledding down roofs on plastic lids."
     },
     {
-      "begin": "3.00.28",
-      "end": "3.06.00",
+      "begin": "00:03:00.968",
+      "end": "00:03:05.890",
       "content": "Play activities like this are relatively common in corvids, especially juveniles."
     },
     {
-      "begin": "3.06.06",
-      "end": "3.15.08",
-      "content": "Corvids have a longer developmental period than other songbirds, and it's thought that play encourages learning and lays a strong foundation for their intelligent behavior."
+      "begin": "00:03:06.432",
+      "end": "00:03:09.644",
+      "content": "Corvids have a longer developmental period than other songbirds."
     },
     {
-      "begin": "3.16.00",
-      "end": "3.20.25",
+      "begin": "00:03:09.644",
+      "end": "00:03:15.066",
+      "content": "And it’s thought that play encourages learning and lays a strong foundation for their intelligent behavior."
+    },
+    {
+      "begin": "00:03:16.192",
+      "end": "00:03:20.696",
       "content": "Some researchers think cleverness is crucial to the highly social lives of corvids."
     },
     {
-      "begin": "3.20.25",
-      "end": "3.27.25",
-      "content": "They breed cooperatively, live and communicate in large, dynamic groups, share food, and mob predators together."
+      "begin": "00:03:20.988",
+      "end": "00:03:27.453",
+      "content": "They breed cooperatively; live and communicate in large dynamic groups; share food; and mob predators together."
     },
     {
-      "begin": "3.28.09",
-      "end": "3.36.22",
-      "content": "Some have lifelong partnerships, where they recognize their companions and track, respond to, and even predict each other's behaviors and desires."
+      "begin": "00:03:28.412",
+      "end": "00:03:36.379",
+      "content": "Some have lifelong partnerships where they recognize their companions, and track, respond to, and even predict each other's behaviors and desires."
     },
     {
-      "begin": "03.37.14",
-      "end": "3.43.18",
-      "content": "Scientists today consider corvids among the smartest animals, a big step from where consensus used to be."
+      "begin": "00:03:37.546",
+      "end": "00:03:43.386",
+      "content": "Scientists today consider corvids among the smartest animals— a big step from where consensus used to be."
     },
     {
-      "begin": "3.43.20",
-      "end": "3.55.04",
-      "content": "In the late 1800s, German scientist Ludwig Edinger compared primate and crow brains and interpreted the crows' brain structure as primitive, dismissing their cognitive abilities."
+      "begin": "00:03:43.844",
+      "end": "00:03:54.981",
+      "content": "In the late 1800s, German scientist Ludwig Edinger compared primate and crow brains and interpreted the crow’s brain structure as primitive, dismissing their cognitive abilities."
     },
     {
-      "begin": "3.55.13",
-      "end": "3.57.16",
+      "begin": "00:03:55.606",
+      "end": "00:03:57.400",
       "content": "This was a misinterpretation."
     },
     {
-      "begin": "3.57.16",
-      "end": "4.04.05",
-      "content": "A raven, for example, has a brain that looks quite different than a capuchin monkey's and is about a third of the size."
+      "begin": "00:03:57.566",
+      "end": "00:04:04.031",
+      "content": "A raven, for example, has a brain that looks quite different than a Capuchin monkeys— and is about a third of the size."
     },
     {
-      "begin": "4.04.15",
-      "end": "4.10.25",
-      "content": "But both animals have a similar number of neurons in their pallium, a brain region that's associated with cognition."
+      "begin": "00:04:04.615",
+      "end": "00:04:10.579",
+      "content": "But both animals have a similar number of neurons in their pallium, a brain region that’s associated with cognition."
     },
     {
-      "begin": "4.11.13",
-      "end": "4.19.23",
-      "content": "So while corvid brains traveled a very different evolutionary path than primate brains, it was still one that brought them sophisticated cognition."
+      "begin": "00:04:11.622",
+      "end": "00:04:19.505",
+      "content": "So while corvid brains travelled a very different evolutionary path than primate brains, it was still one that brought them sophisticated cognition."
     },
     {
-      "begin": "4.19.25",
-      "end": "4.23.23",
+      "begin": "00:04:20.214",
+      "end": "00:04:23.509",
       "content": "The next time you spot a crow, you can be assured of its smarts."
     },
     {
-      "begin": "4.24.00",
-      "end": "4.27.23",
-      "content": "Just maybe don't give it a bad reason to remember you."
+      "begin": "00:04:24.218",
+      "end": "00:04:27.388",
+      "content": "Just maybe don’t give it a bad reason to remember you."
     }
   ]
 }
