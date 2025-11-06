@@ -1,3 +1,4 @@
+here
 probably
 heard
 practice
@@ -20,8 +21,10 @@ grandmaster
 curious
 
 elite
+elites
 athletes
 deliberate
+surprise
 
 course
 pattern
@@ -46,6 +49,7 @@ specialization
 exceptional
 musicians
 deliberate
+average
 instrument
 
 famously
@@ -55,18 +59,26 @@ exploring
 admired
 
 shunned
+baseball
 painting
 drawing
 dreamed
+
+careers
 
 novelist
 prestigious
 prize
 flaming
 spectacularly
+Guide
+
 philosophy
 fulfill
 requirement
+
+century
+
 statements
 solved
 led
@@ -151,6 +163,7 @@ machine
 maintenance
 
 company
+founded
 
 industry
 
@@ -168,6 +181,8 @@ incentivize
 head
 specialization
 
+naturally
+
 incentivize
 encourage
 increasingly
@@ -184,7 +199,7 @@ mud
 seeing
 
 granular
-
+telling
 soaring
 
 integrating

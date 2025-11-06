@@ -92,7 +92,7 @@ export class ParagraphHandler {
     // https://api.julebu.co/api/audio?text=I+don%27t+want+to+be+here+all+the+day&voice=BV503_streaming&version=v1&source=advanced
 
     words.forEach((wordText, index) => {
-      if (this.#worlds.includes(wordText)) {
+      if (this.#worlds.includes(wordText)|| this.#worlds.includes(wordText.toLowerCase())) {
         str += `<span class="highlight world-index-${index}"
                 onclick="handleWorldClick('${wordText}', ${index})">${wordText}</span>`;
       } else {
@@ -144,15 +144,13 @@ export class ParagraphHandler {
     }
 
     document.querySelector(".world-relate").textContent = ""
-    const worldInfo = this.#worldsDetail[this.spellWorldInfo.word];
+    const worldInfo = this.#worldsDetail[this.spellWorldInfo.word.toLowerCase()];
     document.querySelector(".world-phonetic").textContent = `/${worldInfo.phonetic}/`;
 
     const dom = document.querySelector(`.world-index-${this.spellWorldInfo.index}`);
     dom.classList.remove("highlight");
     if (this.spellWorldInfo.state == "editing") {
-      dom.removeChild(dom.firstChild);
-      dom.textContent = this.spellWorldInfo.word;
-      this.spellWorldInfo.state = "none"
+      this.exitEdit();
     } else {
       // 进入编辑状态：创建输入框
       const str = '_'.repeat(this.spellWorldInfo.word.length);

@@ -8,7 +8,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 const target = "chinese" // english, chinese
-const name = "firefly";
+const name = "study";
 
 let inputName;
 let outName;

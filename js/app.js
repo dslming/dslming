@@ -1,6 +1,6 @@
 
 import { ParagraphHandler } from "./ParagraphHandler.js";
-
+import Slider from './Slider.js'
 const articles = [
   {
     title: "firefly",
@@ -20,7 +20,7 @@ articles.forEach(item => {
   item.contentUrl = `https://cdn.jsdelivr.net/gh/dslming/assets/audio/${item.title}.mp3`
 })
 
-
+let slider;
 let paragraphHandler;
 
 function updateParagraphProgress(paragraphProgress, progress) {
@@ -36,7 +36,7 @@ window.handleWorldClick = function (word, index) {
 // 编辑输入时，判断是否输入正确
 window.handleInput = function (input, expected, index) {
   document.querySelector(".world-relate").textContent = ""
-  if (input.value.toLowerCase() === expected) {
+  if (input.value.toLowerCase() === expected.toLowerCase()) {
     paragraphHandler.exitEdit();
   }
 }
@@ -51,6 +51,13 @@ window.onload = async function () {
   const playVidowBtn = document.querySelector(".play-vidow-btn")
   const copyBtn = document.querySelector(".copy");
   const editBtn = document.querySelector(".edit");
+  // 侧边菜单
+  slider = new Slider({
+    articles,
+    clickCallback: (item) => {
+      window.location.href = `${window.location.origin}/index.html?${item.title}`
+    }
+  });
 
   // 拷贝当前句子
   copyBtn.addEventListener("click", () => {

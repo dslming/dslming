@@ -1,4 +1,26 @@
 {
+  "here": {
+    "world": "here",
+    "phonetic": "hɪr",
+    "meaning": [
+      {
+        "pos": "adv.",
+        "meaning": "在这里；此时"
+      },
+      {
+        "pos": "int.",
+        "meaning": "嘿！；喂！"
+      },
+      {
+        "pos": "n.",
+        "meaning": "这里"
+      },
+      {
+        "pos": "n.",
+        "meaning": "（Here）人名；（罗）赫尔施"
+      }
+    ]
+  },
   "probably": {
     "world": "probably",
     "phonetic": "ˈprɑːbəbli",
@@ -169,6 +191,36 @@
         "pos": "adj.",
         "world": "famous",
         "meaning": "著名的；极好的，非常令人满意的"
+      }
+    ]
+  },
+  "putter": {
+    "world": "putter",
+    "phonetic": "ˈpʌtər",
+    "meaning": [
+      {
+        "pos": "vi.",
+        "meaning": "（船或车辆）嘟嘟响，噗噗作声；噗噗行进；磨蹭；闲荡"
+      },
+      {
+        "pos": "n.",
+        "meaning": "（高尔夫）轻击球杆，推杆；（高尔夫）轻击者；噗噗响（机器低速运转时发出的声音）；闲荡；提出者"
+      },
+      {
+        "pos": "n.",
+        "meaning": "（Putter）（德）普特；（英）帕特（人名）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "put",
+        "meaning": "固定不动的"
+      },
+      {
+        "pos": "n.",
+        "world": "putting",
+        "meaning": "投掷；（高尔夫球）打球入洞"
       }
     ]
   },
@@ -486,6 +538,27 @@
       }
     ]
   },
+  "elites": {
+    "world": "elite",
+    "phonetic": "eɪˈliːt; ɪˈliːt",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "权力集团，上层人士；尖子，精英"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "出类拔萃的，精锐的"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "elitism",
+        "meaning": "精英主义；杰出人物统治论"
+      }
+    ]
+  },
   "athletes": {
     "world": "athlete",
     "phonetic": "ˈæθliːt",
@@ -541,6 +614,55 @@
         "pos": "n.",
         "world": "deliberateness",
         "meaning": "审慎；故意；深思熟虑"
+      }
+    ]
+  },
+  "surprise": {
+    "world": "surprise",
+    "phonetic": "sərˈpraɪz",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "不寻常的事件，意外之事；惊奇，惊讶；令某人意外惊喜的事物（如礼物、旅行等）；出其不意（出人意料）的方法；让人大吃一惊的人；（鸣钟术）一种复杂的敲奏编钟的方法"
+      },
+      {
+        "pos": "v.",
+        "meaning": "使（某人）吃惊；意外发现，当场抓获，突然袭击；给……惊喜，使喜出望外"
+      },
+      {
+        "pos": "int.",
+        "meaning": "感到惊奇吧！"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "令人惊奇的，意外的"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "surprised",
+        "meaning": "感到惊讶的，出人意料的"
+      },
+      {
+        "pos": "adj.",
+        "world": "surprising",
+        "meaning": "令人惊讶的；意外的"
+      },
+      {
+        "pos": "adv.",
+        "world": "surprisingly",
+        "meaning": "惊人地；出人意外地"
+      },
+      {
+        "pos": "adv.",
+        "world": "surprisedly",
+        "meaning": "吃惊地；诧异地"
+      },
+      {
+        "pos": "n.",
+        "world": "surprisal",
+        "meaning": "惊异"
       }
     ]
   },
@@ -1283,6 +1405,24 @@
       }
     ]
   },
+  "average": {
+    "world": "average",
+    "phonetic": "ˈævərɪdʒ",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "平均水平，一般标准；平均数，平均值；（海损的）平均分担；（按保单规定应付赔偿额的）降减，均减"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "普通的，平常的；不好不坏的；平均（数）的；中等的，适中的"
+      },
+      {
+        "pos": "v.",
+        "meaning": "平均为，平均达到；计算平均值；将……平均分配；（行情下跌时）买进更多的证券（或商品）以降低平均进价"
+      }
+    ]
+  },
   "instrument": {
     "world": "instrument",
     "phonetic": "ˈɪnstrəmənt",
@@ -1451,6 +1591,16 @@
       }
     ]
   },
+  "baseball": {
+    "world": "baseball",
+    "phonetic": "ˈbeɪsbɔːl",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "棒球；棒球运动"
+      }
+    ]
+  },
   "painting": {
     "world": "paint",
     "phonetic": "peɪnt",
@@ -1591,6 +1741,24 @@
       }
     ]
   },
+  "careers": {
+    "world": "career",
+    "phonetic": "kəˈrɪr",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "职业，事业；职业生涯；<古>速度，行程"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "就业的，职业的；终身从事的"
+      },
+      {
+        "pos": "v.",
+        "meaning": "猛冲"
+      }
+    ]
+  },
   "novelist": {
     "world": "novelist",
     "phonetic": "ˈnɑːvəlɪst",
@@ -1717,6 +1885,36 @@
       }
     ]
   },
+  "guide": {
+    "world": "guide",
+    "phonetic": "ɡaɪd",
+    "meaning": [
+      {
+        "pos": "v.",
+        "meaning": "带领，引导（某人至某地）；任向导；指导，影响；解释，阐明"
+      },
+      {
+        "pos": "n.",
+        "meaning": "指南，手册；导游，向导；准则，指针；女童子军，女童子军成员"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】 （Guide）（法、葡）吉德（人名）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "guided",
+        "meaning": "有指导的；有向导的"
+      },
+      {
+        "pos": "n.",
+        "world": "guidance",
+        "meaning": "指导，引导；领导"
+      }
+    ]
+  },
   "philosophy": {
     "world": "philosophy",
     "phonetic": "fəˈlɑːsəfi",
@@ -1800,6 +1998,16 @@
         "pos": "vt.",
         "world": "require",
         "meaning": "需要；要求；命令"
+      }
+    ]
+  },
+  "century": {
+    "world": "century",
+    "phonetic": "ˈsentʃəri",
+    "meaning": [
+      {
+        "pos": "n.",
+        "meaning": "世纪；一百年；（板球）一百分"
       }
     ]
   },
@@ -3501,6 +3709,51 @@
       }
     ]
   },
+  "founded": {
+    "world": "found",
+    "phonetic": "faʊnd",
+    "meaning": [
+      {
+        "pos": "v.",
+        "meaning": "创办，成立；建造，兴建；根据，以……为基础；熔铸，铸造"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "偶然（或意外）发现的；（艺术）原汁原味的；装备好的；<英>（用餐、供暖）不另外收费的"
+      },
+      {
+        "pos": "v.",
+        "meaning": "找到，找回；发现，发觉；（经过研究）找出，查明（find 的过去式和过去分词形式）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "n.",
+        "world": "foundation",
+        "meaning": "基础；地基；基金会；根据；创立"
+      },
+      {
+        "pos": "n.",
+        "world": "find",
+        "meaning": "发现"
+      },
+      {
+        "pos": "n.",
+        "world": "founder",
+        "meaning": "创始人；建立者；翻沙工"
+      },
+      {
+        "pos": "n.",
+        "world": "finding",
+        "meaning": "发现；裁决；发现物"
+      },
+      {
+        "pos": "n.",
+        "world": "foundress",
+        "meaning": "女创立者；女奠基者"
+      }
+    ]
+  },
   "industry": {
     "world": "industry",
     "phonetic": "ˈɪndəstri",
@@ -3757,6 +4010,63 @@
         "pos": "n.",
         "world": "headship",
         "meaning": "能力；领导者的职位；校长的职位；职务"
+      }
+    ]
+  },
+  "naturally": {
+    "world": "naturally",
+    "phonetic": "ˈnætʃ(ə)rəli",
+    "meaning": [
+      {
+        "pos": "adv.",
+        "meaning": "自然地，天然地；当然地，必然地；天生地，天性地；不做作地；合乎常理地"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "natural",
+        "meaning": "自然的；物质的；天生的；不做作的"
+      },
+      {
+        "pos": "adj.",
+        "world": "naturalist",
+        "meaning": "自然的（等于naturalistic）；自然主义的；博物学的"
+      },
+      {
+        "pos": "adj.",
+        "world": "naturalistic",
+        "meaning": "自然的；自然主义的；博物学的"
+      },
+      {
+        "pos": "adj.",
+        "world": "naturalized",
+        "meaning": "归化的；入籍的；[动] 自然化的；驯化的"
+      },
+      {
+        "pos": "n.",
+        "world": "nature",
+        "meaning": "自然；性质；本性；种类"
+      },
+      {
+        "pos": "n.",
+        "world": "naturalism",
+        "meaning": "自然主义；本能行动；自然论"
+      },
+      {
+        "pos": "n.",
+        "world": "naturalness",
+        "meaning": "当然，自然"
+      },
+      {
+        "pos": "n.",
+        "world": "naturism",
+        "meaning": "对自然现象的崇拜；裸体主义"
+      },
+      {
+        "pos": "n.",
+        "world": "naturopath",
+        "meaning": "理疗家；自然疗者"
       }
     ]
   },
@@ -4034,6 +4344,36 @@
         "pos": "vi.",
         "world": "granulate",
         "meaning": "成为粒状；表面变粗糙"
+      }
+    ]
+  },
+  "telling": {
+    "world": "tell",
+    "phonetic": "tel",
+    "meaning": [
+      {
+        "pos": "v.",
+        "meaning": "告诉，告知；说，讲述；吐露，显示；看出，确切地判断；辨别，区别；命令，吩咐；告诉自己，暗自叮嘱；表明，说明；（不快的或令人疲倦的经历）产生效果，产生影响；泄密；数，计算；（通常指小孩）告状；警告，告诫；（某种因素）影响，起作用"
+      },
+      {
+        "pos": "n.",
+        "meaning": "（尤作纸牌用语）（泄露试图作弊的）不经意动作；（中东）台形（土墩）遗址（由远古人村落遗迹堆积而成的）"
+      },
+      {
+        "pos": "",
+        "meaning": "【名】 （Tell）泰尔（人名）"
+      }
+    ],
+    "relate": [
+      {
+        "pos": "adj.",
+        "world": "telling",
+        "meaning": "有效的；生动的；显著的"
+      },
+      {
+        "pos": "n.",
+        "world": "teller",
+        "meaning": "（美）出纳员；讲述者；讲故事者；计票员"
       }
     ]
   },

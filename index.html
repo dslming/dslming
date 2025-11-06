@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TED V2.1</title>
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/slider.css">
   </head>
 
   <body>
+    <!-- 遮罩层 -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- 侧边菜单 -->
+    <div class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <span>菜单</span>
+        <div class="close-btn" id="closeBtn">×</div>
+      </div>
+      <ul class="menu-list">
+      </ul>
+    </div>
+
+    <!-- 原有内容 -->
     <header>
-      <div class="menu-icon">☰</div>
+      <div class="menu-icon" id="menuIcon">☰</div>
       <div class="copy"><img src="./assets/imgs/copy.png" alt="copy"></div>
       <div class="edit disable"><img src="./assets/imgs/edit.png" alt="copy"></div>
       <div class="title truncate">firefly (1 / 4)</div>
@@ -21,9 +35,7 @@
     </div>
 
     <main>
-      <div class="worlds">
-        hello
-      </div>
+      <div class="worlds">hello</div>
       <div class="sentence-chinese"></div>
       <div class="phonetic world-phonetic"></div>
       <div class="chinese world-mean"></div>
@@ -35,22 +47,18 @@
       <button class="play-btn play-vidow-btn">play</button>
       <div class="arrow right arrow-btn-right"></div>
     </footer>
+
+    <script>
+      // 复制功能（你已有）
+      document.addEventListener('copy', function (e) {
+        const selection = window.getSelection();
+        if (selection.toString().length > 0) {
+          e.preventDefault();
+          const text = selection.toString().replace(/\s+/g, ' ').trim();
+          e.clipboardData.setData('text/plain', text);
+        }
+      });
+    </script>
+    <script type="module" src="./js/app.js?version=2.1"></script>
   </body>
-
-  <script>
-    document.addEventListener('copy', function (e) {
-      const selection = window.getSelection();
-      if (selection.toString().length > 0) {
-        // 防止默认复制（带 HTML）
-        e.preventDefault();
-        // 只复制纯文本
-
-        const text = selection.toString().replace(/\s+/g, ' ')  // 多个空格 → 一个
-          .trim();
-        e.clipboardData.setData('text/plain', text);
-      }
-    });
-  </script>
-  <script type="module" src="./js/app.js?version=2.1"></script>
-
 </html>
