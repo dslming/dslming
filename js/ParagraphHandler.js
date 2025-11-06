@@ -223,6 +223,7 @@ export class ParagraphHandler {
     document.querySelector(".world-relate").textContent = "";
   }
 
+  // 播放单词发音
   async playWorld(word, index) {
     if (this.spellWorldInfo && this.spellWorldInfo.state == "editing") {
       return;
@@ -234,7 +235,7 @@ export class ParagraphHandler {
       index: index,
     }
     let ret = word;
-    const worldInfo = this.#worldsDetail[word];
+    const worldInfo = this.#worldsDetail[word.toLowerCase()];
     if (worldInfo) {
       ret = worldInfo.world;
     }
@@ -254,7 +255,7 @@ export class ParagraphHandler {
       }
 
 
-      if (worldInfo.world !== word) {
+      if (worldInfo.world.toLowerCase() !== word.toLowerCase()) {
         document.querySelector(".world-phonetic").textContent = `${worldInfo.world} /${worldInfo.phonetic}/`;
       } else {
         document.querySelector(".world-phonetic").textContent = `/${worldInfo.phonetic}/`;

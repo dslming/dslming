@@ -28,6 +28,7 @@ function updateParagraphProgress(paragraphProgress, progress) {
   paragraphProgress.style.width = `${percentage}%`;
 }
 
+// 播放单词发音
 window.handleWorldClick = function (word, index) {
   paragraphHandler.playWorld(word, index);
 }
@@ -54,7 +55,7 @@ window.onload = async function () {
   // 拷贝当前句子
   copyBtn.addEventListener("click", () => {
     const text = paragraphHandler.getCurrentSentence();
-    navigator.clipboard.writeText(text).then(() => {
+    navigator.clipboard.writeText(text.content).then(() => {
       console.log("Text copied to clipboard");
     }).catch(err => {
       console.error("Error copying text: ", err);

@@ -53,6 +53,7 @@ export class WorldAudioHandler {
     speechSynthesis.speak(utterance);
   }
 
+  // 播放单词发音
   async playWorld(word) {
     if (this.audioPlayer) {
       this.audioPlayer.pause();
