@@ -1,5 +1,6 @@
 import { TextAudioHandler } from "./TextAudioHandler.js";
 import { WorldAudioHandler } from "./WorldAudioHandler.js";
+import { createDOMRefs } from "./DOMRef.js";
 
 function getURL() {
   const urlInfo = new URL(window.location.href);
@@ -59,6 +60,7 @@ export class ParagraphHandler {
   #chineseSentences;
   #worlds;
   #worldsDetail;
+  #dom; // DOM 引用集合
 
   constructor(options) {
     this.#englishSentences = options.englishSegment.line;
@@ -70,6 +72,15 @@ export class ParagraphHandler {
     this.#englishSentenceElement = options.englishSentenceElement;
     this.#chineseSentenceElement = options.chineseSentenceElement;
     this.#currentSentenceIndex = 0;
+
+    // 初始化 DOM 引用
+    this.#dom = createDOMRefs({
+      relate: '.world-relate',
+      phonetic: '.world-phonetic',
+      mean: '.world-mean',
+      truncate: '.truncate'
+    });
+
     this.audioWorldHandler = new WorldAudioHandler();
     this.audioTextHandler = new TextAudioHandler(options.contentUrl);
     this.#play();
@@ -105,8 +116,7 @@ export class ParagraphHandler {
   }
 
   #updateParagraphInfoElement() {
-    const paragraphInfoElement = document.querySelector(".truncate");
-    paragraphInfoElement.textContent = `${this.#currentSentenceIndex + 1} / ${this.#englishSentences.length}`;
+    this.#dom.truncate.text(`${this.#currentSentenceIndex + 1} / ${this.#englishSentences.length}`);
 
     const searchInfo = window.location.search.split('&')
     const articleTitle = searchInfo[0].slice(1);
@@ -143,9 +153,9 @@ export class ParagraphHandler {
       return;
     }
 
-    document.querySelector(".world-relate").textContent = ""
+    this.#dom.relate.clear();
     const worldInfo = this.#worldsDetail[this.spellWorldInfo.word.toLowerCase()];
-    document.querySelector(".world-phonetic").textContent = `/${worldInfo.phonetic}/`;
+    this.#dom.phonetic.text(`/${worldInfo.phonetic}/`);
 
     const dom = document.querySelector(`.world-index-${this.spellWorldInfo.index}`);
     dom.classList.remove("highlight");
@@ -210,15 +220,15 @@ export class ParagraphHandler {
   }
 
   exitPhonetic() {
-    document.querySelector(".world-phonetic").textContent = "";
+    this.#dom.phonetic.clear();
   }
 
   exitMean() {
-    document.querySelector(".world-mean").textContent = "";
+    this.#dom.mean.clear();
   }
 
   exitRelate() {
-    document.querySelector(".world-relate").textContent = "";
+    this.#dom.relate.hide();
   }
 
   // 播放单词发音
@@ -254,9 +264,9 @@ export class ParagraphHandler {
 
 
       if (worldInfo.world.toLowerCase() !== word.toLowerCase()) {
-        document.querySelector(".world-phonetic").textContent = `${worldInfo.world} /${worldInfo.phonetic}/`;
+        this.#dom.phonetic.text(`${worldInfo.world} /${worldInfo.phonetic}/`);
       } else {
-        document.querySelector(".world-phonetic").textContent = `/${worldInfo.phonetic}/`;
+        this.#dom.phonetic.text(`/${worldInfo.phonetic}/`);
       }
 
       let strMeans = ``;
@@ -266,7 +276,7 @@ export class ParagraphHandler {
             <span class="${item.pos}">${item.pos}</span> ${item.meaning}
           </div>`;
       })
-      document.querySelector(".world-mean").innerHTML = strMeans;
+      this.#dom.mean.html(strMeans);
 
 
       let str = ``;
@@ -278,7 +288,7 @@ export class ParagraphHandler {
           `
         })
       }
-      document.querySelector(".world-relate").innerHTML = str;
+      this.#dom.relate.html(str).show();
     }
 
   }

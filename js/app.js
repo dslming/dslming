@@ -1,6 +1,8 @@
 
 import { ParagraphHandler } from "./ParagraphHandler.js";
 import Slider from './Slider.js'
+import { ref, createDOMRefs } from './DOMRef.js';
+
 const articles = [
   {
     title: "firefly",
@@ -23,9 +25,9 @@ articles.forEach(item => {
 let slider;
 let paragraphHandler;
 
-function updateParagraphProgress(paragraphProgress, progress) {
+function updateParagraphProgress(progressBar, progress) {
   const percentage = Math.floor(progress * 100);
-  paragraphProgress.style.width = `${percentage}%`;
+  progressBar.css('width', `${percentage}%`);
 }
 
 // 播放单词发音
@@ -35,7 +37,7 @@ window.handleWorldClick = function (word, index) {
 
 // 编辑输入时，判断是否输入正确
 window.handleInput = function (input, expected, index) {
-  document.querySelector(".world-relate").textContent = ""
+  ref(".world-relate").hide();
   if (input.value.toLowerCase() === expected.toLowerCase()) {
     paragraphHandler.exitEdit();
   }
@@ -43,24 +45,33 @@ window.handleInput = function (input, expected, index) {
 
 // truncate
 window.onload = async function () {
-  // 句子容器
-  const englishSentenceElement = document.querySelector(".worlds")
-  const chineseSentenceElement = document.querySelector(".sentence-chinese")
-  const nextBtn = document.querySelector(".arrow-btn-right")
-  const previousBtn = document.querySelector(".arrow-btn-left")
-  const playVidowBtn = document.querySelector(".play-vidow-btn")
-  const copyBtn = document.querySelector(".copy");
-  const editBtn = document.querySelector(".edit");
+  // 初始化 DOM 引用
+  const dom = createDOMRefs({
+    englishSentence: ".worlds",
+    chineseSentence: ".sentence-chinese",
+    nextBtn: ".arrow-btn-right",
+    previousBtn: ".arrow-btn-left",
+    playBtn: ".play-vidow-btn",
+    copyBtn: ".copy",
+    editBtn: ".edit",
+    truncate: ".truncate",
+    progress: ".paragraph-progress"
+  });
+
   // 侧边菜单
   slider = new Slider({
     articles,
     clickCallback: (item) => {
-      window.location.href = `${window.location.origin}/index.html?${item.title}`
+      let baseURL = window.location.origin;
+      if (baseURL.includes("dslming.github.io")) {
+        baseURL += "/dslming/";
+      }
+      window.location.href = `${baseURL}/index.html?${item.title}`
     }
   });
 
   // 拷贝当前句子
-  copyBtn.addEventListener("click", () => {
+  dom.copyBtn.on("click", () => {
     const text = paragraphHandler.getCurrentSentence();
     navigator.clipboard.writeText(text.content).then(() => {
       console.log("Text copied to clipboard");
@@ -70,12 +81,12 @@ window.onload = async function () {
   })
 
   // 进入单词编辑
-  editBtn.addEventListener("click", () => {
+  dom.editBtn.on("click", () => {
     paragraphHandler.enterEdit();
   })
 
-  document.querySelector(".world-relate").addEventListener("click", () => {
-    document.querySelector(".world-relate").innerHTML = "";
+  ref(".world-relate").on("click", () => {
+    ref(".world-relate").clear().hide();
   })
 
   const searchInfo = window.location.search.split('&')
@@ -97,51 +108,49 @@ window.onload = async function () {
   const englishSegment = await fetch(baseURL + article.englishSegment).then(response => response.json())
   const chineseSegment = await fetch(baseURL + article.chineseSegment).then(response => response.json())
 
-  // 段落信息容器
-  const paragraphInfoElement = document.querySelector(".truncate")
-  const paragraphProgress = document.querySelector(".paragraph-progress");
-
   paragraphHandler = new ParagraphHandler({
     title: article.title,
     englishSegment: englishSegment,
     chineseSegment: chineseSegment,
     worlds: worlds,
     worldsDetail: detail,
-    englishSentenceElement: englishSentenceElement,
-    chineseSentenceElement: chineseSentenceElement,
-    paragraphInfoElement: paragraphInfoElement,
+    englishSentenceElement: dom.englishSentence.el(),
+    chineseSentenceElement: dom.chineseSentence.el(),
+    paragraphInfoElement: dom.truncate.el(),
     contentUrl: article.contentUrl
   });
   window.paragraphHandler = paragraphHandler;
   if(articleTitle && sentenceIndex) {
     paragraphHandler.setCurrentSentenceIndex(parseInt(sentenceIndex));
   }
-  paragraphHandler.setEditElement(editBtn);
-  updateParagraphProgress(paragraphProgress, paragraphHandler.getProgress());
+  paragraphHandler.setEditElement(dom.editBtn.el());
+  updateParagraphProgress(dom.progress, paragraphHandler.getProgress());
 
 
-  nextBtn.onclick = function () {
+  dom.nextBtn.on("click", function () {
+    paragraphHandler.exitEdit();
+    paragraphHandler.exitMean();
+    paragraphHandler.exitRelate();
+
     paragraphHandler.playNext();
-    updateParagraphProgress(paragraphProgress, paragraphHandler.getProgress());
-    paragraphHandler.exitEdit();
-    paragraphHandler.exitMean();
-    paragraphHandler.exitRelate();
-  }
+    updateParagraphProgress(dom.progress, paragraphHandler.getProgress());
+  })
 
-  previousBtn.onclick = function () {
-    paragraphHandler.playPrevious();
-    updateParagraphProgress(paragraphProgress, paragraphHandler.getProgress());
+  dom.previousBtn.on("click", function () {
     paragraphHandler.exitMean();
     paragraphHandler.exitRelate();
     paragraphHandler.exitEdit();
-  }
+
+    paragraphHandler.playPrevious();
+    updateParagraphProgress(dom.progress, paragraphHandler.getProgress());
+  })
 
   setTimeout(async () => {
     await paragraphHandler.audioTextHandler.load();
-    playVidowBtn.classList.add("play-btn-canplay");
+    dom.playBtn.addClass("play-btn-canplay");
   }, 0);
 
-  playVidowBtn.onclick = function () {
+  dom.playBtn.on("click", function () {
     paragraphHandler.playText();
-  }
+  })
 }

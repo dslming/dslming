@@ -350,6 +350,10 @@
     padding: 0.5rem;
   }
 
+  .world-relate.hide {
+    display: none;
+  }
+
   .relate-item {
     text-align: left;
     left: 1rem;
