@@ -6,11 +6,20 @@ import { ref, createDOMRefs } from './DOMRef.js';
 const articles = [
   {
     title: "firefly",
+    mp3Name: "firefly"
   },
   {
     title: "crow",
+    mp3Name: "crow"
+
   }, {
     title: "study",
+    mp3Name: "study"
+
+  },
+  {
+    title: "uncoverYourBestIdeas",
+    mp3Name: "How to uncover your best ideas"
   }
 ]
 
@@ -19,7 +28,7 @@ articles.forEach(item => {
   item.chineseSegment = `/ted/${item.title}/chinese.json`;
   item.worlds = `/ted/${item.title}/world.txt`;
   item.detail = `/ted/${item.title}/detail.json`;
-  item.contentUrl = `https://cdn.jsdelivr.net/gh/dslming/assets/audio/${item.title}.mp3`
+  item.contentUrl = `https://cdn.jsdelivr.net/gh/dslming/assets/audio/${item.mp3Name}.mp3`
 })
 
 let slider;
@@ -120,7 +129,7 @@ window.onload = async function () {
     contentUrl: article.contentUrl
   });
   window.paragraphHandler = paragraphHandler;
-  if(articleTitle && sentenceIndex) {
+  if (articleTitle && sentenceIndex) {
     paragraphHandler.setCurrentSentenceIndex(parseInt(sentenceIndex));
   }
   paragraphHandler.setEditElement(dom.editBtn.el());

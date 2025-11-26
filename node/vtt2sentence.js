@@ -7,8 +7,8 @@ import { fileURLToPath } from 'node:url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const target = "chinese" // english, chinese
-const name = "study";
+const target = "english" // english, chinese
+const name = "uncoverYourBestIdeas";
 
 let inputName;
 let outName;

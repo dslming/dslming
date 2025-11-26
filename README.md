@@ -16,3 +16,6 @@ https://www.youtube.com/watch?v=wQ-GmWy_zmM
 
 // study:
 https://www.youtube.com/watch?v=jLOuMXnM5wk&t=4s
+
+// How to uncover your best ideas(如何发掘你的最佳创意)
+https://www.youtube.com/watch?v=nzOdAVgyi0U
